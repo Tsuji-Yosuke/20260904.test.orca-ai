@@ -1,17 +1,17 @@
 {
   "$extensions": {
     "figmaSync": {
-      "collectionId": "VariableCollectionId:13797:23531",
+      "collectionId": "VariableCollectionId:13797:23720",
       "name": "Dimension",
-      "defaultModeId": "13797:2",
+      "defaultModeId": "13797:5",
       "modes": [
         {
-          "modeId": "13797:2",
+          "modeId": "13797:5",
           "name": "Default"
         }
       ],
-      "updatedHash": "bd7ff67e32cc8e27a9d368c1301bd68629439d38d943c0b78b7114e54af83766",
-      "syncedHash": "bd7ff67e32cc8e27a9d368c1301bd68629439d38d943c0b78b7114e54af83766",
+      "updatedHash": "bf2b70ae8e99f9b20522c67aedb6e728c9021399db58516257c7addf8fe9bdc7",
+      "syncedHash": "bf2b70ae8e99f9b20522c67aedb6e728c9021399db58516257c7addf8fe9bdc7",
       "managed": false
     }
   },
@@ -22,47 +22,47 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "variableId": "VariableID:13797:23532",
-          "collectionId": "VariableCollectionId:13797:23531",
+          "variableId": "VariableID:13797:23721",
+          "collectionId": "VariableCollectionId:13797:23720",
           "modeValues": {
-            "13797:2": 0
+            "13797:5": 0
           },
-          "updatedHash": "9c089509387db38f1b43e558ae7378dd9d7c8fa579a27b707e30cc391c813b24",
-          "syncedHash": "9c089509387db38f1b43e558ae7378dd9d7c8fa579a27b707e30cc391c813b24",
+          "updatedHash": "9e1942f7d89976c20086effbdc558796c1d02eb53860be80a367af97567caaca",
+          "syncedHash": "9e1942f7d89976c20086effbdc558796c1d02eb53860be80a367af97567caaca",
           "managed": false
         }
       }
     },
     "1": {
       "$type": "number",
-      "$value": 2,
+      "$value": 4,
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "variableId": "VariableID:13797:23533",
-          "collectionId": "VariableCollectionId:13797:23531",
+          "variableId": "VariableID:13797:23722",
+          "collectionId": "VariableCollectionId:13797:23720",
           "modeValues": {
-            "13797:2": 2
+            "13797:5": 4
           },
-          "updatedHash": "fee3126c870456112b83f231c5e3002f276e673583dd173ae59554e05767b08a",
-          "syncedHash": "fee3126c870456112b83f231c5e3002f276e673583dd173ae59554e05767b08a",
+          "updatedHash": "39e3ad2e71330b5e99adb6b106518c50b089638c0edad486b2da59648e8f4915",
+          "syncedHash": "39e3ad2e71330b5e99adb6b106518c50b089638c0edad486b2da59648e8f4915",
           "managed": false
         }
       }
     },
     "2": {
       "$type": "number",
-      "$value": 4,
+      "$value": 8,
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "variableId": "VariableID:13797:23534",
-          "collectionId": "VariableCollectionId:13797:23531",
+          "variableId": "VariableID:13797:23723",
+          "collectionId": "VariableCollectionId:13797:23720",
           "modeValues": {
-            "13797:2": 4
+            "13797:5": 8
           },
-          "updatedHash": "7666b3e30e9520d9a54075c29055e007230d3404b56682f5f2615e5b820d67d2",
-          "syncedHash": "7666b3e30e9520d9a54075c29055e007230d3404b56682f5f2615e5b820d67d2",
+          "updatedHash": "79eb35c7d86f8e8b431ce1463417881cb51dbe9a24bbf2c06e5337e04cf5c383",
+          "syncedHash": "79eb35c7d86f8e8b431ce1463417881cb51dbe9a24bbf2c06e5337e04cf5c383",
           "managed": false
         }
       }
@@ -73,13 +73,13 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "variableId": "VariableID:13797:23535",
-          "collectionId": "VariableCollectionId:13797:23531",
+          "variableId": "VariableID:13797:23724",
+          "collectionId": "VariableCollectionId:13797:23720",
           "modeValues": {
-            "13797:2": 8
+            "13797:5": 8
           },
-          "updatedHash": "33fc8360c2c61900ecdfad661865cf9c193be61f138488facb62820ee2adc4af",
-          "syncedHash": "33fc8360c2c61900ecdfad661865cf9c193be61f138488facb62820ee2adc4af",
+          "updatedHash": "c9cd38928999956ba7a29a72954db991da8c366fa1e26a104daaa7961dd7ec4f",
+          "syncedHash": "c9cd38928999956ba7a29a72954db991da8c366fa1e26a104daaa7961dd7ec4f",
           "managed": false
         }
       }
@@ -90,13 +90,13 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "variableId": "VariableID:13797:23536",
-          "collectionId": "VariableCollectionId:13797:23531",
+          "variableId": "VariableID:13797:23725",
+          "collectionId": "VariableCollectionId:13797:23720",
           "modeValues": {
-            "13797:2": 12
+            "13797:5": 12
           },
-          "updatedHash": "a6343638d7e2a6df296e66654602231a8165926fb799f4f639a717face01c940",
-          "syncedHash": "a6343638d7e2a6df296e66654602231a8165926fb799f4f639a717face01c940",
+          "updatedHash": "fc0f099ef04886caa053e8b2de5a6944f866a564d6ec8aa25855d5fbb83c9dd5",
+          "syncedHash": "fc0f099ef04886caa053e8b2de5a6944f866a564d6ec8aa25855d5fbb83c9dd5",
           "managed": false
         }
       }
@@ -107,13 +107,13 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "variableId": "VariableID:13797:23537",
-          "collectionId": "VariableCollectionId:13797:23531",
+          "variableId": "VariableID:13797:23726",
+          "collectionId": "VariableCollectionId:13797:23720",
           "modeValues": {
-            "13797:2": 16
+            "13797:5": 16
           },
-          "updatedHash": "541cf4b7b488f0dee79e08cfecfdf091f6429daf96239b4db0030e4534059257",
-          "syncedHash": "541cf4b7b488f0dee79e08cfecfdf091f6429daf96239b4db0030e4534059257",
+          "updatedHash": "0854767cf8c885cabc3d749d7f988842792614f1d3c59e5307c19f880ec6d661",
+          "syncedHash": "0854767cf8c885cabc3d749d7f988842792614f1d3c59e5307c19f880ec6d661",
           "managed": false
         }
       }
@@ -124,13 +124,13 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "variableId": "VariableID:13797:23538",
-          "collectionId": "VariableCollectionId:13797:23531",
+          "variableId": "VariableID:13797:23727",
+          "collectionId": "VariableCollectionId:13797:23720",
           "modeValues": {
-            "13797:2": 20
+            "13797:5": 20
           },
-          "updatedHash": "c596c4dedc526c4f997b0cc682d4ec7809112cc5e6ec53c4a0555511799bb8b6",
-          "syncedHash": "c596c4dedc526c4f997b0cc682d4ec7809112cc5e6ec53c4a0555511799bb8b6",
+          "updatedHash": "4ac22084c30bf421c739fa01aa26e1e1bc5cf3104b34ae286dfcf1f6094f128e",
+          "syncedHash": "4ac22084c30bf421c739fa01aa26e1e1bc5cf3104b34ae286dfcf1f6094f128e",
           "managed": false
         }
       }
@@ -141,13 +141,13 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "variableId": "VariableID:13797:23539",
-          "collectionId": "VariableCollectionId:13797:23531",
+          "variableId": "VariableID:13797:23728",
+          "collectionId": "VariableCollectionId:13797:23720",
           "modeValues": {
-            "13797:2": 24
+            "13797:5": 24
           },
-          "updatedHash": "3190218e61e847901cea3581063f7259c4ce70778031dd105bd9363bc53c9017",
-          "syncedHash": "3190218e61e847901cea3581063f7259c4ce70778031dd105bd9363bc53c9017",
+          "updatedHash": "e95e02554723c00e9b78154d97d4abb93ef91055775cf8d723ba741c4a2cb5c4",
+          "syncedHash": "e95e02554723c00e9b78154d97d4abb93ef91055775cf8d723ba741c4a2cb5c4",
           "managed": false
         }
       }
@@ -158,13 +158,13 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "variableId": "VariableID:13797:23540",
-          "collectionId": "VariableCollectionId:13797:23531",
+          "variableId": "VariableID:13797:23729",
+          "collectionId": "VariableCollectionId:13797:23720",
           "modeValues": {
-            "13797:2": 32
+            "13797:5": 32
           },
-          "updatedHash": "0c484ae5845b5e135eb19a90c50568f8daf2d855980a4ecc71bb33734e951e6c",
-          "syncedHash": "0c484ae5845b5e135eb19a90c50568f8daf2d855980a4ecc71bb33734e951e6c",
+          "updatedHash": "6366b3e912146ed7c124877a2c2cd63770f8e5fde616b0af94cbf6041f00158c",
+          "syncedHash": "6366b3e912146ed7c124877a2c2cd63770f8e5fde616b0af94cbf6041f00158c",
           "managed": false
         }
       }
@@ -175,13 +175,13 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "variableId": "VariableID:13797:23541",
-          "collectionId": "VariableCollectionId:13797:23531",
+          "variableId": "VariableID:13797:23730",
+          "collectionId": "VariableCollectionId:13797:23720",
           "modeValues": {
-            "13797:2": 40
+            "13797:5": 40
           },
-          "updatedHash": "8ff4b2a140037ef63b87bb8ac38287514dbc75bf128dff451d09f4d6fcec70a7",
-          "syncedHash": "8ff4b2a140037ef63b87bb8ac38287514dbc75bf128dff451d09f4d6fcec70a7",
+          "updatedHash": "cafa94de7b11ac409ff058b324c3a4dd5ebaf18df80cb3f9c8cb5ccd85101920",
+          "syncedHash": "cafa94de7b11ac409ff058b324c3a4dd5ebaf18df80cb3f9c8cb5ccd85101920",
           "managed": false
         }
       }
@@ -192,13 +192,13 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "variableId": "VariableID:13797:23542",
-          "collectionId": "VariableCollectionId:13797:23531",
+          "variableId": "VariableID:13797:23731",
+          "collectionId": "VariableCollectionId:13797:23720",
           "modeValues": {
-            "13797:2": 48
+            "13797:5": 48
           },
-          "updatedHash": "931225829d13a75029807a9dfb6cc1522500acf6264b1cc8c40e5545afa71139",
-          "syncedHash": "931225829d13a75029807a9dfb6cc1522500acf6264b1cc8c40e5545afa71139",
+          "updatedHash": "f398675c71872614ce465fac0a82cfabafac3f3a6c259e4cdcb747cf087b8ca2",
+          "syncedHash": "f398675c71872614ce465fac0a82cfabafac3f3a6c259e4cdcb747cf087b8ca2",
           "managed": false
         }
       }
@@ -209,30 +209,30 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "variableId": "VariableID:13797:23543",
-          "collectionId": "VariableCollectionId:13797:23531",
+          "variableId": "VariableID:13797:23732",
+          "collectionId": "VariableCollectionId:13797:23720",
           "modeValues": {
-            "13797:2": 64
+            "13797:5": 64
           },
-          "updatedHash": "7382a6b9abf2bcceba65f2a37cbb3398562df14eeb354bfa72352fae589b3f68",
-          "syncedHash": "7382a6b9abf2bcceba65f2a37cbb3398562df14eeb354bfa72352fae589b3f68",
+          "updatedHash": "aafb9548afdaefec0300597c982bc27e07a6cd2750b4ae195bb045df90dbaa81",
+          "syncedHash": "aafb9548afdaefec0300597c982bc27e07a6cd2750b4ae195bb045df90dbaa81",
           "managed": false
         }
       }
     },
     "12": {
       "$type": "number",
-      "$value": 80,
+      "$value": 96,
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "variableId": "VariableID:13797:23544",
-          "collectionId": "VariableCollectionId:13797:23531",
+          "variableId": "VariableID:13797:23733",
+          "collectionId": "VariableCollectionId:13797:23720",
           "modeValues": {
-            "13797:2": 80
+            "13797:5": 96
           },
-          "updatedHash": "6fd6ac8aef3c2727a1db8e238445b7c337ad37ea743ff2a0abaccd7214e628ed",
-          "syncedHash": "6fd6ac8aef3c2727a1db8e238445b7c337ad37ea743ff2a0abaccd7214e628ed",
+          "updatedHash": "d899a58d81f765df33181ca50fa99d00c619f26a1c0cbff15d8b767c92ab85f1",
+          "syncedHash": "d899a58d81f765df33181ca50fa99d00c619f26a1c0cbff15d8b767c92ab85f1",
           "managed": false
         }
       }
@@ -245,13 +245,13 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "variableId": "VariableID:13797:23545",
-          "collectionId": "VariableCollectionId:13797:23531",
+          "variableId": "VariableID:13797:23734",
+          "collectionId": "VariableCollectionId:13797:23720",
           "modeValues": {
-            "13797:2": 0
+            "13797:5": 0
           },
-          "updatedHash": "1d1a3f8bd4ec50869ef9bb7d22260a5d8e39b53b5e3e108b13e7efdf863ab172",
-          "syncedHash": "1d1a3f8bd4ec50869ef9bb7d22260a5d8e39b53b5e3e108b13e7efdf863ab172",
+          "updatedHash": "31bfcfd57d94c5066403ca46314235199bc527558c0cb8d6b137318ce04897c0",
+          "syncedHash": "31bfcfd57d94c5066403ca46314235199bc527558c0cb8d6b137318ce04897c0",
           "managed": false
         }
       }
@@ -262,13 +262,13 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "variableId": "VariableID:13797:23546",
-          "collectionId": "VariableCollectionId:13797:23531",
+          "variableId": "VariableID:13797:23735",
+          "collectionId": "VariableCollectionId:13797:23720",
           "modeValues": {
-            "13797:2": 2
+            "13797:5": 2
           },
-          "updatedHash": "f7a14fab79c42cb01df74ffd63608f233d86bc77e8be0ff355e7459e3538fb91",
-          "syncedHash": "f7a14fab79c42cb01df74ffd63608f233d86bc77e8be0ff355e7459e3538fb91",
+          "updatedHash": "1427ebcbabec9fad08fd27a00debb044f63fda7689908b192106f7f33feb516e",
+          "syncedHash": "1427ebcbabec9fad08fd27a00debb044f63fda7689908b192106f7f33feb516e",
           "managed": false
         }
       }
@@ -279,13 +279,13 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "variableId": "VariableID:13797:23547",
-          "collectionId": "VariableCollectionId:13797:23531",
+          "variableId": "VariableID:13797:23736",
+          "collectionId": "VariableCollectionId:13797:23720",
           "modeValues": {
-            "13797:2": 4
+            "13797:5": 4
           },
-          "updatedHash": "fa039634dceb3de69d4c7bc779e8140037d43a29b421ee30724bda11ee893b94",
-          "syncedHash": "fa039634dceb3de69d4c7bc779e8140037d43a29b421ee30724bda11ee893b94",
+          "updatedHash": "db4b9ef8ebc2623150549cfc10878d5ac0bfeaec628530cddcfd7a6d169649c6",
+          "syncedHash": "db4b9ef8ebc2623150549cfc10878d5ac0bfeaec628530cddcfd7a6d169649c6",
           "managed": false
         }
       }
@@ -296,13 +296,13 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "variableId": "VariableID:13797:23548",
-          "collectionId": "VariableCollectionId:13797:23531",
+          "variableId": "VariableID:13797:23737",
+          "collectionId": "VariableCollectionId:13797:23720",
           "modeValues": {
-            "13797:2": 8
+            "13797:5": 8
           },
-          "updatedHash": "88312266d589c0463bde253fe6ef8fa697ed3e7350d64ea78e4c519f419176a8",
-          "syncedHash": "88312266d589c0463bde253fe6ef8fa697ed3e7350d64ea78e4c519f419176a8",
+          "updatedHash": "89ac37fcdb7570d0daf8415ab99cfe3a7b5f3a02d9cbc76a8413c2aae1f027c2",
+          "syncedHash": "89ac37fcdb7570d0daf8415ab99cfe3a7b5f3a02d9cbc76a8413c2aae1f027c2",
           "managed": false
         }
       }
@@ -313,13 +313,13 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "variableId": "VariableID:13797:23549",
-          "collectionId": "VariableCollectionId:13797:23531",
+          "variableId": "VariableID:13797:23738",
+          "collectionId": "VariableCollectionId:13797:23720",
           "modeValues": {
-            "13797:2": 12
+            "13797:5": 12
           },
-          "updatedHash": "f0c8427e252f4eae140ddb15815469b042b30de0a78f0382bf2a6dcbd373a1ab",
-          "syncedHash": "f0c8427e252f4eae140ddb15815469b042b30de0a78f0382bf2a6dcbd373a1ab",
+          "updatedHash": "d8668081937d1699cbceb44ff4d60860dc9bc6db86d2b73d7816e96945b1f42d",
+          "syncedHash": "d8668081937d1699cbceb44ff4d60860dc9bc6db86d2b73d7816e96945b1f42d",
           "managed": false
         }
       }
@@ -330,13 +330,13 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "variableId": "VariableID:13797:23550",
-          "collectionId": "VariableCollectionId:13797:23531",
+          "variableId": "VariableID:13797:23739",
+          "collectionId": "VariableCollectionId:13797:23720",
           "modeValues": {
-            "13797:2": 16
+            "13797:5": 16
           },
-          "updatedHash": "84e71f51fd45c83ecdc252510e1648e962b2a23664793d69444f864d98d92307",
-          "syncedHash": "84e71f51fd45c83ecdc252510e1648e962b2a23664793d69444f864d98d92307",
+          "updatedHash": "59a8f33ffa0b81042324389959df759e42e8b3c98afaf5ce115dc81c661c71bd",
+          "syncedHash": "59a8f33ffa0b81042324389959df759e42e8b3c98afaf5ce115dc81c661c71bd",
           "managed": false
         }
       }
@@ -347,13 +347,13 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "variableId": "VariableID:13797:23551",
-          "collectionId": "VariableCollectionId:13797:23531",
+          "variableId": "VariableID:13797:23740",
+          "collectionId": "VariableCollectionId:13797:23720",
           "modeValues": {
-            "13797:2": 24
+            "13797:5": 24
           },
-          "updatedHash": "78806c9f43b3a8244a2197fce2808210c906c056d71e639cb041e55baf863c14",
-          "syncedHash": "78806c9f43b3a8244a2197fce2808210c906c056d71e639cb041e55baf863c14",
+          "updatedHash": "dc451bb1f393089f121036c23bc2911992d03608607e7e18c8e51fdc7bc3ea37",
+          "syncedHash": "dc451bb1f393089f121036c23bc2911992d03608607e7e18c8e51fdc7bc3ea37",
           "managed": false
         }
       }
@@ -364,13 +364,13 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "variableId": "VariableID:13797:23552",
-          "collectionId": "VariableCollectionId:13797:23531",
+          "variableId": "VariableID:13797:23741",
+          "collectionId": "VariableCollectionId:13797:23720",
           "modeValues": {
-            "13797:2": 9999
+            "13797:5": 9999
           },
-          "updatedHash": "9315f5652bf61e9346dc33495ff6ed379ba48169fba9cf9f3d92abc17c8539c1",
-          "syncedHash": "9315f5652bf61e9346dc33495ff6ed379ba48169fba9cf9f3d92abc17c8539c1",
+          "updatedHash": "0801ae18bf2c72c70c6327f6a619ab0bc29492c2ecc5f77b26f5b7a73c804958",
+          "syncedHash": "0801ae18bf2c72c70c6327f6a619ab0bc29492c2ecc5f77b26f5b7a73c804958",
           "managed": false
         }
       }
@@ -383,13 +383,13 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "variableId": "VariableID:13797:23553",
-          "collectionId": "VariableCollectionId:13797:23531",
+          "variableId": "VariableID:13797:23742",
+          "collectionId": "VariableCollectionId:13797:23720",
           "modeValues": {
-            "13797:2": 16
+            "13797:5": 16
           },
-          "updatedHash": "be3b82078a2326ac21047d9676f31048d0d1d75ba64ea619aa3b335ca68f2d5e",
-          "syncedHash": "be3b82078a2326ac21047d9676f31048d0d1d75ba64ea619aa3b335ca68f2d5e",
+          "updatedHash": "706d3248b16f02a75095858487bee19a1e98d3ca2eff3c6ef6c23feb45cac56b",
+          "syncedHash": "706d3248b16f02a75095858487bee19a1e98d3ca2eff3c6ef6c23feb45cac56b",
           "managed": false
         }
       }
@@ -400,13 +400,13 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "variableId": "VariableID:13797:23554",
-          "collectionId": "VariableCollectionId:13797:23531",
+          "variableId": "VariableID:13797:23743",
+          "collectionId": "VariableCollectionId:13797:23720",
           "modeValues": {
-            "13797:2": 20
+            "13797:5": 20
           },
-          "updatedHash": "04b0ee9dad141e205a58bb1775f15c0b8a521efc3f9047a94ae37f7bec366aa2",
-          "syncedHash": "04b0ee9dad141e205a58bb1775f15c0b8a521efc3f9047a94ae37f7bec366aa2",
+          "updatedHash": "49081cf03442b3e66c9cdf6399ff6eb53e224ab8f2f4c178886151a7e04c3224",
+          "syncedHash": "49081cf03442b3e66c9cdf6399ff6eb53e224ab8f2f4c178886151a7e04c3224",
           "managed": false
         }
       }
@@ -417,13 +417,13 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "variableId": "VariableID:13797:23555",
-          "collectionId": "VariableCollectionId:13797:23531",
+          "variableId": "VariableID:13797:23744",
+          "collectionId": "VariableCollectionId:13797:23720",
           "modeValues": {
-            "13797:2": 24
+            "13797:5": 24
           },
-          "updatedHash": "750d18e448c8a9a55abe0a5922e6c84791b298310e662f358f403bbdd2f20d5c",
-          "syncedHash": "750d18e448c8a9a55abe0a5922e6c84791b298310e662f358f403bbdd2f20d5c",
+          "updatedHash": "5de26e28e066af9f8e919c99fc33fa3d8e77482785fbca507fa0b03fb6be5ced",
+          "syncedHash": "5de26e28e066af9f8e919c99fc33fa3d8e77482785fbca507fa0b03fb6be5ced",
           "managed": false
         }
       }
@@ -434,13 +434,13 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "variableId": "VariableID:13797:23556",
-          "collectionId": "VariableCollectionId:13797:23531",
+          "variableId": "VariableID:13797:23745",
+          "collectionId": "VariableCollectionId:13797:23720",
           "modeValues": {
-            "13797:2": 32
+            "13797:5": 32
           },
-          "updatedHash": "a5c1f5318ebddf6cd3b723658ddf8b1c54ea5b67177fc0ef3f5fb796a86e60ee",
-          "syncedHash": "a5c1f5318ebddf6cd3b723658ddf8b1c54ea5b67177fc0ef3f5fb796a86e60ee",
+          "updatedHash": "b5c32d02944e1a34e7329a213d6cda47acaaaac93cb2728d340164235f76a794",
+          "syncedHash": "b5c32d02944e1a34e7329a213d6cda47acaaaac93cb2728d340164235f76a794",
           "managed": false
         }
       }
@@ -451,13 +451,13 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "variableId": "VariableID:13797:23557",
-          "collectionId": "VariableCollectionId:13797:23531",
+          "variableId": "VariableID:13797:23746",
+          "collectionId": "VariableCollectionId:13797:23720",
           "modeValues": {
-            "13797:2": 40
+            "13797:5": 40
           },
-          "updatedHash": "f38915849c9d68ed2d4bf91bf6d77e19b96c9b11d2909e04ee48e9a110c42085",
-          "syncedHash": "f38915849c9d68ed2d4bf91bf6d77e19b96c9b11d2909e04ee48e9a110c42085",
+          "updatedHash": "a4f5f784443c25b740cd4b1335e32f5f50d45092a40486dccc969b92729bce65",
+          "syncedHash": "a4f5f784443c25b740cd4b1335e32f5f50d45092a40486dccc969b92729bce65",
           "managed": false
         }
       }
@@ -468,13 +468,13 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "variableId": "VariableID:13797:23558",
-          "collectionId": "VariableCollectionId:13797:23531",
+          "variableId": "VariableID:13797:23747",
+          "collectionId": "VariableCollectionId:13797:23720",
           "modeValues": {
-            "13797:2": 56
+            "13797:5": 56
           },
-          "updatedHash": "01c0abbdb77876b26472f145f762810955e0cf05c1eb42a698aa7bd623d3176a",
-          "syncedHash": "01c0abbdb77876b26472f145f762810955e0cf05c1eb42a698aa7bd623d3176a",
+          "updatedHash": "fc996d0f3e781ea9ba77091b8fb874f74ce5f7dcfa36f38837a49ffcc1484838",
+          "syncedHash": "fc996d0f3e781ea9ba77091b8fb874f74ce5f7dcfa36f38837a49ffcc1484838",
           "managed": false
         }
       }
@@ -487,13 +487,13 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "variableId": "VariableID:13797:23559",
-          "collectionId": "VariableCollectionId:13797:23531",
+          "variableId": "VariableID:13797:23748",
+          "collectionId": "VariableCollectionId:13797:23720",
           "modeValues": {
-            "13797:2": 1
+            "13797:5": 1
           },
-          "updatedHash": "ebaf1bb8ee46af02716d09e9aec0eee261612082c877660bd77a9f35b423b45b",
-          "syncedHash": "ebaf1bb8ee46af02716d09e9aec0eee261612082c877660bd77a9f35b423b45b",
+          "updatedHash": "b3f43c2a2cb63ee42f3c737e97e6b1178c28466dd399406ad0e3b9fa9fe87449",
+          "syncedHash": "b3f43c2a2cb63ee42f3c737e97e6b1178c28466dd399406ad0e3b9fa9fe87449",
           "managed": false
         }
       }
@@ -504,13 +504,13 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "variableId": "VariableID:13797:23560",
-          "collectionId": "VariableCollectionId:13797:23531",
+          "variableId": "VariableID:13797:23749",
+          "collectionId": "VariableCollectionId:13797:23720",
           "modeValues": {
-            "13797:2": 1.5
+            "13797:5": 1.5
           },
-          "updatedHash": "6ad535228c1c992cfce8e780e5fb9fe72cde1cb2429b3c3ec06c9bd8fc6091f4",
-          "syncedHash": "6ad535228c1c992cfce8e780e5fb9fe72cde1cb2429b3c3ec06c9bd8fc6091f4",
+          "updatedHash": "8d2ce8d5e5ed97ec4bf96a0e6f4b45e6f3ee8e3618cb39da5101d9b79dee0dce",
+          "syncedHash": "8d2ce8d5e5ed97ec4bf96a0e6f4b45e6f3ee8e3618cb39da5101d9b79dee0dce",
           "managed": false
         }
       }
@@ -521,13 +521,13 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "variableId": "VariableID:13797:23561",
-          "collectionId": "VariableCollectionId:13797:23531",
+          "variableId": "VariableID:13797:23750",
+          "collectionId": "VariableCollectionId:13797:23720",
           "modeValues": {
-            "13797:2": 2
+            "13797:5": 2
           },
-          "updatedHash": "42f3dd8792e5ffb2ccaa2dca809e3ed405813412ebf96f1cea5fa025ceee59b7",
-          "syncedHash": "42f3dd8792e5ffb2ccaa2dca809e3ed405813412ebf96f1cea5fa025ceee59b7",
+          "updatedHash": "169a47ea7f0e7f6df3dfc21a6b44b0e8efe9b7ee3954e907240a4840b92ad923",
+          "syncedHash": "169a47ea7f0e7f6df3dfc21a6b44b0e8efe9b7ee3954e907240a4840b92ad923",
           "managed": false
         }
       }
