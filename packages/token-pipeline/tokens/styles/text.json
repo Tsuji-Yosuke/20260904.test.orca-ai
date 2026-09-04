@@ -46,7 +46,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 14,
+          "fontSize": 18,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
