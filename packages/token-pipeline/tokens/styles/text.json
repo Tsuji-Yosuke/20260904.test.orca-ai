@@ -4335,38 +4335,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontStyle": "Regular",
-        "fontSize": 18,
-        "lineHeight": {
-          "unit": "PIXELS",
-          "value": 28
-        },
-        "letterSpacing": {
-          "unit": "PERCENT",
-          "value": 0
-        },
-        "paragraphSpacing": 0,
-        "paragraphIndent": 0,
-        "textCase": "ORIGINAL",
-        "textDecoration": "NONE"
-      },
-      "$description": "",
-      "$extensions": {
-        "figmaSync": {
-          "styleId": "S:798653841bcb711351f22b408d48b244565b2bbd,",
-          "styleType": "text",
-          "boundVariables": {},
-          "updatedHash": "c7e73cb62fabd6108eb0fa4a4a0e96459cc8ebbfaee8a4aba4673068155883f0",
-          "syncedHash": "c7e73cb62fabd6108eb0fa4a4a0e96459cc8ebbfaee8a4aba4673068155883f0",
-          "managed": false
-        }
-      }
-    },
-    "medium": {
-      "$type": "typography",
-      "$value": {
-        "fontFamily": "Inter",
-        "fontStyle": "Regular",
-        "fontSize": 16,
+        "fontSize": 17,
         "lineHeight": {
           "unit": "PIXELS",
           "value": 24
@@ -4383,24 +4352,24 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "styleId": "S:2935d6f3d2e66c62e1a8f995f1678fe35c1ca745,",
+          "styleId": "S:8195efe8eaf924d149b852b96764b49e58fbcdd2,",
           "styleType": "text",
           "boundVariables": {},
-          "updatedHash": "35a5db9b6e56f0fccb10a18dfa349576d23698136b2c0bc6ed35bbeb7ebf5c9f",
-          "syncedHash": "35a5db9b6e56f0fccb10a18dfa349576d23698136b2c0bc6ed35bbeb7ebf5c9f",
+          "updatedHash": "a82824e5cd06080ee12c9d2c773cd31bd404a2c48a958e023c6db241567f75ff",
+          "syncedHash": "a82824e5cd06080ee12c9d2c773cd31bd404a2c48a958e023c6db241567f75ff",
           "managed": false
         }
       }
     },
-    "small": {
+    "medium": {
       "$type": "typography",
       "$value": {
         "fontFamily": "Inter",
         "fontStyle": "Regular",
-        "fontSize": 14,
+        "fontSize": 15,
         "lineHeight": {
           "unit": "PIXELS",
-          "value": 20
+          "value": 22
         },
         "letterSpacing": {
           "unit": "PERCENT",
@@ -4414,11 +4383,42 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "styleId": "S:84ba409b0a7fd15b5f8716a7751627258515ac5b,",
+          "styleId": "S:8575bbbdef064da936ec0c33b0d2cdba46896805,",
           "styleType": "text",
           "boundVariables": {},
-          "updatedHash": "6b0599060b4e44d6a03f271ba47d588f6a8addfae080723798e163165e5500fd",
-          "syncedHash": "6b0599060b4e44d6a03f271ba47d588f6a8addfae080723798e163165e5500fd",
+          "updatedHash": "78bb0f8a1b2cd3df5cdbb90054006e1312d783d9a324e56cbbab0d6d3ff80185",
+          "syncedHash": "78bb0f8a1b2cd3df5cdbb90054006e1312d783d9a324e56cbbab0d6d3ff80185",
+          "managed": false
+        }
+      }
+    },
+    "small": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 18
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "paragraphSpacing": 0,
+        "paragraphIndent": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "styleId": "S:1a685a58f805536bdf222a473f7524f1d6960562,",
+          "styleType": "text",
+          "boundVariables": {},
+          "updatedHash": "58a5f13ad5cc40bc2b6be4348766ddf29408a02f101de5a869b33e9ef021f3b1",
+          "syncedHash": "58a5f13ad5cc40bc2b6be4348766ddf29408a02f101de5a869b33e9ef021f3b1",
           "managed": false
         }
       }
@@ -4446,7 +4446,7 @@
     "$description": "",
     "$extensions": {
       "figmaSync": {
-        "styleId": "S:3c6a6afa45a9d65e962ef784438b0a98379d8b4c,",
+        "styleId": "S:fbd55f69ae53d768e5f231992adb0f0c66202f42,",
         "styleType": "text",
         "boundVariables": {},
         "updatedHash": "406e61d007470a77223e95da28c0514b63d5777d58c7dad8f9466c3f3677b07f",
@@ -4461,10 +4461,10 @@
       "$value": {
         "fontFamily": "Inter",
         "fontStyle": "Bold",
-        "fontSize": 48,
+        "fontSize": 32,
         "lineHeight": {
           "unit": "PIXELS",
-          "value": 56
+          "value": 40
         },
         "letterSpacing": {
           "unit": "PERCENT",
@@ -4478,11 +4478,11 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "styleId": "S:5e202f08144c3992fc2fb30174b4f7c6e3db1e79,",
+          "styleId": "S:85376a0051c8d3e5aed38648d8d962c70d3193ff,",
           "styleType": "text",
           "boundVariables": {},
-          "updatedHash": "4bfa961c52a4a01acb363deca9f125d1da5b642dd7e65f03e9f1d5672c4a2381",
-          "syncedHash": "4bfa961c52a4a01acb363deca9f125d1da5b642dd7e65f03e9f1d5672c4a2381",
+          "updatedHash": "1400d966c82f430e4be6f2a4a01bba527a821caaa901b307648770e4ac0e2bf9",
+          "syncedHash": "1400d966c82f430e4be6f2a4a01bba527a821caaa901b307648770e4ac0e2bf9",
           "managed": false
         }
       }
@@ -4492,10 +4492,10 @@
       "$value": {
         "fontFamily": "Inter",
         "fontStyle": "Bold",
-        "fontSize": 36,
+        "fontSize": 28,
         "lineHeight": {
           "unit": "PIXELS",
-          "value": 44
+          "value": 36
         },
         "letterSpacing": {
           "unit": "PERCENT",
@@ -4509,80 +4509,16 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "styleId": "S:4c767f2d07a8253ddab78d35aee9eeb82216bf60,",
+          "styleId": "S:c64fff11d88e4a008c0e54d8e0eea954d37ba71b,",
           "styleType": "text",
           "boundVariables": {},
-          "updatedHash": "c38442dbe9c3b20ae4e57a51ddb31c84cd55410d9d896b7f9f796937122ee45e",
-          "syncedHash": "c38442dbe9c3b20ae4e57a51ddb31c84cd55410d9d896b7f9f796937122ee45e",
+          "updatedHash": "96b4c54740a456760d3f64dcbaee57212f07a38a4d7f11f1060d1ca234ce3203",
+          "syncedHash": "96b4c54740a456760d3f64dcbaee57212f07a38a4d7f11f1060d1ca234ce3203",
           "managed": false
         }
       }
     },
     "small": {
-      "$type": "typography",
-      "$value": {
-        "fontFamily": "Inter",
-        "fontStyle": "Semi Bold",
-        "fontSize": 30,
-        "lineHeight": {
-          "unit": "PIXELS",
-          "value": 38
-        },
-        "letterSpacing": {
-          "unit": "PERCENT",
-          "value": -1
-        },
-        "paragraphSpacing": 0,
-        "paragraphIndent": 0,
-        "textCase": "ORIGINAL",
-        "textDecoration": "NONE"
-      },
-      "$description": "",
-      "$extensions": {
-        "figmaSync": {
-          "styleId": "S:c6498f17a8b6dc855fd993e57d19adcbad050d7f,",
-          "styleType": "text",
-          "boundVariables": {},
-          "updatedHash": "78cfce0fe22651116232de0f8c7caabb2518c1eb59af5f45627e670553cb5560",
-          "syncedHash": "78cfce0fe22651116232de0f8c7caabb2518c1eb59af5f45627e670553cb5560",
-          "managed": false
-        }
-      }
-    }
-  },
-  "heading": {
-    "h1": {
-      "$type": "typography",
-      "$value": {
-        "fontFamily": "Inter",
-        "fontStyle": "Semi Bold",
-        "fontSize": 28,
-        "lineHeight": {
-          "unit": "PIXELS",
-          "value": 36
-        },
-        "letterSpacing": {
-          "unit": "PERCENT",
-          "value": -1
-        },
-        "paragraphSpacing": 0,
-        "paragraphIndent": 0,
-        "textCase": "ORIGINAL",
-        "textDecoration": "NONE"
-      },
-      "$description": "",
-      "$extensions": {
-        "figmaSync": {
-          "styleId": "S:f76b429a5b9178769771dead7395801c33b7d5f6,",
-          "styleType": "text",
-          "boundVariables": {},
-          "updatedHash": "ae878bb0c24786a48a087a433f9d43293d1082ce740524cb1019353da71cc047",
-          "syncedHash": "ae878bb0c24786a48a087a433f9d43293d1082ce740524cb1019353da71cc047",
-          "managed": false
-        }
-      }
-    },
-    "h2": {
       "$type": "typography",
       "$value": {
         "fontFamily": "Inter",
@@ -4594,7 +4530,7 @@
         },
         "letterSpacing": {
           "unit": "PERCENT",
-          "value": 0
+          "value": -1
         },
         "paragraphSpacing": 0,
         "paragraphIndent": 0,
@@ -4604,16 +4540,49 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "styleId": "S:2c2953965fa682ca027526db564f3941657eb79e,",
+          "styleId": "S:17ae5a6cf4b09c3429783049ebf063edc00b06e2,",
           "styleType": "text",
           "boundVariables": {},
-          "updatedHash": "acbe5ccbc6e63e5dd91fae4966f5f502dd09fefa9523e86e4a45468c488b9d53",
-          "syncedHash": "acbe5ccbc6e63e5dd91fae4966f5f502dd09fefa9523e86e4a45468c488b9d53",
+          "updatedHash": "f761eb75c823d33f59e6816d899850f1f7a8435aa76a5463811b83d8e4d0b52e",
+          "syncedHash": "f761eb75c823d33f59e6816d899850f1f7a8435aa76a5463811b83d8e4d0b52e",
+          "managed": false
+        }
+      }
+    }
+  },
+  "heading": {
+    "h1": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontStyle": "Semi Bold",
+        "fontSize": 22,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 28
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": -1
+        },
+        "paragraphSpacing": 0,
+        "paragraphIndent": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "styleId": "S:aafc80320225ca4aeb77369a6ea28740f2817f05,",
+          "styleType": "text",
+          "boundVariables": {},
+          "updatedHash": "5e410edccb886017a6bf289a60a0c19108db434d3021e123f7d6c07f5246922a",
+          "syncedHash": "5e410edccb886017a6bf289a60a0c19108db434d3021e123f7d6c07f5246922a",
           "managed": false
         }
       }
     },
-    "h3": {
+    "h2": {
       "$type": "typography",
       "$value": {
         "fontFamily": "Inter",
@@ -4621,7 +4590,7 @@
         "fontSize": 20,
         "lineHeight": {
           "unit": "PIXELS",
-          "value": 28
+          "value": 26
         },
         "letterSpacing": {
           "unit": "PERCENT",
@@ -4635,21 +4604,21 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "styleId": "S:00a3098aec37d89dd5d7c055cefe7b7940f0f22c,",
+          "styleId": "S:5123cb0338cf59becc9506912e8aeae4908fd737,",
           "styleType": "text",
           "boundVariables": {},
-          "updatedHash": "5e9f13e21b640adfae39cf461813df0c3d37a223cdb67cd659cf2c78d1d138f3",
-          "syncedHash": "5e9f13e21b640adfae39cf461813df0c3d37a223cdb67cd659cf2c78d1d138f3",
+          "updatedHash": "6bfa2a233fc7c485461cc86e1b810ec0f219cc6e7de723069a6f483d7bd5d067",
+          "syncedHash": "6bfa2a233fc7c485461cc86e1b810ec0f219cc6e7de723069a6f483d7bd5d067",
           "managed": false
         }
       }
     },
-    "h4": {
+    "h3": {
       "$type": "typography",
       "$value": {
         "fontFamily": "Inter",
-        "fontStyle": "Medium",
-        "fontSize": 16,
+        "fontStyle": "Semi Bold",
+        "fontSize": 17,
         "lineHeight": {
           "unit": "PIXELS",
           "value": 24
@@ -4666,11 +4635,42 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "styleId": "S:4b0703ceda13235900ee28e55f5bb14a04f23caa,",
+          "styleId": "S:319baed2879a48005b4bade1eae802f622499026,",
           "styleType": "text",
           "boundVariables": {},
-          "updatedHash": "05e77afca228fa479a62bb39a5d901cf9e4c135ed1cd704ad951e32cb3f6e4d7",
-          "syncedHash": "05e77afca228fa479a62bb39a5d901cf9e4c135ed1cd704ad951e32cb3f6e4d7",
+          "updatedHash": "99472335ff145bf7e50f0270e7204c9c3b491890482b1120cce60534307b2573",
+          "syncedHash": "99472335ff145bf7e50f0270e7204c9c3b491890482b1120cce60534307b2573",
+          "managed": false
+        }
+      }
+    },
+    "h4": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontStyle": "Medium",
+        "fontSize": 15,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "paragraphSpacing": 0,
+        "paragraphIndent": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "styleId": "S:f1b34ae1157f828e97dbe7a2378d679d9405d25f,",
+          "styleType": "text",
+          "boundVariables": {},
+          "updatedHash": "25df1a0e80b54e0ea9f4925494fc01c46c64aa8439c5afd6361154338f89d637",
+          "syncedHash": "25df1a0e80b54e0ea9f4925494fc01c46c64aa8439c5afd6361154338f89d637",
           "managed": false
         }
       }
@@ -4682,38 +4682,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontStyle": "Medium",
-        "fontSize": 16,
-        "lineHeight": {
-          "unit": "PIXELS",
-          "value": 24
-        },
-        "letterSpacing": {
-          "unit": "PERCENT",
-          "value": 1
-        },
-        "paragraphSpacing": 0,
-        "paragraphIndent": 0,
-        "textCase": "ORIGINAL",
-        "textDecoration": "NONE"
-      },
-      "$description": "",
-      "$extensions": {
-        "figmaSync": {
-          "styleId": "S:4b6c5e4883e3bef9111178b855a92d429d9c46d4,",
-          "styleType": "text",
-          "boundVariables": {},
-          "updatedHash": "bb01bab07495e379f453c8e20326625e147280b545c62f9d36b766d4068ac46a",
-          "syncedHash": "bb01bab07495e379f453c8e20326625e147280b545c62f9d36b766d4068ac46a",
-          "managed": false
-        }
-      }
-    },
-    "medium": {
-      "$type": "typography",
-      "$value": {
-        "fontFamily": "Inter",
-        "fontStyle": "Medium",
-        "fontSize": 14,
+        "fontSize": 15,
         "lineHeight": {
           "unit": "PIXELS",
           "value": 20
@@ -4730,11 +4699,42 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "styleId": "S:bcabdeac4ad954cb116e0bdfe401fc024bb8ab8a,",
+          "styleId": "S:fb0661b7ea1f5346426dd66851ffb8bf3e8f7443,",
           "styleType": "text",
           "boundVariables": {},
-          "updatedHash": "2b6537adaf8253f8465292324ee51ed27fc8b360ae7012e28210123b4d66d38c",
-          "syncedHash": "2b6537adaf8253f8465292324ee51ed27fc8b360ae7012e28210123b4d66d38c",
+          "updatedHash": "b10dc6c44108878fee2b7f98712dfe71a0dd9d1efb585a1d4001265de8283142",
+          "syncedHash": "b10dc6c44108878fee2b7f98712dfe71a0dd9d1efb585a1d4001265de8283142",
+          "managed": false
+        }
+      }
+    },
+    "medium": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 18
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 1
+        },
+        "paragraphSpacing": 0,
+        "paragraphIndent": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "styleId": "S:483bcdad52ee1599b675886cc883be4d9c66fe19,",
+          "styleType": "text",
+          "boundVariables": {},
+          "updatedHash": "bd4d88edbb395177c25ce98a192d4a77532aeaf35b339dcb549f35ddfec5556f",
+          "syncedHash": "bd4d88edbb395177c25ce98a192d4a77532aeaf35b339dcb549f35ddfec5556f",
           "managed": false
         }
       }
@@ -4744,7 +4744,7 @@
       "$value": {
         "fontFamily": "Inter",
         "fontStyle": "Medium",
-        "fontSize": 12,
+        "fontSize": 11,
         "lineHeight": {
           "unit": "PIXELS",
           "value": 16
@@ -4761,11 +4761,11 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "styleId": "S:1f2f782a1366e8a3946a1c3be552ff2e577f50b2,",
+          "styleId": "S:e54ab4bb70f5cab4dee631e7103141d4e9ae382b,",
           "styleType": "text",
           "boundVariables": {},
-          "updatedHash": "be68be634130bac7bb0ec180a7dffbcb0f36c53602e961495b3d97a6ab32afe6",
-          "syncedHash": "be68be634130bac7bb0ec180a7dffbcb0f36c53602e961495b3d97a6ab32afe6",
+          "updatedHash": "b95aee23f632f5988e1b7e4ee486c5e40c4fe186dd550af65b87be01a655dbb7",
+          "syncedHash": "b95aee23f632f5988e1b7e4ee486c5e40c4fe186dd550af65b87be01a655dbb7",
           "managed": false
         }
       }
@@ -4776,10 +4776,10 @@
     "$value": {
       "fontFamily": "Inter",
       "fontStyle": "Semi Bold",
-      "fontSize": 11,
+      "fontSize": 10,
       "lineHeight": {
         "unit": "PIXELS",
-        "value": 16
+        "value": 14
       },
       "letterSpacing": {
         "unit": "PERCENT",
@@ -4793,11 +4793,11 @@
     "$description": "",
     "$extensions": {
       "figmaSync": {
-        "styleId": "S:644d4f9770eb348736f0e211f59fb273caa42561,",
+        "styleId": "S:54dcd221b46d2f4fb8826d5b247cc42e70f4f43b,",
         "styleType": "text",
         "boundVariables": {},
-        "updatedHash": "34b6a2888d6e69ba1dfa39dcc4740af449c08ff1973991583a8872c742c6e4af",
-        "syncedHash": "34b6a2888d6e69ba1dfa39dcc4740af449c08ff1973991583a8872c742c6e4af",
+        "updatedHash": "82fc2390efd33302e3e320c4faa88d2342e173c6fb0b98a5b662d247e14289e8",
+        "syncedHash": "82fc2390efd33302e3e320c4faa88d2342e173c6fb0b98a5b662d247e14289e8",
         "managed": false
       }
     }
