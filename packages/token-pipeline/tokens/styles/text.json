@@ -11,7 +11,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 16,
+          "fontSize": 14,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
@@ -35,8 +35,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "da22cf8d2e1742ba3711ba31f3e00984eb72d91249c2bc2693a042386133baf9",
-            "syncedHash": "da22cf8d2e1742ba3711ba31f3e00984eb72d91249c2bc2693a042386133baf9",
+            "updatedHash": "9e94eca766d8cadf8d64a1c2fb319614af5d1a0a5a6e7bc3a30b1ee919a7b741",
+            "syncedHash": "9e94eca766d8cadf8d64a1c2fb319614af5d1a0a5a6e7bc3a30b1ee919a7b741",
             "managed": true
           }
         }
@@ -46,7 +46,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 16,
+          "fontSize": 14,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
@@ -70,8 +70,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "e5fded583c792c6d26f054a332aeb976848b32b15d70df073bc8d738ddc17d5f",
-            "syncedHash": "e5fded583c792c6d26f054a332aeb976848b32b15d70df073bc8d738ddc17d5f",
+            "updatedHash": "6b6259af0200272b2f633de3900b6b012352c070d01630d860c420bbf19c2159",
+            "syncedHash": "6b6259af0200272b2f633de3900b6b012352c070d01630d860c420bbf19c2159",
             "managed": true
           }
         }
@@ -81,7 +81,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 14,
+          "fontSize": 12,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
@@ -105,8 +105,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "e6e7e5abec8e036ff9d3104dc80631914a6ce30ea946d9f3e0d3396f4b709dea",
-            "syncedHash": "e6e7e5abec8e036ff9d3104dc80631914a6ce30ea946d9f3e0d3396f4b709dea",
+            "updatedHash": "92829abd652feb92d726101a46d354b128312cd18e320f52e5ec59bb363caaf0",
+            "syncedHash": "92829abd652feb92d726101a46d354b128312cd18e320f52e5ec59bb363caaf0",
             "managed": true
           }
         }
@@ -116,7 +116,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 14,
+          "fontSize": 12,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
@@ -140,8 +140,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "150fea50b489fcaff19fc372d2534f368d6a4f5b174c998513eebfc313dcb7f2",
-            "syncedHash": "150fea50b489fcaff19fc372d2534f368d6a4f5b174c998513eebfc313dcb7f2",
+            "updatedHash": "8dfd18c0c80392f9810a7f2276de91483cf6cb6078f55eceac5f229862bc3ccc",
+            "syncedHash": "8dfd18c0c80392f9810a7f2276de91483cf6cb6078f55eceac5f229862bc3ccc",
             "managed": true
           }
         }
@@ -151,7 +151,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 12,
+          "fontSize": 11,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
@@ -176,9 +176,9 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "270ccdc1335bc7d73665bf4ac1a89d451ea13e000dd4c81cc887d1518c963621",
-            "syncedHash": "270ccdc1335bc7d73665bf4ac1a89d451ea13e000dd4c81cc887d1518c963621",
-            "managed": false
+            "updatedHash": "02db48c6cc3e5916199f8e5c55189559ca617e5ae1573719f6b294be66f2ef44",
+            "syncedHash": "02db48c6cc3e5916199f8e5c55189559ca617e5ae1573719f6b294be66f2ef44",
+            "managed": true
           }
         }
       },
@@ -187,7 +187,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 12,
+          "fontSize": 11,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
@@ -212,9 +212,9 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "fc24978d75911cc7f8ccf604db8a9e5e93a87031c2ac6d48869c82c63bc6d75f",
-            "syncedHash": "fc24978d75911cc7f8ccf604db8a9e5e93a87031c2ac6d48869c82c63bc6d75f",
-            "managed": false
+            "updatedHash": "2050f1278704bb131931325e6beac2f7470f98ed235d51905baaf83bcf026eb3",
+            "syncedHash": "2050f1278704bb131931325e6beac2f7470f98ed235d51905baaf83bcf026eb3",
+            "managed": true
           }
         }
       }
@@ -225,7 +225,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 57,
+          "fontSize": 45,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
@@ -249,8 +249,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:151:8170"
             },
-            "updatedHash": "5b91c49805e6787ef209b67f1dc59cd314e5ee8f5dba8410b90b97d60ac1021d",
-            "syncedHash": "5b91c49805e6787ef209b67f1dc59cd314e5ee8f5dba8410b90b97d60ac1021d",
+            "updatedHash": "3c865b26d13f3fba5b4b2795338dfdd6b4b92ba75de49f9a5a0af35cb0a8f46b",
+            "syncedHash": "3c865b26d13f3fba5b4b2795338dfdd6b4b92ba75de49f9a5a0af35cb0a8f46b",
             "managed": true
           }
         }
@@ -260,7 +260,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 57,
+          "fontSize": 45,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
@@ -284,8 +284,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:151:8170"
             },
-            "updatedHash": "475b5c4d2d326a902f66543e8d1cb59255f271cec45d140f6e8fb46bd0bc3342",
-            "syncedHash": "475b5c4d2d326a902f66543e8d1cb59255f271cec45d140f6e8fb46bd0bc3342",
+            "updatedHash": "21fbe405158b8bbc2c55a1b3ae787e8a4aafece9f56192f0d861fd175f496a56",
+            "syncedHash": "21fbe405158b8bbc2c55a1b3ae787e8a4aafece9f56192f0d861fd175f496a56",
             "managed": true
           }
         }
@@ -295,7 +295,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 45,
+          "fontSize": 36,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
@@ -319,8 +319,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:151:8170"
             },
-            "updatedHash": "c7fa115942a75373b52a225c81c94eb4a35b518c130652ad17bcd877c1b21f92",
-            "syncedHash": "c7fa115942a75373b52a225c81c94eb4a35b518c130652ad17bcd877c1b21f92",
+            "updatedHash": "d68cb8dc8d98778076334d70a01240533af89205ce65f6d407a59cdae4f10493",
+            "syncedHash": "d68cb8dc8d98778076334d70a01240533af89205ce65f6d407a59cdae4f10493",
             "managed": true
           }
         }
@@ -330,7 +330,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 45,
+          "fontSize": 36,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
@@ -354,8 +354,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:151:8170"
             },
-            "updatedHash": "09f2436596d2ea5356153c47b6dcd6c7578bc59fe3b41a8e9e651af5f74e8b98",
-            "syncedHash": "09f2436596d2ea5356153c47b6dcd6c7578bc59fe3b41a8e9e651af5f74e8b98",
+            "updatedHash": "ade300ca3e86574ce205a394f1e4b4d991334204d6d7bcdf00b3c20c7aeeea2a",
+            "syncedHash": "ade300ca3e86574ce205a394f1e4b4d991334204d6d7bcdf00b3c20c7aeeea2a",
             "managed": true
           }
         }
@@ -365,7 +365,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 36,
+          "fontSize": 32,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
@@ -389,8 +389,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:151:8170"
             },
-            "updatedHash": "2e44ec7d0ef6466872eb2f88da6e1ab2cec5559a1eb8da65696a6921f23284b4",
-            "syncedHash": "2e44ec7d0ef6466872eb2f88da6e1ab2cec5559a1eb8da65696a6921f23284b4",
+            "updatedHash": "47d33ad9735dbe1eba52248975dba524562527071c3230da0cdb2d105f5a8667",
+            "syncedHash": "47d33ad9735dbe1eba52248975dba524562527071c3230da0cdb2d105f5a8667",
             "managed": true
           }
         }
@@ -400,7 +400,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 36,
+          "fontSize": 32,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
@@ -424,8 +424,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:151:8170"
             },
-            "updatedHash": "1a21a453b2404ab2ae643fc5e63da4c6fbaaac0dc7e695cae5521d8c72063d38",
-            "syncedHash": "1a21a453b2404ab2ae643fc5e63da4c6fbaaac0dc7e695cae5521d8c72063d38",
+            "updatedHash": "a2460d79b83cfc12aaceccabffe0a3fbefe1767ce047409a832fc3e2d947c764",
+            "syncedHash": "a2460d79b83cfc12aaceccabffe0a3fbefe1767ce047409a832fc3e2d947c764",
             "managed": true
           }
         }
@@ -437,7 +437,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 32,
+          "fontSize": 28,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
@@ -461,8 +461,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:185:8321"
             },
-            "updatedHash": "da3748471a272fc8866ed7fbc4cfb7540c4177ee13000e70470071c91041ff61",
-            "syncedHash": "da3748471a272fc8866ed7fbc4cfb7540c4177ee13000e70470071c91041ff61",
+            "updatedHash": "f4180e90db5557219c4dea084f0368f2dded0b37c3c5a8ba1f646057763caa74",
+            "syncedHash": "f4180e90db5557219c4dea084f0368f2dded0b37c3c5a8ba1f646057763caa74",
             "managed": true
           }
         }
@@ -472,7 +472,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 32,
+          "fontSize": 28,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
@@ -496,8 +496,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:185:8321"
             },
-            "updatedHash": "d73b99158de276cf0bf96bfdbf762461e7eb55ba52007745ea4c855a3e73b487",
-            "syncedHash": "d73b99158de276cf0bf96bfdbf762461e7eb55ba52007745ea4c855a3e73b487",
+            "updatedHash": "cd488823d5d99d45335a63e6dbb6bbd4330772e80226816bf600794ba9028756",
+            "syncedHash": "cd488823d5d99d45335a63e6dbb6bbd4330772e80226816bf600794ba9028756",
             "managed": true
           }
         }
@@ -507,7 +507,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 28,
+          "fontSize": 24,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
@@ -531,8 +531,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:185:8321"
             },
-            "updatedHash": "0433353124ae424bf60502e69e60e08d38b68c505b946ac52507a5d46a2054c2",
-            "syncedHash": "0433353124ae424bf60502e69e60e08d38b68c505b946ac52507a5d46a2054c2",
+            "updatedHash": "7cba905b84760e65b7520916be01f7b699b73467906e3d5dd706060147ef79d4",
+            "syncedHash": "7cba905b84760e65b7520916be01f7b699b73467906e3d5dd706060147ef79d4",
             "managed": true
           }
         }
@@ -542,7 +542,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 28,
+          "fontSize": 24,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
@@ -566,8 +566,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:185:8321"
             },
-            "updatedHash": "5c37d0ce35b26b69cbe64126ced47f9f863acfcf35c8b9620582c14ca8d15039",
-            "syncedHash": "5c37d0ce35b26b69cbe64126ced47f9f863acfcf35c8b9620582c14ca8d15039",
+            "updatedHash": "885f19ca76df4ba936461aaf4e2082445701314ef3f4cb6dd62e0c6b3ea3cd9a",
+            "syncedHash": "885f19ca76df4ba936461aaf4e2082445701314ef3f4cb6dd62e0c6b3ea3cd9a",
             "managed": true
           }
         }
@@ -577,7 +577,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 24,
+          "fontSize": 22,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
@@ -601,8 +601,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:185:8321"
             },
-            "updatedHash": "9629ef72d3a672c82f75e51264b673b5393abc8a0df323334a4e46ba36090ec4",
-            "syncedHash": "9629ef72d3a672c82f75e51264b673b5393abc8a0df323334a4e46ba36090ec4",
+            "updatedHash": "95c1781b544c514f0499d80e7eedd323cc3a3d1cdc37e7f7d98bddd9f2b562f0",
+            "syncedHash": "95c1781b544c514f0499d80e7eedd323cc3a3d1cdc37e7f7d98bddd9f2b562f0",
             "managed": true
           }
         }
@@ -612,7 +612,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 24,
+          "fontSize": 22,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
@@ -636,8 +636,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:185:8321"
             },
-            "updatedHash": "98be599a99503fffe5a74687f373dd4356cd68de68a142b9cfd768518722190a",
-            "syncedHash": "98be599a99503fffe5a74687f373dd4356cd68de68a142b9cfd768518722190a",
+            "updatedHash": "9940e0b71223c40563292661fa61894b33c3963f54c992309f9ab45ffae5c96c",
+            "syncedHash": "9940e0b71223c40563292661fa61894b33c3963f54c992309f9ab45ffae5c96c",
             "managed": true
           }
         }
@@ -649,7 +649,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 14,
+          "fontSize": 12,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
@@ -673,8 +673,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:77:10740"
             },
-            "updatedHash": "a0ddde7d360b484891df7336db6eaa224246ad25a8e17e958cfdeab1d4172a96",
-            "syncedHash": "a0ddde7d360b484891df7336db6eaa224246ad25a8e17e958cfdeab1d4172a96",
+            "updatedHash": "0262f4e3978b7230900507c40f751a0859f3e162224cecb44a2809e1d1d30463",
+            "syncedHash": "0262f4e3978b7230900507c40f751a0859f3e162224cecb44a2809e1d1d30463",
             "managed": true
           }
         }
@@ -684,7 +684,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 14,
+          "fontSize": 12,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
@@ -708,8 +708,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:77:10740"
             },
-            "updatedHash": "647ec107c001119d2b290a7b2bb52a09384f1250fd08c056ce637f8446d26e69",
-            "syncedHash": "647ec107c001119d2b290a7b2bb52a09384f1250fd08c056ce637f8446d26e69",
+            "updatedHash": "9d0d444bd07fab9c15aa9391fb2faa687d581091f67bd61f03c26b468f987ae6",
+            "syncedHash": "9d0d444bd07fab9c15aa9391fb2faa687d581091f67bd61f03c26b468f987ae6",
             "managed": true
           }
         }
@@ -719,7 +719,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 12,
+          "fontSize": 11,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
@@ -743,8 +743,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:77:10740"
             },
-            "updatedHash": "f1d62f318ae79fb75a3630fa7fc37dc76f2c74dcfcc73b92e792120c64e37d7b",
-            "syncedHash": "f1d62f318ae79fb75a3630fa7fc37dc76f2c74dcfcc73b92e792120c64e37d7b",
+            "updatedHash": "842f7377e602876412971efd0b9bba1df6a5c0837f556b2012de4d3c3b10e7b5",
+            "syncedHash": "842f7377e602876412971efd0b9bba1df6a5c0837f556b2012de4d3c3b10e7b5",
             "managed": true
           }
         }
@@ -754,7 +754,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 12,
+          "fontSize": 11,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
@@ -778,8 +778,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:77:10740"
             },
-            "updatedHash": "31206b8771c981e49dad713cb9b56c307434b3b658f59f768f8d8c42632f64d1",
-            "syncedHash": "31206b8771c981e49dad713cb9b56c307434b3b658f59f768f8d8c42632f64d1",
+            "updatedHash": "e59e0df2d3bd799a5d48d52b77ea7b3509ced2a500a26262a2407f976d616b56",
+            "syncedHash": "e59e0df2d3bd799a5d48d52b77ea7b3509ced2a500a26262a2407f976d616b56",
             "managed": true
           }
         }
@@ -863,7 +863,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 16,
+          "fontSize": 14,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
@@ -887,8 +887,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "958f3b4d9f8cac882e22867dc6fb87709ce5a9a0637303ca663c3d4ea9f1044f",
-            "syncedHash": "958f3b4d9f8cac882e22867dc6fb87709ce5a9a0637303ca663c3d4ea9f1044f",
+            "updatedHash": "875a60d1ea6729754ebbbcdc53f18dd3e53d4207c516718b77ede9874295b65e",
+            "syncedHash": "875a60d1ea6729754ebbbcdc53f18dd3e53d4207c516718b77ede9874295b65e",
             "managed": true
           }
         }
@@ -898,7 +898,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 16,
+          "fontSize": 14,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
@@ -922,8 +922,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "8644fa865fba56c84bf5095e14bde15179bef56985fc011bd9a03dd95e0ec96b",
-            "syncedHash": "8644fa865fba56c84bf5095e14bde15179bef56985fc011bd9a03dd95e0ec96b",
+            "updatedHash": "0c137ecde19be83e4b8367d8c6b3b97e9b32abf8ed09bda9377d031976b55db8",
+            "syncedHash": "0c137ecde19be83e4b8367d8c6b3b97e9b32abf8ed09bda9377d031976b55db8",
             "managed": true
           }
         }
@@ -933,7 +933,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 14,
+          "fontSize": 12,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
@@ -957,8 +957,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "e4bc07527931012b26eab7e846a96256bece428a40fd6ebca9c2e771de66864e",
-            "syncedHash": "e4bc07527931012b26eab7e846a96256bece428a40fd6ebca9c2e771de66864e",
+            "updatedHash": "3533a2b673cb337faefcb1f12daf10af7fbc962de34ab2b66c4300d7f6d2b844",
+            "syncedHash": "3533a2b673cb337faefcb1f12daf10af7fbc962de34ab2b66c4300d7f6d2b844",
             "managed": true
           }
         }
@@ -968,7 +968,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 14,
+          "fontSize": 12,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
@@ -992,8 +992,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "3f248cf15b7b5b8fe73e3e3e26aeefad384331d722dfb6d0bb583776ff70c4a6",
-            "syncedHash": "3f248cf15b7b5b8fe73e3e3e26aeefad384331d722dfb6d0bb583776ff70c4a6",
+            "updatedHash": "dd4a8273c2e4f75174103b4393e68965149bb9f049b4bbb82b3bd2ae3183b80f",
+            "syncedHash": "dd4a8273c2e4f75174103b4393e68965149bb9f049b4bbb82b3bd2ae3183b80f",
             "managed": true
           }
         }
@@ -1003,7 +1003,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 12,
+          "fontSize": 11,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
@@ -1028,9 +1028,9 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "c987358d8313cf8a8785480210f702df3bbc987c82251572aa723c216fa54ef8",
-            "syncedHash": "c987358d8313cf8a8785480210f702df3bbc987c82251572aa723c216fa54ef8",
-            "managed": false
+            "updatedHash": "aa7e4a2f004c069f12b94691c8e052d6aa4717a0fe0236c877d444dc18db400e",
+            "syncedHash": "aa7e4a2f004c069f12b94691c8e052d6aa4717a0fe0236c877d444dc18db400e",
+            "managed": true
           }
         }
       },
@@ -1039,7 +1039,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 12,
+          "fontSize": 11,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
@@ -1064,9 +1064,9 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "19087c6b20cf1466ee0b97825f1b0f135c34836e5d59224e5cb71bc762636642",
-            "syncedHash": "19087c6b20cf1466ee0b97825f1b0f135c34836e5d59224e5cb71bc762636642",
-            "managed": false
+            "updatedHash": "a83e861cf8fb7d03b771e591f138abf281a1c92a111f043ae5dcf5808dd98f39",
+            "syncedHash": "a83e861cf8fb7d03b771e591f138abf281a1c92a111f043ae5dcf5808dd98f39",
+            "managed": true
           }
         }
       }
@@ -1077,7 +1077,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 22,
+          "fontSize": 16,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
@@ -1101,8 +1101,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:77:10552"
             },
-            "updatedHash": "b855b202cfc4b163abacad0404007b599b5d0390787fbeb8e9cac6f19ee30a07",
-            "syncedHash": "b855b202cfc4b163abacad0404007b599b5d0390787fbeb8e9cac6f19ee30a07",
+            "updatedHash": "720bddf301276d026088a25f625166a80fd5a5cf8bdfac78a0f59f7d5e54441b",
+            "syncedHash": "720bddf301276d026088a25f625166a80fd5a5cf8bdfac78a0f59f7d5e54441b",
             "managed": true
           }
         }
@@ -1112,7 +1112,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 22,
+          "fontSize": 16,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
@@ -1136,8 +1136,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:77:10552"
             },
-            "updatedHash": "d6790340d3af8ab287d23d0f337ed750a37a90697af52b1bb940d87a40c2206e",
-            "syncedHash": "d6790340d3af8ab287d23d0f337ed750a37a90697af52b1bb940d87a40c2206e",
+            "updatedHash": "5c3d3760b8310064863d816ad2a362d9b1ea8148e69424363fd5c5cdb9a62dcc",
+            "syncedHash": "5c3d3760b8310064863d816ad2a362d9b1ea8148e69424363fd5c5cdb9a62dcc",
             "managed": true
           }
         }
@@ -1147,7 +1147,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 16,
+          "fontSize": 14,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
@@ -1170,8 +1170,8 @@
               "fontFamily": "VariableID:77:10552",
               "fontSize": "VariableID:149:8451"
             },
-            "updatedHash": "12840f66a05fbaf47dee6c19680e6f419e850712152e1861b9a5e0a12c789f41",
-            "syncedHash": "12840f66a05fbaf47dee6c19680e6f419e850712152e1861b9a5e0a12c789f41",
+            "updatedHash": "37709c49a0549eb14a7e8247de2bafc4939310f25276db9de5dfb51ef566550a",
+            "syncedHash": "37709c49a0549eb14a7e8247de2bafc4939310f25276db9de5dfb51ef566550a",
             "managed": true
           }
         }
@@ -1181,7 +1181,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 16,
+          "fontSize": 14,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
@@ -1205,8 +1205,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:77:10552"
             },
-            "updatedHash": "3887e7ba8730f38ef1f2a872e2e80425c04c98f498bf1b38544f575e18f6d9f9",
-            "syncedHash": "3887e7ba8730f38ef1f2a872e2e80425c04c98f498bf1b38544f575e18f6d9f9",
+            "updatedHash": "2b665017ecb5761da85fb48393c9ef0d94354ccfb16859f5e8e861b34762fa7a",
+            "syncedHash": "2b665017ecb5761da85fb48393c9ef0d94354ccfb16859f5e8e861b34762fa7a",
             "managed": true
           }
         }
@@ -1216,7 +1216,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 14,
+          "fontSize": 12,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
@@ -1241,9 +1241,9 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:77:10552"
             },
-            "updatedHash": "a5de2e76a236cdf1d679f804d6f3449a1e3496db9313c34c7f9baaf386a794d1",
-            "syncedHash": "a5de2e76a236cdf1d679f804d6f3449a1e3496db9313c34c7f9baaf386a794d1",
-            "managed": false
+            "updatedHash": "37ee414c6788ffe7be35878a40ab7dc1a8d0444458dbcd7718c7ab6756f50754",
+            "syncedHash": "37ee414c6788ffe7be35878a40ab7dc1a8d0444458dbcd7718c7ab6756f50754",
+            "managed": true
           }
         }
       },
@@ -1252,7 +1252,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 14,
+          "fontSize": 12,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 220.00000476837158
@@ -1277,9 +1277,9 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:77:10552"
             },
-            "updatedHash": "9f4f97cc581ac8b7d017650a894cb63e72af3257520e99c0db42a7ab5c3b2085",
-            "syncedHash": "9f4f97cc581ac8b7d017650a894cb63e72af3257520e99c0db42a7ab5c3b2085",
-            "managed": false
+            "updatedHash": "2b87f80e937d82cc711c46c75df92c65be7fcd5bce4eca7d3bc02d67845a69de",
+            "syncedHash": "2b87f80e937d82cc711c46c75df92c65be7fcd5bce4eca7d3bc02d67845a69de",
+            "managed": true
           }
         }
       }
@@ -1292,7 +1292,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 16,
+          "fontSize": 14,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -1316,8 +1316,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "a325a07fd669d80e9552c3ce2d388883352cacd9c9d1e016f354436d2b806ac8",
-            "syncedHash": "a325a07fd669d80e9552c3ce2d388883352cacd9c9d1e016f354436d2b806ac8",
+            "updatedHash": "f932bd2ef8aea11b8e337851883fe29d501f6c81291d304e74719dcda4d7acf0",
+            "syncedHash": "f932bd2ef8aea11b8e337851883fe29d501f6c81291d304e74719dcda4d7acf0",
             "managed": true
           }
         }
@@ -1327,7 +1327,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 16,
+          "fontSize": 14,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -1351,8 +1351,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "ee61505d7a62b3090df7e0a17efc77fb71e6eccc05564c0342f72e89e9427570",
-            "syncedHash": "ee61505d7a62b3090df7e0a17efc77fb71e6eccc05564c0342f72e89e9427570",
+            "updatedHash": "4a1ecf9c2e150831cf6ef3f0d8af59cbd7d32b312d3c848abbaf6cde386bdc0d",
+            "syncedHash": "4a1ecf9c2e150831cf6ef3f0d8af59cbd7d32b312d3c848abbaf6cde386bdc0d",
             "managed": true
           }
         }
@@ -1362,7 +1362,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 14,
+          "fontSize": 12,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -1386,8 +1386,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "95c389752dc3b58a16f3cdd7ddbb0dbbdf4720b2acd0e7daba9b26215c9baf1a",
-            "syncedHash": "95c389752dc3b58a16f3cdd7ddbb0dbbdf4720b2acd0e7daba9b26215c9baf1a",
+            "updatedHash": "6d7453704ee076c9238bdc184244252dcbcee3c2cef746520d88ef1e740d5aa0",
+            "syncedHash": "6d7453704ee076c9238bdc184244252dcbcee3c2cef746520d88ef1e740d5aa0",
             "managed": true
           }
         }
@@ -1397,7 +1397,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 14,
+          "fontSize": 12,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -1421,8 +1421,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "ff15c08d3b3d548f0615302c19fea7a40b26d5a4ff697eb8e5c521c3ddd05e7a",
-            "syncedHash": "ff15c08d3b3d548f0615302c19fea7a40b26d5a4ff697eb8e5c521c3ddd05e7a",
+            "updatedHash": "157f7e1b1afcbca86e6f877ef5099e320057e5789c9dde4910afd46faf1e3177",
+            "syncedHash": "157f7e1b1afcbca86e6f877ef5099e320057e5789c9dde4910afd46faf1e3177",
             "managed": true
           }
         }
@@ -1432,7 +1432,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 12,
+          "fontSize": 11,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -1457,9 +1457,9 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "2b1bb5ccc8f8f40cc4c420cdebe9d784853a1aa21eeb0d5da0a1d7a7d2b5207d",
-            "syncedHash": "2b1bb5ccc8f8f40cc4c420cdebe9d784853a1aa21eeb0d5da0a1d7a7d2b5207d",
-            "managed": false
+            "updatedHash": "13980405028988a3e59673d41a78d8b4e10c8c03b106b9b449fb8bf9607b81b0",
+            "syncedHash": "13980405028988a3e59673d41a78d8b4e10c8c03b106b9b449fb8bf9607b81b0",
+            "managed": true
           }
         }
       },
@@ -1468,7 +1468,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 12,
+          "fontSize": 11,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -1493,9 +1493,9 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "1b866064499adc2af1bf1ade6d3bf67ab597f5222b92eb3871539cab6c93e38f",
-            "syncedHash": "1b866064499adc2af1bf1ade6d3bf67ab597f5222b92eb3871539cab6c93e38f",
-            "managed": false
+            "updatedHash": "8352b49ceb5c6c7a61009a70f964a80dd38f3a788bd472d96a7a7f2535013d1d",
+            "syncedHash": "8352b49ceb5c6c7a61009a70f964a80dd38f3a788bd472d96a7a7f2535013d1d",
+            "managed": true
           }
         }
       }
@@ -1506,7 +1506,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 57,
+          "fontSize": 45,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -1530,8 +1530,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:151:8170"
             },
-            "updatedHash": "c507eed6be6039ffb6e10e575b94f99b7393f82a7fadedb7ad62e8b51abc749d",
-            "syncedHash": "c507eed6be6039ffb6e10e575b94f99b7393f82a7fadedb7ad62e8b51abc749d",
+            "updatedHash": "6291565c0bb2f6472d8a525e4b663b20a49e69c2259f33faea80d80142936f97",
+            "syncedHash": "6291565c0bb2f6472d8a525e4b663b20a49e69c2259f33faea80d80142936f97",
             "managed": true
           }
         }
@@ -1541,7 +1541,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 57,
+          "fontSize": 45,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -1565,8 +1565,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:151:8170"
             },
-            "updatedHash": "c804ce40e953017517c7d3b277b3cb040b1f26271b102ab6859c223b86e81e43",
-            "syncedHash": "c804ce40e953017517c7d3b277b3cb040b1f26271b102ab6859c223b86e81e43",
+            "updatedHash": "8a8091cbdc7d40813847fd0f7ce3ca200e6f2ee77d2ed9c5000cb9bdaa1385c0",
+            "syncedHash": "8a8091cbdc7d40813847fd0f7ce3ca200e6f2ee77d2ed9c5000cb9bdaa1385c0",
             "managed": true
           }
         }
@@ -1576,7 +1576,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 45,
+          "fontSize": 36,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -1600,8 +1600,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:151:8170"
             },
-            "updatedHash": "8cee2393643ec822cc81105704b8979bc5f0e1ab7f10aafd1521ea72e451c105",
-            "syncedHash": "8cee2393643ec822cc81105704b8979bc5f0e1ab7f10aafd1521ea72e451c105",
+            "updatedHash": "727daa712ec3f575822e2079f9eee3f653bee606bd71cbaa0032539d438b8315",
+            "syncedHash": "727daa712ec3f575822e2079f9eee3f653bee606bd71cbaa0032539d438b8315",
             "managed": true
           }
         }
@@ -1611,7 +1611,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 45,
+          "fontSize": 36,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -1635,8 +1635,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:151:8170"
             },
-            "updatedHash": "13a98bcaaff755bcb0c7ab82e1b0da325b03146e12fb3b4aaf2811b6ba37b172",
-            "syncedHash": "13a98bcaaff755bcb0c7ab82e1b0da325b03146e12fb3b4aaf2811b6ba37b172",
+            "updatedHash": "732281ecc19fe1f495320630963ed1eb148fbdf1e4cfa0e4ceebd57356771c70",
+            "syncedHash": "732281ecc19fe1f495320630963ed1eb148fbdf1e4cfa0e4ceebd57356771c70",
             "managed": true
           }
         }
@@ -1646,7 +1646,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 36,
+          "fontSize": 32,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -1670,8 +1670,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:151:8170"
             },
-            "updatedHash": "a1534d86ff7f36d3aff1d847d08f58908785cfe0f01bd2ed5951fc7cfb50be20",
-            "syncedHash": "a1534d86ff7f36d3aff1d847d08f58908785cfe0f01bd2ed5951fc7cfb50be20",
+            "updatedHash": "277509ee01d3ad0d8ddc6b990487ef8af21a97f626aec27e146341515ec1a3c3",
+            "syncedHash": "277509ee01d3ad0d8ddc6b990487ef8af21a97f626aec27e146341515ec1a3c3",
             "managed": true
           }
         }
@@ -1681,7 +1681,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 36,
+          "fontSize": 32,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -1705,8 +1705,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:151:8170"
             },
-            "updatedHash": "c785f191d46e33770951e2ab91292a6838c1ca2eec49ea9eda81034dd60dd752",
-            "syncedHash": "c785f191d46e33770951e2ab91292a6838c1ca2eec49ea9eda81034dd60dd752",
+            "updatedHash": "2766bff4fbef1fb772a02a7e660227a2343c2cc9aee3a417d5c80bce67ce9e17",
+            "syncedHash": "2766bff4fbef1fb772a02a7e660227a2343c2cc9aee3a417d5c80bce67ce9e17",
             "managed": true
           }
         }
@@ -1718,7 +1718,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 32,
+          "fontSize": 28,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -1742,8 +1742,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:151:8170"
             },
-            "updatedHash": "ee2a32f6e1b4d65fef97f4126e3c9b2b3db426bbfd469874bd63497d40a27feb",
-            "syncedHash": "ee2a32f6e1b4d65fef97f4126e3c9b2b3db426bbfd469874bd63497d40a27feb",
+            "updatedHash": "f0724ff1773dc854b30531634633eac4dcec6e75da2b643c62ba34ec4d50050e",
+            "syncedHash": "f0724ff1773dc854b30531634633eac4dcec6e75da2b643c62ba34ec4d50050e",
             "managed": true
           }
         }
@@ -1753,7 +1753,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 32,
+          "fontSize": 28,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -1777,8 +1777,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:151:8170"
             },
-            "updatedHash": "bca9c9c33dddf1c259fffae08cdc608dacaa79279e496164976bf5864a8d28e7",
-            "syncedHash": "bca9c9c33dddf1c259fffae08cdc608dacaa79279e496164976bf5864a8d28e7",
+            "updatedHash": "134d01fce0254bbbc192629f55ea750f17ff0375c7fceb6678456444d653bd7e",
+            "syncedHash": "134d01fce0254bbbc192629f55ea750f17ff0375c7fceb6678456444d653bd7e",
             "managed": true
           }
         }
@@ -1788,7 +1788,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 28,
+          "fontSize": 24,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -1812,8 +1812,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:151:8170"
             },
-            "updatedHash": "66aa272c41027563600b3d3553f7d13587d024e41b5b3f7ea070ae1078c73bac",
-            "syncedHash": "66aa272c41027563600b3d3553f7d13587d024e41b5b3f7ea070ae1078c73bac",
+            "updatedHash": "7e8bf91f270537c28e113dac2a5ba0d9071c8aa78add8f7ca018645d6feaf58f",
+            "syncedHash": "7e8bf91f270537c28e113dac2a5ba0d9071c8aa78add8f7ca018645d6feaf58f",
             "managed": true
           }
         }
@@ -1823,7 +1823,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 28,
+          "fontSize": 24,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -1847,8 +1847,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:151:8170"
             },
-            "updatedHash": "4371c7a16919ba53480e40177b892fd29e71e3f8bf39229255d6ed530d817e0a",
-            "syncedHash": "4371c7a16919ba53480e40177b892fd29e71e3f8bf39229255d6ed530d817e0a",
+            "updatedHash": "c2d1841f4fb541831d1b1f99cd1fc8094ae676f3c47dff4197df0f93ff931391",
+            "syncedHash": "c2d1841f4fb541831d1b1f99cd1fc8094ae676f3c47dff4197df0f93ff931391",
             "managed": true
           }
         }
@@ -1858,7 +1858,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 24,
+          "fontSize": 22,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -1882,8 +1882,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:185:8321"
             },
-            "updatedHash": "2407cde4cbea22181ca4c6cd3645e20c398aace9ac1cfb191222ed24ebc10d09",
-            "syncedHash": "2407cde4cbea22181ca4c6cd3645e20c398aace9ac1cfb191222ed24ebc10d09",
+            "updatedHash": "d29519da354317950eea6a6bbe825dd3d15995d24344781c0adf44385f124ce0",
+            "syncedHash": "d29519da354317950eea6a6bbe825dd3d15995d24344781c0adf44385f124ce0",
             "managed": true
           }
         }
@@ -1893,7 +1893,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 24,
+          "fontSize": 22,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -1917,8 +1917,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:185:8321"
             },
-            "updatedHash": "936e5e4a869e1cb68c5f717e1077270bfce0e5c2e1f322e43fe57ab378360ed9",
-            "syncedHash": "936e5e4a869e1cb68c5f717e1077270bfce0e5c2e1f322e43fe57ab378360ed9",
+            "updatedHash": "59315b372d01d531c7a259fe71166a74b860b5da611ac65732d128a3fac32a53",
+            "syncedHash": "59315b372d01d531c7a259fe71166a74b860b5da611ac65732d128a3fac32a53",
             "managed": true
           }
         }
@@ -1930,7 +1930,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 14,
+          "fontSize": 12,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -1954,8 +1954,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:77:10740"
             },
-            "updatedHash": "1cceb89d05a3c91cf90bbdc69759b358781f8744348bbdf71fd765548fbe803d",
-            "syncedHash": "1cceb89d05a3c91cf90bbdc69759b358781f8744348bbdf71fd765548fbe803d",
+            "updatedHash": "6e5336de41ec717ba384db97f18254ad30bd113534bdd64aea61742521f0a63f",
+            "syncedHash": "6e5336de41ec717ba384db97f18254ad30bd113534bdd64aea61742521f0a63f",
             "managed": true
           }
         }
@@ -1965,7 +1965,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 14,
+          "fontSize": 12,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -1989,8 +1989,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:77:10740"
             },
-            "updatedHash": "aca4881690a3bae78fb2f4719b63f5ed710c33b6c5b66b7f7e5adafa524b4a7b",
-            "syncedHash": "aca4881690a3bae78fb2f4719b63f5ed710c33b6c5b66b7f7e5adafa524b4a7b",
+            "updatedHash": "d232dbd5472638ac65a8b8fa057b52af8d404ffbda49c72dbf4b7d75ca928e5e",
+            "syncedHash": "d232dbd5472638ac65a8b8fa057b52af8d404ffbda49c72dbf4b7d75ca928e5e",
             "managed": true
           }
         }
@@ -2000,7 +2000,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 12,
+          "fontSize": 11,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -2024,8 +2024,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:77:10740"
             },
-            "updatedHash": "b385910a120d2de7a5679fc7cd88a4a38053082359b877c82aef48f1498d92dc",
-            "syncedHash": "b385910a120d2de7a5679fc7cd88a4a38053082359b877c82aef48f1498d92dc",
+            "updatedHash": "0e82d94de473176f63495037384ce29b454a06902705e234d99c82d31e65e179",
+            "syncedHash": "0e82d94de473176f63495037384ce29b454a06902705e234d99c82d31e65e179",
             "managed": true
           }
         }
@@ -2035,7 +2035,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 12,
+          "fontSize": 11,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -2059,8 +2059,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:77:10740"
             },
-            "updatedHash": "8c0731495ef65b2e48865840c83d5b41f9c546335b3273ee3b77446d33ec2afe",
-            "syncedHash": "8c0731495ef65b2e48865840c83d5b41f9c546335b3273ee3b77446d33ec2afe",
+            "updatedHash": "47dcd4fbbc618197b8c492ba4572d5932ab25ecff7ae5f84a301e13e4df9c897",
+            "syncedHash": "47dcd4fbbc618197b8c492ba4572d5932ab25ecff7ae5f84a301e13e4df9c897",
             "managed": true
           }
         }
@@ -2144,7 +2144,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 16,
+          "fontSize": 14,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -2168,8 +2168,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "25aac3f5719f676f3858fdd6b467ec762052549fd0fba8f617b6dc3b08bc0336",
-            "syncedHash": "25aac3f5719f676f3858fdd6b467ec762052549fd0fba8f617b6dc3b08bc0336",
+            "updatedHash": "1d198b6458ed8abce3b0cca84b22f20bd28045e032fc48ec8e6d2f7b0c9d984a",
+            "syncedHash": "1d198b6458ed8abce3b0cca84b22f20bd28045e032fc48ec8e6d2f7b0c9d984a",
             "managed": true
           }
         }
@@ -2179,7 +2179,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 16,
+          "fontSize": 14,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -2203,8 +2203,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "70d97297f1954c2080498f1400f9d30472936dc3b8569e1495d519e6050e8a0d",
-            "syncedHash": "70d97297f1954c2080498f1400f9d30472936dc3b8569e1495d519e6050e8a0d",
+            "updatedHash": "9f79116b9990c6761ec9b70bfa65d41636768ac87782df65e118b742d5bfb537",
+            "syncedHash": "9f79116b9990c6761ec9b70bfa65d41636768ac87782df65e118b742d5bfb537",
             "managed": true
           }
         }
@@ -2214,7 +2214,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 14,
+          "fontSize": 12,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -2238,8 +2238,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "b402bd32412091bb167d09af2e294d431ffa172afcc8d60fa6018f4ff18bb5c3",
-            "syncedHash": "b402bd32412091bb167d09af2e294d431ffa172afcc8d60fa6018f4ff18bb5c3",
+            "updatedHash": "5e855c5af17a5c5e5f61df62d080c2558aff76afd01b12f9dc0cd090953703dc",
+            "syncedHash": "5e855c5af17a5c5e5f61df62d080c2558aff76afd01b12f9dc0cd090953703dc",
             "managed": true
           }
         }
@@ -2249,7 +2249,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 14,
+          "fontSize": 12,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -2273,8 +2273,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "57b5bd4e6b38789f0f5964c6aac6885de088537ac12f387e236c86e9bd7d268a",
-            "syncedHash": "57b5bd4e6b38789f0f5964c6aac6885de088537ac12f387e236c86e9bd7d268a",
+            "updatedHash": "497ba0872e7e6c1907e84fdd3507e2718e77fc8f3156f595ff8c3d93d6adf410",
+            "syncedHash": "497ba0872e7e6c1907e84fdd3507e2718e77fc8f3156f595ff8c3d93d6adf410",
             "managed": true
           }
         }
@@ -2284,7 +2284,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 12,
+          "fontSize": 11,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -2309,9 +2309,9 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "dd76cdcf1b9ad846658dd75b239149a565ba96fb62d04a6c81de359650690659",
-            "syncedHash": "dd76cdcf1b9ad846658dd75b239149a565ba96fb62d04a6c81de359650690659",
-            "managed": false
+            "updatedHash": "9c88de0332ab6a0f9ea50d8490b5530910f3cd36dcfbf52d8fbfd9b1f5407b23",
+            "syncedHash": "9c88de0332ab6a0f9ea50d8490b5530910f3cd36dcfbf52d8fbfd9b1f5407b23",
+            "managed": true
           }
         }
       },
@@ -2320,7 +2320,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 12,
+          "fontSize": 11,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -2345,9 +2345,9 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "d861e89f26187a5e3d65c609b07f491782b28aee77ec677161a834bbe7221f01",
-            "syncedHash": "d861e89f26187a5e3d65c609b07f491782b28aee77ec677161a834bbe7221f01",
-            "managed": false
+            "updatedHash": "bd995005bfcef44c8e8f02d9c2458b819d9208b75b89a671e035d04a1f137d8c",
+            "syncedHash": "bd995005bfcef44c8e8f02d9c2458b819d9208b75b89a671e035d04a1f137d8c",
+            "managed": true
           }
         }
       }
@@ -2358,7 +2358,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 22,
+          "fontSize": 16,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -2382,8 +2382,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:77:10552"
             },
-            "updatedHash": "cd76dc585310434cd5281507f49ca8e03490a8a3c4dbca7792e7710e5c6a6ea2",
-            "syncedHash": "cd76dc585310434cd5281507f49ca8e03490a8a3c4dbca7792e7710e5c6a6ea2",
+            "updatedHash": "0537e220022fd905d27adc7bf8e37cf779d2dac8da3304b16b15f490500d811e",
+            "syncedHash": "0537e220022fd905d27adc7bf8e37cf779d2dac8da3304b16b15f490500d811e",
             "managed": true
           }
         }
@@ -2393,7 +2393,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 22,
+          "fontSize": 16,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -2417,8 +2417,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:77:10552"
             },
-            "updatedHash": "963f3e2a99c12dda4671ad255bbed189a0ed3419dae77307ce19b77df97baae4",
-            "syncedHash": "963f3e2a99c12dda4671ad255bbed189a0ed3419dae77307ce19b77df97baae4",
+            "updatedHash": "725c072fc118e40a35cb008829fe6d24d8e5825863d6bc80c6dcb7cb768370f6",
+            "syncedHash": "725c072fc118e40a35cb008829fe6d24d8e5825863d6bc80c6dcb7cb768370f6",
             "managed": true
           }
         }
@@ -2428,7 +2428,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 16,
+          "fontSize": 14,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -2451,8 +2451,8 @@
               "fontFamily": "VariableID:77:10552",
               "fontSize": "VariableID:149:8451"
             },
-            "updatedHash": "b494dd3a1f85d325514810c424e597dd0016d1ac4c9ff40fa5f4693972784558",
-            "syncedHash": "b494dd3a1f85d325514810c424e597dd0016d1ac4c9ff40fa5f4693972784558",
+            "updatedHash": "7157ae93474bf12e136b6668bb03e5936a55d2baed57e90930b197e46ac0ab50",
+            "syncedHash": "7157ae93474bf12e136b6668bb03e5936a55d2baed57e90930b197e46ac0ab50",
             "managed": true
           }
         }
@@ -2462,7 +2462,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 16,
+          "fontSize": 14,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -2486,8 +2486,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:77:10552"
             },
-            "updatedHash": "5bb46db544b7269607d06f6c00497f2e451ce897748d8f920cb389669dc035a3",
-            "syncedHash": "5bb46db544b7269607d06f6c00497f2e451ce897748d8f920cb389669dc035a3",
+            "updatedHash": "774fa01109dc485ccac9a38de4c860bca8698a2bf9133dbefec94340cc753706",
+            "syncedHash": "774fa01109dc485ccac9a38de4c860bca8698a2bf9133dbefec94340cc753706",
             "managed": true
           }
         }
@@ -2497,7 +2497,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 14,
+          "fontSize": 12,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -2522,9 +2522,9 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:77:10552"
             },
-            "updatedHash": "1a601297c1875a44b4f8506b1d50c4523d88e367127f0cbfd0f373719aaf275e",
-            "syncedHash": "1a601297c1875a44b4f8506b1d50c4523d88e367127f0cbfd0f373719aaf275e",
-            "managed": false
+            "updatedHash": "333cca51bf2e1b27b6569174092f8ef90a417751626e48c3b63e1197f8dd59ba",
+            "syncedHash": "333cca51bf2e1b27b6569174092f8ef90a417751626e48c3b63e1197f8dd59ba",
+            "managed": true
           }
         }
       },
@@ -2533,7 +2533,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 14,
+          "fontSize": 12,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -2558,9 +2558,9 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:77:10552"
             },
-            "updatedHash": "002e22261afe90fa0b8effbe4556a0b37574e10c27ccdf01365b34cb70d917c0",
-            "syncedHash": "002e22261afe90fa0b8effbe4556a0b37574e10c27ccdf01365b34cb70d917c0",
-            "managed": false
+            "updatedHash": "71036c44ffe88386ed74740d62944a7d5dff4da0d3d69e71529354c15b329181",
+            "syncedHash": "71036c44ffe88386ed74740d62944a7d5dff4da0d3d69e71529354c15b329181",
+            "managed": true
           }
         }
       }
@@ -2573,7 +2573,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 16,
+          "fontSize": 14,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 100
@@ -2597,8 +2597,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "7241bae25994d34b661151d6f146f5c902c7532c534e8b51e1f4a30b177b67a3",
-            "syncedHash": "7241bae25994d34b661151d6f146f5c902c7532c534e8b51e1f4a30b177b67a3",
+            "updatedHash": "3f3c2c9ac43d9846ef99cef82f50d468d5d5e44470c04e9075a2239d708c3926",
+            "syncedHash": "3f3c2c9ac43d9846ef99cef82f50d468d5d5e44470c04e9075a2239d708c3926",
             "managed": true
           }
         }
@@ -2608,7 +2608,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 16,
+          "fontSize": 14,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 100
@@ -2632,8 +2632,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "97c4e687236b62297ced08e272b4402db147c992df481e45f3a04f25548b0a96",
-            "syncedHash": "97c4e687236b62297ced08e272b4402db147c992df481e45f3a04f25548b0a96",
+            "updatedHash": "5a499609489993a48dba8df8ada56e0698020957ee42ad0bb7a3e5f95c6a3fb4",
+            "syncedHash": "5a499609489993a48dba8df8ada56e0698020957ee42ad0bb7a3e5f95c6a3fb4",
             "managed": true
           }
         }
@@ -2643,7 +2643,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 14,
+          "fontSize": 12,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 100
@@ -2667,8 +2667,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "acdb3d4e8262c7f3d75ed1031f293cc1cdafae4391108ba797558a3a388f1f34",
-            "syncedHash": "acdb3d4e8262c7f3d75ed1031f293cc1cdafae4391108ba797558a3a388f1f34",
+            "updatedHash": "6c6b19f5fb70b1bdee895006abbf884a91f754b666ead0c313c1033efff142da",
+            "syncedHash": "6c6b19f5fb70b1bdee895006abbf884a91f754b666ead0c313c1033efff142da",
             "managed": true
           }
         }
@@ -2678,7 +2678,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 14,
+          "fontSize": 12,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 100
@@ -2702,8 +2702,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "84787c46f2997804e1dbb40bb2be953d71b32de4389b04857e03a74447d2a856",
-            "syncedHash": "84787c46f2997804e1dbb40bb2be953d71b32de4389b04857e03a74447d2a856",
+            "updatedHash": "8c5ba8755230cd01165a5a2f843006e0c15ebd18fa05d9ab6c494b534cddaec1",
+            "syncedHash": "8c5ba8755230cd01165a5a2f843006e0c15ebd18fa05d9ab6c494b534cddaec1",
             "managed": true
           }
         }
@@ -2713,7 +2713,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 12,
+          "fontSize": 11,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 100
@@ -2738,9 +2738,9 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "85377921b9761a8423449e342c3c098e0178b55dd53be18d42f715a32290091c",
-            "syncedHash": "85377921b9761a8423449e342c3c098e0178b55dd53be18d42f715a32290091c",
-            "managed": false
+            "updatedHash": "5df18f71c8a19b3714b8605cddd96fdff81891308574f0268bb82ec066f9919c",
+            "syncedHash": "5df18f71c8a19b3714b8605cddd96fdff81891308574f0268bb82ec066f9919c",
+            "managed": true
           }
         }
       },
@@ -2749,7 +2749,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 12,
+          "fontSize": 11,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 100
@@ -2774,9 +2774,9 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "77f594ac5966d70030fadb038adfebd89464ef82200a371c5d2e057fde1611fb",
-            "syncedHash": "77f594ac5966d70030fadb038adfebd89464ef82200a371c5d2e057fde1611fb",
-            "managed": false
+            "updatedHash": "b3860c6c9ecae4aff9c03e0014327b365df97230a083f40becc3771faef84809",
+            "syncedHash": "b3860c6c9ecae4aff9c03e0014327b365df97230a083f40becc3771faef84809",
+            "managed": true
           }
         }
       }
@@ -2787,7 +2787,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 57,
+          "fontSize": 45,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 100
@@ -2811,8 +2811,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:151:8170"
             },
-            "updatedHash": "cac29b0e92f4969154b910a76bbfde07a3926cfc917f015faa4c78ad15bcb8c0",
-            "syncedHash": "cac29b0e92f4969154b910a76bbfde07a3926cfc917f015faa4c78ad15bcb8c0",
+            "updatedHash": "020e980f5f3cb6ae73ab9b661214c9cfc1ae4af5f69666071970e81c6307120a",
+            "syncedHash": "020e980f5f3cb6ae73ab9b661214c9cfc1ae4af5f69666071970e81c6307120a",
             "managed": true
           }
         }
@@ -2822,7 +2822,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 57,
+          "fontSize": 45,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 100
@@ -2846,8 +2846,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:151:8170"
             },
-            "updatedHash": "737471cbb9506f54f5eb4c8525c505551dbb9d46124305edbe84a820d6e11bc0",
-            "syncedHash": "737471cbb9506f54f5eb4c8525c505551dbb9d46124305edbe84a820d6e11bc0",
+            "updatedHash": "31f7e127e996ef9f99d42f4d2ef83705b3932e93f3b8e8fc872e78bc0f7a3103",
+            "syncedHash": "31f7e127e996ef9f99d42f4d2ef83705b3932e93f3b8e8fc872e78bc0f7a3103",
             "managed": true
           }
         }
@@ -2857,7 +2857,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 45,
+          "fontSize": 36,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 100
@@ -2881,8 +2881,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:151:8170"
             },
-            "updatedHash": "6b64ae8e9994c089e32a19e4e9b073809235c7fb09d594f1f838913359dfb2c9",
-            "syncedHash": "6b64ae8e9994c089e32a19e4e9b073809235c7fb09d594f1f838913359dfb2c9",
+            "updatedHash": "c868397acabaa333b78dce5883c529943b73da7c613b090fd6169186bb145662",
+            "syncedHash": "c868397acabaa333b78dce5883c529943b73da7c613b090fd6169186bb145662",
             "managed": true
           }
         }
@@ -2892,7 +2892,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 45,
+          "fontSize": 36,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 100
@@ -2916,8 +2916,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:151:8170"
             },
-            "updatedHash": "87f8f440610a61262ccae72b3ca63a6fa102c75a7f3ead01feaca56e4c833912",
-            "syncedHash": "87f8f440610a61262ccae72b3ca63a6fa102c75a7f3ead01feaca56e4c833912",
+            "updatedHash": "5da4db371a20c701ce25353b01b9882203c45b1d9b1b0546334b53256bcc471a",
+            "syncedHash": "5da4db371a20c701ce25353b01b9882203c45b1d9b1b0546334b53256bcc471a",
             "managed": true
           }
         }
@@ -2927,7 +2927,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 36,
+          "fontSize": 32,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 100
@@ -2951,8 +2951,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:151:8170"
             },
-            "updatedHash": "586fce9c218aa2a4ac49bd88f1c560f30000693ebb7961ae76fcefae7f588ee9",
-            "syncedHash": "586fce9c218aa2a4ac49bd88f1c560f30000693ebb7961ae76fcefae7f588ee9",
+            "updatedHash": "74a1a4bb3fae76018a407fc33f551fc8da788afdcb3ba19289a1c7c0804d5f78",
+            "syncedHash": "74a1a4bb3fae76018a407fc33f551fc8da788afdcb3ba19289a1c7c0804d5f78",
             "managed": true
           }
         }
@@ -2962,7 +2962,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 36,
+          "fontSize": 32,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 100
@@ -2986,8 +2986,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:151:8170"
             },
-            "updatedHash": "5159b107b3128ced5bb8cf6a577679af1ad9f929e4b52f1300d6633edf687a13",
-            "syncedHash": "5159b107b3128ced5bb8cf6a577679af1ad9f929e4b52f1300d6633edf687a13",
+            "updatedHash": "ca12e027c91895157de4a1c4c7410bdb1a96ee0eeedf509013be52107065cea5",
+            "syncedHash": "ca12e027c91895157de4a1c4c7410bdb1a96ee0eeedf509013be52107065cea5",
             "managed": true
           }
         }
@@ -2999,7 +2999,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 32,
+          "fontSize": 28,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 100
@@ -3023,8 +3023,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:185:8321"
             },
-            "updatedHash": "07befcc60e5af9c0916fe7e74bb91d259273d6f8a16b42217387651bcf26eff0",
-            "syncedHash": "07befcc60e5af9c0916fe7e74bb91d259273d6f8a16b42217387651bcf26eff0",
+            "updatedHash": "eaa50e0ecd1b0dc5900e8b0f08049f00d9d8c4a4b06a066c7cdbec917d491eb2",
+            "syncedHash": "eaa50e0ecd1b0dc5900e8b0f08049f00d9d8c4a4b06a066c7cdbec917d491eb2",
             "managed": true
           }
         }
@@ -3034,7 +3034,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 32,
+          "fontSize": 28,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 100
@@ -3058,8 +3058,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:185:8321"
             },
-            "updatedHash": "1bf927296993bd01e90a3b2ecffbc559199eea1e2e019a9a48581811cbb98795",
-            "syncedHash": "1bf927296993bd01e90a3b2ecffbc559199eea1e2e019a9a48581811cbb98795",
+            "updatedHash": "2faef00237610a1bd5d0308c85555251499b07c9db2b77629a3a0b89efd647f5",
+            "syncedHash": "2faef00237610a1bd5d0308c85555251499b07c9db2b77629a3a0b89efd647f5",
             "managed": true
           }
         }
@@ -3069,7 +3069,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 28,
+          "fontSize": 24,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 100
@@ -3093,8 +3093,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:185:8321"
             },
-            "updatedHash": "7a3dfa9cd3c2c76769b5c869eced20d051b57c2718a0dfe3deeaff3ed8fd75f9",
-            "syncedHash": "7a3dfa9cd3c2c76769b5c869eced20d051b57c2718a0dfe3deeaff3ed8fd75f9",
+            "updatedHash": "fe18ba3a79952843a27d40b7fa89246bd3d9c0965c6999d45d1de9d8d2af8439",
+            "syncedHash": "fe18ba3a79952843a27d40b7fa89246bd3d9c0965c6999d45d1de9d8d2af8439",
             "managed": true
           }
         }
@@ -3104,7 +3104,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 28,
+          "fontSize": 24,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 100
@@ -3128,8 +3128,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:185:8321"
             },
-            "updatedHash": "cd6751fa5dfd71fcde729e47ee0fe519c01cf6afdfb0ca0a19a5757df97ed901",
-            "syncedHash": "cd6751fa5dfd71fcde729e47ee0fe519c01cf6afdfb0ca0a19a5757df97ed901",
+            "updatedHash": "825f1cdddd8aa7a9eb8a6c474b8aa65637ff0cb95baded154b458ce793d91e19",
+            "syncedHash": "825f1cdddd8aa7a9eb8a6c474b8aa65637ff0cb95baded154b458ce793d91e19",
             "managed": true
           }
         }
@@ -3139,7 +3139,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 24,
+          "fontSize": 22,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 100
@@ -3163,8 +3163,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:185:8321"
             },
-            "updatedHash": "17e52ac0dd6e3138ae7091170f9988bc57a2dd5a2252ae49f3ad78c04cf9fd51",
-            "syncedHash": "17e52ac0dd6e3138ae7091170f9988bc57a2dd5a2252ae49f3ad78c04cf9fd51",
+            "updatedHash": "ae80f3f449c5da535cb7535f98cd52467707528461a6dd98b779674591455690",
+            "syncedHash": "ae80f3f449c5da535cb7535f98cd52467707528461a6dd98b779674591455690",
             "managed": true
           }
         }
@@ -3174,7 +3174,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 24,
+          "fontSize": 22,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 100
@@ -3198,8 +3198,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:185:8321"
             },
-            "updatedHash": "c691900bda486dc33c09785bca9c58be27f47c3d97b15128544cfed0ec58ac1d",
-            "syncedHash": "c691900bda486dc33c09785bca9c58be27f47c3d97b15128544cfed0ec58ac1d",
+            "updatedHash": "01b4b1333ff12169dca4e8ea7726a9c05b45a9e53fd4338ff6cdbe59465aeb96",
+            "syncedHash": "01b4b1333ff12169dca4e8ea7726a9c05b45a9e53fd4338ff6cdbe59465aeb96",
             "managed": true
           }
         }
@@ -3211,7 +3211,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 14,
+          "fontSize": 12,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 100
@@ -3235,8 +3235,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:77:10740"
             },
-            "updatedHash": "c6539e774c09292b463434d6f81bac59ae51d8cc27be7e45864defa694d05e61",
-            "syncedHash": "c6539e774c09292b463434d6f81bac59ae51d8cc27be7e45864defa694d05e61",
+            "updatedHash": "da85898f2a4b6577c4ed90288929277665caab99cd637dfb04ee2afcd3801944",
+            "syncedHash": "da85898f2a4b6577c4ed90288929277665caab99cd637dfb04ee2afcd3801944",
             "managed": true
           }
         }
@@ -3246,7 +3246,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 14,
+          "fontSize": 12,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 100
@@ -3270,8 +3270,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:77:10740"
             },
-            "updatedHash": "6f4694d73149f934c29fd77e7eb51457bf6d033e016dbed939ab51adcce32933",
-            "syncedHash": "6f4694d73149f934c29fd77e7eb51457bf6d033e016dbed939ab51adcce32933",
+            "updatedHash": "93458b8ef23f71965cfb4ee8c2dfbbc4c74bf3a26d26c3bf17410ab148cf4f8f",
+            "syncedHash": "93458b8ef23f71965cfb4ee8c2dfbbc4c74bf3a26d26c3bf17410ab148cf4f8f",
             "managed": true
           }
         }
@@ -3281,7 +3281,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 12,
+          "fontSize": 11,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 100
@@ -3305,8 +3305,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:77:10740"
             },
-            "updatedHash": "cb34f3fcb6f13c82c6a707ad0891872f9e1c6197f123565f9f610e5df58330e2",
-            "syncedHash": "cb34f3fcb6f13c82c6a707ad0891872f9e1c6197f123565f9f610e5df58330e2",
+            "updatedHash": "7f604e7e6df53841e70e6b650988f4f5d0c015b76e246e9d2a8d27c26f7f8d05",
+            "syncedHash": "7f604e7e6df53841e70e6b650988f4f5d0c015b76e246e9d2a8d27c26f7f8d05",
             "managed": true
           }
         }
@@ -3316,7 +3316,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 12,
+          "fontSize": 11,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 100
@@ -3340,8 +3340,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:77:10740"
             },
-            "updatedHash": "c04572117fe7db7871382cf565ba7360a39fe07ef1a7fac1179bda2ff9e0c31a",
-            "syncedHash": "c04572117fe7db7871382cf565ba7360a39fe07ef1a7fac1179bda2ff9e0c31a",
+            "updatedHash": "69f9240624350ab0db085dd9290b548f878f21301ea8ae164f8c898c241a7fbb",
+            "syncedHash": "69f9240624350ab0db085dd9290b548f878f21301ea8ae164f8c898c241a7fbb",
             "managed": true
           }
         }
@@ -3425,7 +3425,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 16,
+          "fontSize": 14,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 100
@@ -3449,8 +3449,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "98122245a44eaa6683557ece954f05a48816624393b44edfd2819bf99cb81dcb",
-            "syncedHash": "98122245a44eaa6683557ece954f05a48816624393b44edfd2819bf99cb81dcb",
+            "updatedHash": "a6c77bc3ae464ec662d2c988b843697814220f913c74d570a71a9659dad1f988",
+            "syncedHash": "a6c77bc3ae464ec662d2c988b843697814220f913c74d570a71a9659dad1f988",
             "managed": true
           }
         }
@@ -3460,7 +3460,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 16,
+          "fontSize": 14,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 100
@@ -3484,8 +3484,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "9a2cb47c42adb40b7f4c026c557fa5f478299837faa46abee72d4414d097010d",
-            "syncedHash": "9a2cb47c42adb40b7f4c026c557fa5f478299837faa46abee72d4414d097010d",
+            "updatedHash": "c3a99fff919ac09358e4285527c5fb4d0366b5a918806fe9e2e9b7f29fe59af1",
+            "syncedHash": "c3a99fff919ac09358e4285527c5fb4d0366b5a918806fe9e2e9b7f29fe59af1",
             "managed": true
           }
         }
@@ -3495,7 +3495,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 14,
+          "fontSize": 12,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 100
@@ -3519,8 +3519,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "f0c0e01382c6de05be302a2d133c7a24e3f033b33d1e1389b138297696d87366",
-            "syncedHash": "f0c0e01382c6de05be302a2d133c7a24e3f033b33d1e1389b138297696d87366",
+            "updatedHash": "72300421f300b8c792f07281b69c4873c54dae57d06966d69e24f69898ed8e12",
+            "syncedHash": "72300421f300b8c792f07281b69c4873c54dae57d06966d69e24f69898ed8e12",
             "managed": true
           }
         }
@@ -3530,7 +3530,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 14,
+          "fontSize": 12,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 100
@@ -3554,8 +3554,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "b5a91e3a99c6ad6399ddea2c2b229e32be5f71008a3cb1e3b0bd6b1dc21d7764",
-            "syncedHash": "b5a91e3a99c6ad6399ddea2c2b229e32be5f71008a3cb1e3b0bd6b1dc21d7764",
+            "updatedHash": "59282a90904137270088827617b9a251611bb92f36f4afd700b036f95c35ee23",
+            "syncedHash": "59282a90904137270088827617b9a251611bb92f36f4afd700b036f95c35ee23",
             "managed": true
           }
         }
@@ -3565,7 +3565,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 12,
+          "fontSize": 11,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 100
@@ -3590,9 +3590,9 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "040c2ed83344eadcb38f321dcde18bd3a6c576ec84148d3d418215be969df59f",
-            "syncedHash": "040c2ed83344eadcb38f321dcde18bd3a6c576ec84148d3d418215be969df59f",
-            "managed": false
+            "updatedHash": "e2cb82788a2d2394d3ce31b10499de8aeec6342be937f06ff42c77e08660af2f",
+            "syncedHash": "e2cb82788a2d2394d3ce31b10499de8aeec6342be937f06ff42c77e08660af2f",
+            "managed": true
           }
         }
       },
@@ -3601,7 +3601,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 12,
+          "fontSize": 11,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 100
@@ -3626,9 +3626,9 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:77:10725"
             },
-            "updatedHash": "eeebd7b638c3a29c3caee68e248c50993bb4a9fd6b82e421cc651aca4fcfd481",
-            "syncedHash": "eeebd7b638c3a29c3caee68e248c50993bb4a9fd6b82e421cc651aca4fcfd481",
-            "managed": false
+            "updatedHash": "171e14c30c67bad183cc94d72b5b6d3dca15e5db746c68e899774a146d4c2ae2",
+            "syncedHash": "171e14c30c67bad183cc94d72b5b6d3dca15e5db746c68e899774a146d4c2ae2",
+            "managed": true
           }
         }
       }
@@ -3639,7 +3639,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 22,
+          "fontSize": 16,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 100
@@ -3663,8 +3663,8 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:77:10552"
             },
-            "updatedHash": "b65a03a4c2889827f69f7e4381cc18a7ad4f72563c3ee5496acd16b5a2117a96",
-            "syncedHash": "b65a03a4c2889827f69f7e4381cc18a7ad4f72563c3ee5496acd16b5a2117a96",
+            "updatedHash": "c8dd0f3a6cd6536e362515c3b1459f3cd346f1635cdb74c7e1ed96e00b51221a",
+            "syncedHash": "c8dd0f3a6cd6536e362515c3b1459f3cd346f1635cdb74c7e1ed96e00b51221a",
             "managed": true
           }
         }
@@ -3674,7 +3674,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 22,
+          "fontSize": 16,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 100
@@ -3698,8 +3698,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:77:10552"
             },
-            "updatedHash": "4090b142a80a773d27929fafb1edc8039354aae91698b1e7ce1c8000682e170d",
-            "syncedHash": "4090b142a80a773d27929fafb1edc8039354aae91698b1e7ce1c8000682e170d",
+            "updatedHash": "402dbe178e003b3a5ff153e8aece3de5e56b5b4597ba09004eb7b0c366d5d20a",
+            "syncedHash": "402dbe178e003b3a5ff153e8aece3de5e56b5b4597ba09004eb7b0c366d5d20a",
             "managed": true
           }
         }
@@ -3709,7 +3709,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 16,
+          "fontSize": 14,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 100
@@ -3732,8 +3732,8 @@
               "fontFamily": "VariableID:77:10552",
               "fontSize": "VariableID:149:8451"
             },
-            "updatedHash": "979e9e80bf020f40a73e0e516c5cd7f591e4aebb49eb61c88091bcd3ea723487",
-            "syncedHash": "979e9e80bf020f40a73e0e516c5cd7f591e4aebb49eb61c88091bcd3ea723487",
+            "updatedHash": "0251274a932add6338780eeff01d96f750e2f51e1057917373f4efaed1816223",
+            "syncedHash": "0251274a932add6338780eeff01d96f750e2f51e1057917373f4efaed1816223",
             "managed": true
           }
         }
@@ -3743,7 +3743,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 16,
+          "fontSize": 14,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 100
@@ -3767,8 +3767,8 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:77:10552"
             },
-            "updatedHash": "c856499d89a7dfe197350aa01b13c55e2078de6ae349281493863e360fd4d38a",
-            "syncedHash": "c856499d89a7dfe197350aa01b13c55e2078de6ae349281493863e360fd4d38a",
+            "updatedHash": "37fe15e991f3510270510235e76d113f1f57d08aa4a9f979b0de80a7361da4d4",
+            "syncedHash": "37fe15e991f3510270510235e76d113f1f57d08aa4a9f979b0de80a7361da4d4",
             "managed": true
           }
         }
@@ -3778,7 +3778,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 14,
+          "fontSize": 12,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 100
@@ -3803,9 +3803,9 @@
               "fontStyle": "VariableID:77:9512",
               "fontFamily": "VariableID:77:10552"
             },
-            "updatedHash": "f868dcc31799cba98e6239cbe22e64b6d06962f41813f3501b2081f9c274dba0",
-            "syncedHash": "f868dcc31799cba98e6239cbe22e64b6d06962f41813f3501b2081f9c274dba0",
-            "managed": false
+            "updatedHash": "80541b18e1f1019b7f5e3ba46577cb2af87ebdd572f745274080242ba81e00eb",
+            "syncedHash": "80541b18e1f1019b7f5e3ba46577cb2af87ebdd572f745274080242ba81e00eb",
+            "managed": true
           }
         }
       },
@@ -3814,7 +3814,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Bold",
-          "fontSize": 14,
+          "fontSize": 12,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 100
@@ -3839,9 +3839,9 @@
               "fontStyle": "VariableID:77:9514",
               "fontFamily": "VariableID:77:10552"
             },
-            "updatedHash": "0080ee6493b9df18f0b50bd89998601004de18816be25e33df6493c9feef4e68",
-            "syncedHash": "0080ee6493b9df18f0b50bd89998601004de18816be25e33df6493c9feef4e68",
-            "managed": false
+            "updatedHash": "1543a9d08274d451b86f8b3adeed32a49df94cfc2c22ee83ca8392c5b2835b66",
+            "syncedHash": "1543a9d08274d451b86f8b3adeed32a49df94cfc2c22ee83ca8392c5b2835b66",
+            "managed": true
           }
         }
       }
@@ -4264,7 +4264,7 @@
         "$value": {
           "fontFamily": "Noto Sans JP",
           "fontStyle": "Regular",
-          "fontSize": 16,
+          "fontSize": 14,
           "lineHeight": {
             "unit": "PERCENT",
             "value": 160.0000023841858
@@ -4281,7 +4281,7 @@
         "$description": "",
         "$extensions": {
           "figmaSync": {
-            "styleId": "S:ebf2a2242f37f9f5e7c2661454329d527691fd5e,",
+            "styleId": "S:bc968b8c0f39fabc15cdd98667579d1ac8878dd5,",
             "styleType": "text",
             "boundVariables": {
               "letterSpacing": "VariableID:77:10551",
@@ -4289,8 +4289,8 @@
               "fontStyle": "VariableID:149:8452",
               "fontFamily": "VariableID:77:10552"
             },
-            "updatedHash": "0615444e8664ea2d0565b7a965071f7983d8cac54d091587238f016e75e71308",
-            "syncedHash": "0615444e8664ea2d0565b7a965071f7983d8cac54d091587238f016e75e71308",
+            "updatedHash": "f5d38fc1a5b129cf233dde734a423d059d24abf542614b941b58cf985add0464",
+            "syncedHash": "f5d38fc1a5b129cf233dde734a423d059d24abf542614b941b58cf985add0464",
             "managed": false
           }
         }
@@ -4316,7 +4316,7 @@
         "$description": "",
         "$extensions": {
           "figmaSync": {
-            "styleId": "S:3470af9e12d8aac55f3b3f366af028e64146ce8c,",
+            "styleId": "S:4da711cdd6e06416b15b2d0edabf94a7813a011f,",
             "styleType": "text",
             "boundVariables": {
               "fontSize": "VariableID:97e1ae5284df62989d7399329dc8863f46cc8e5a/716:43"
@@ -4326,6 +4326,479 @@
             "managed": false
           }
         }
+      }
+    }
+  },
+  "body": {
+    "large": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 18,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 28
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "paragraphSpacing": 0,
+        "paragraphIndent": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "styleId": "S:798653841bcb711351f22b408d48b244565b2bbd,",
+          "styleType": "text",
+          "boundVariables": {},
+          "updatedHash": "c7e73cb62fabd6108eb0fa4a4a0e96459cc8ebbfaee8a4aba4673068155883f0",
+          "syncedHash": "c7e73cb62fabd6108eb0fa4a4a0e96459cc8ebbfaee8a4aba4673068155883f0",
+          "managed": false
+        }
+      }
+    },
+    "medium": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 16,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 24
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "paragraphSpacing": 0,
+        "paragraphIndent": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "styleId": "S:2935d6f3d2e66c62e1a8f995f1678fe35c1ca745,",
+          "styleType": "text",
+          "boundVariables": {},
+          "updatedHash": "35a5db9b6e56f0fccb10a18dfa349576d23698136b2c0bc6ed35bbeb7ebf5c9f",
+          "syncedHash": "35a5db9b6e56f0fccb10a18dfa349576d23698136b2c0bc6ed35bbeb7ebf5c9f",
+          "managed": false
+        }
+      }
+    },
+    "small": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "paragraphSpacing": 0,
+        "paragraphIndent": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "styleId": "S:84ba409b0a7fd15b5f8716a7751627258515ac5b,",
+          "styleType": "text",
+          "boundVariables": {},
+          "updatedHash": "6b0599060b4e44d6a03f271ba47d588f6a8addfae080723798e163165e5500fd",
+          "syncedHash": "6b0599060b4e44d6a03f271ba47d588f6a8addfae080723798e163165e5500fd",
+          "managed": false
+        }
+      }
+    }
+  },
+  "caption": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontStyle": "Regular",
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 1
+      },
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$description": "",
+    "$extensions": {
+      "figmaSync": {
+        "styleId": "S:3c6a6afa45a9d65e962ef784438b0a98379d8b4c,",
+        "styleType": "text",
+        "boundVariables": {},
+        "updatedHash": "406e61d007470a77223e95da28c0514b63d5777d58c7dad8f9466c3f3677b07f",
+        "syncedHash": "406e61d007470a77223e95da28c0514b63d5777d58c7dad8f9466c3f3677b07f",
+        "managed": false
+      }
+    }
+  },
+  "display": {
+    "large": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontStyle": "Bold",
+        "fontSize": 48,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 56
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": -2
+        },
+        "paragraphSpacing": 0,
+        "paragraphIndent": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "styleId": "S:5e202f08144c3992fc2fb30174b4f7c6e3db1e79,",
+          "styleType": "text",
+          "boundVariables": {},
+          "updatedHash": "4bfa961c52a4a01acb363deca9f125d1da5b642dd7e65f03e9f1d5672c4a2381",
+          "syncedHash": "4bfa961c52a4a01acb363deca9f125d1da5b642dd7e65f03e9f1d5672c4a2381",
+          "managed": false
+        }
+      }
+    },
+    "medium": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontStyle": "Bold",
+        "fontSize": 36,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 44
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": -2
+        },
+        "paragraphSpacing": 0,
+        "paragraphIndent": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "styleId": "S:4c767f2d07a8253ddab78d35aee9eeb82216bf60,",
+          "styleType": "text",
+          "boundVariables": {},
+          "updatedHash": "c38442dbe9c3b20ae4e57a51ddb31c84cd55410d9d896b7f9f796937122ee45e",
+          "syncedHash": "c38442dbe9c3b20ae4e57a51ddb31c84cd55410d9d896b7f9f796937122ee45e",
+          "managed": false
+        }
+      }
+    },
+    "small": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontStyle": "Semi Bold",
+        "fontSize": 30,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 38
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": -1
+        },
+        "paragraphSpacing": 0,
+        "paragraphIndent": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "styleId": "S:c6498f17a8b6dc855fd993e57d19adcbad050d7f,",
+          "styleType": "text",
+          "boundVariables": {},
+          "updatedHash": "78cfce0fe22651116232de0f8c7caabb2518c1eb59af5f45627e670553cb5560",
+          "syncedHash": "78cfce0fe22651116232de0f8c7caabb2518c1eb59af5f45627e670553cb5560",
+          "managed": false
+        }
+      }
+    }
+  },
+  "heading": {
+    "h1": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontStyle": "Semi Bold",
+        "fontSize": 28,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 36
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": -1
+        },
+        "paragraphSpacing": 0,
+        "paragraphIndent": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "styleId": "S:f76b429a5b9178769771dead7395801c33b7d5f6,",
+          "styleType": "text",
+          "boundVariables": {},
+          "updatedHash": "ae878bb0c24786a48a087a433f9d43293d1082ce740524cb1019353da71cc047",
+          "syncedHash": "ae878bb0c24786a48a087a433f9d43293d1082ce740524cb1019353da71cc047",
+          "managed": false
+        }
+      }
+    },
+    "h2": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontStyle": "Semi Bold",
+        "fontSize": 24,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 32
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "paragraphSpacing": 0,
+        "paragraphIndent": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "styleId": "S:2c2953965fa682ca027526db564f3941657eb79e,",
+          "styleType": "text",
+          "boundVariables": {},
+          "updatedHash": "acbe5ccbc6e63e5dd91fae4966f5f502dd09fefa9523e86e4a45468c488b9d53",
+          "syncedHash": "acbe5ccbc6e63e5dd91fae4966f5f502dd09fefa9523e86e4a45468c488b9d53",
+          "managed": false
+        }
+      }
+    },
+    "h3": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontStyle": "Semi Bold",
+        "fontSize": 20,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 28
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "paragraphSpacing": 0,
+        "paragraphIndent": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "styleId": "S:00a3098aec37d89dd5d7c055cefe7b7940f0f22c,",
+          "styleType": "text",
+          "boundVariables": {},
+          "updatedHash": "5e9f13e21b640adfae39cf461813df0c3d37a223cdb67cd659cf2c78d1d138f3",
+          "syncedHash": "5e9f13e21b640adfae39cf461813df0c3d37a223cdb67cd659cf2c78d1d138f3",
+          "managed": false
+        }
+      }
+    },
+    "h4": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontStyle": "Medium",
+        "fontSize": 16,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 24
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 0
+        },
+        "paragraphSpacing": 0,
+        "paragraphIndent": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "styleId": "S:4b0703ceda13235900ee28e55f5bb14a04f23caa,",
+          "styleType": "text",
+          "boundVariables": {},
+          "updatedHash": "05e77afca228fa479a62bb39a5d901cf9e4c135ed1cd704ad951e32cb3f6e4d7",
+          "syncedHash": "05e77afca228fa479a62bb39a5d901cf9e4c135ed1cd704ad951e32cb3f6e4d7",
+          "managed": false
+        }
+      }
+    }
+  },
+  "label": {
+    "large": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontStyle": "Medium",
+        "fontSize": 16,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 24
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 1
+        },
+        "paragraphSpacing": 0,
+        "paragraphIndent": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "styleId": "S:4b6c5e4883e3bef9111178b855a92d429d9c46d4,",
+          "styleType": "text",
+          "boundVariables": {},
+          "updatedHash": "bb01bab07495e379f453c8e20326625e147280b545c62f9d36b766d4068ac46a",
+          "syncedHash": "bb01bab07495e379f453c8e20326625e147280b545c62f9d36b766d4068ac46a",
+          "managed": false
+        }
+      }
+    },
+    "medium": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontStyle": "Medium",
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 1
+        },
+        "paragraphSpacing": 0,
+        "paragraphIndent": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "styleId": "S:bcabdeac4ad954cb116e0bdfe401fc024bb8ab8a,",
+          "styleType": "text",
+          "boundVariables": {},
+          "updatedHash": "2b6537adaf8253f8465292324ee51ed27fc8b360ae7012e28210123b4d66d38c",
+          "syncedHash": "2b6537adaf8253f8465292324ee51ed27fc8b360ae7012e28210123b4d66d38c",
+          "managed": false
+        }
+      }
+    },
+    "small": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "Inter",
+        "fontStyle": "Medium",
+        "fontSize": 12,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 16
+        },
+        "letterSpacing": {
+          "unit": "PERCENT",
+          "value": 2
+        },
+        "paragraphSpacing": 0,
+        "paragraphIndent": 0,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE"
+      },
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "styleId": "S:1f2f782a1366e8a3946a1c3be552ff2e577f50b2,",
+          "styleType": "text",
+          "boundVariables": {},
+          "updatedHash": "be68be634130bac7bb0ec180a7dffbcb0f36c53602e961495b3d97a6ab32afe6",
+          "syncedHash": "be68be634130bac7bb0ec180a7dffbcb0f36c53602e961495b3d97a6ab32afe6",
+          "managed": false
+        }
+      }
+    }
+  },
+  "overline": {
+    "$type": "typography",
+    "$value": {
+      "fontFamily": "Inter",
+      "fontStyle": "Semi Bold",
+      "fontSize": 11,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 6
+      },
+      "paragraphSpacing": 0,
+      "paragraphIndent": 0,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    "$description": "",
+    "$extensions": {
+      "figmaSync": {
+        "styleId": "S:644d4f9770eb348736f0e211f59fb273caa42561,",
+        "styleType": "text",
+        "boundVariables": {},
+        "updatedHash": "34b6a2888d6e69ba1dfa39dcc4740af449c08ff1973991583a8872c742c6e4af",
+        "syncedHash": "34b6a2888d6e69ba1dfa39dcc4740af449c08ff1973991583a8872c742c6e4af",
+        "managed": false
       }
     }
   }
