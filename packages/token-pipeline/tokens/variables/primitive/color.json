@@ -1,0 +1,978 @@
+{
+  "$extensions": {
+    "figmaSync": {
+      "collectionId": "VariableCollectionId:13797:23641",
+      "name": "Primitive/Color",
+      "defaultModeId": "13797:3",
+      "modes": [
+        {
+          "modeId": "13797:3",
+          "name": "Default"
+        }
+      ],
+      "updatedHash": "2955103d88a21951ab1c2b076fd218058739d37da0407cb642eb1ab929cf6efe",
+      "syncedHash": "2955103d88a21951ab1c2b076fd218058739d37da0407cb642eb1ab929cf6efe",
+      "managed": false
+    }
+  },
+  "gray": {
+    "50": {
+      "$type": "color",
+      "$value": "#fafafaff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23642",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#fafafaff"
+            }
+          },
+          "updatedHash": "50119aedfcb86161a149e6558be8353d8924ce97c5bf9968caf20f55f33e6985",
+          "syncedHash": "50119aedfcb86161a149e6558be8353d8924ce97c5bf9968caf20f55f33e6985",
+          "managed": false
+        }
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": "#f5f5f5ff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23643",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#f5f5f5ff"
+            }
+          },
+          "updatedHash": "eb145a85b42e414c01075ed3fc3c97a4480883ab885fb2784c76b134d0487f7a",
+          "syncedHash": "eb145a85b42e414c01075ed3fc3c97a4480883ab885fb2784c76b134d0487f7a",
+          "managed": false
+        }
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#e5e5e8ff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23644",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#e5e5e8ff"
+            }
+          },
+          "updatedHash": "d26c031dc0b682dfd71cfe01ff2ef7b669a41d63de84aade4916df1f9f955ba4",
+          "syncedHash": "d26c031dc0b682dfd71cfe01ff2ef7b669a41d63de84aade4916df1f9f955ba4",
+          "managed": false
+        }
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": "#d4d6d9ff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23645",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#d4d6d9ff"
+            }
+          },
+          "updatedHash": "22404a34192513b587d1cec7b021ce2d3f3878cbc858af76d8b52c454ac9f515",
+          "syncedHash": "22404a34192513b587d1cec7b021ce2d3f3878cbc858af76d8b52c454ac9f515",
+          "managed": false
+        }
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": "#a3a6abff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23646",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#a3a6abff"
+            }
+          },
+          "updatedHash": "764e49f4d5812834323f20134c138e67716eb4b3495d5a182e8ebf16f4337ea9",
+          "syncedHash": "764e49f4d5812834323f20134c138e67716eb4b3495d5a182e8ebf16f4337ea9",
+          "managed": false
+        }
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": "#6b7078ff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23647",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#6b7078ff"
+            }
+          },
+          "updatedHash": "28b164ed73208d8c5acf09b6be6a7bc780b146766eb97b876cecef8b56fff2be",
+          "syncedHash": "28b164ed73208d8c5acf09b6be6a7bc780b146766eb97b876cecef8b56fff2be",
+          "managed": false
+        }
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": "#4d5259ff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23648",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#4d5259ff"
+            }
+          },
+          "updatedHash": "ace87b302c8aeb9c3fea58822ae7709c8c15bbc94bc12e839e7a5f6eb80ec7fd",
+          "syncedHash": "ace87b302c8aeb9c3fea58822ae7709c8c15bbc94bc12e839e7a5f6eb80ec7fd",
+          "managed": false
+        }
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": "#383d45ff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23649",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#383d45ff"
+            }
+          },
+          "updatedHash": "39c53132609ebd72c4224011deafab27646cfbce4a6c4b7811a799acf3c2fd5b",
+          "syncedHash": "39c53132609ebd72c4224011deafab27646cfbce4a6c4b7811a799acf3c2fd5b",
+          "managed": false
+        }
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": "#26292eff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23650",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#26292eff"
+            }
+          },
+          "updatedHash": "93fdee9ff8f93f48b8a30165139271c2f2b27a2aa38acd6d148327b790479be1",
+          "syncedHash": "93fdee9ff8f93f48b8a30165139271c2f2b27a2aa38acd6d148327b790479be1",
+          "managed": false
+        }
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": "#121217ff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23651",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#121217ff"
+            }
+          },
+          "updatedHash": "2f52d6fe85ededdd4d87318ff7bb31c5ad69c4dd67167ae13f00a930e507f9d8",
+          "syncedHash": "2f52d6fe85ededdd4d87318ff7bb31c5ad69c4dd67167ae13f00a930e507f9d8",
+          "managed": false
+        }
+      }
+    }
+  },
+  "blue": {
+    "50": {
+      "$type": "color",
+      "$value": "#f0f5ffff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23652",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#f0f5ffff"
+            }
+          },
+          "updatedHash": "863eb04af42cd3db03d59580febeb0729413c1027b126bbbde8d57e7740047dd",
+          "syncedHash": "863eb04af42cd3db03d59580febeb0729413c1027b126bbbde8d57e7740047dd",
+          "managed": false
+        }
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": "#dbe8ffff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23653",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#dbe8ffff"
+            }
+          },
+          "updatedHash": "e5375a0eda90786f0d2855d4faa0b272b73e87c03d2b179bca06839896dad7ef",
+          "syncedHash": "e5375a0eda90786f0d2855d4faa0b272b73e87c03d2b179bca06839896dad7ef",
+          "managed": false
+        }
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#bad1fcff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23654",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#bad1fcff"
+            }
+          },
+          "updatedHash": "189a50c0dde3be7c10706eb7338f8786c43a7ef8f7a801ff5a114fcf3f6852c3",
+          "syncedHash": "189a50c0dde3be7c10706eb7338f8786c43a7ef8f7a801ff5a114fcf3f6852c3",
+          "managed": false
+        }
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": "#8cb0faff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23655",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#8cb0faff"
+            }
+          },
+          "updatedHash": "6b82861a903b23eccc165749c55354825468f9468808b660c585cb1725377880",
+          "syncedHash": "6b82861a903b23eccc165749c55354825468f9468808b660c585cb1725377880",
+          "managed": false
+        }
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": "#618af5ff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23656",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#618af5ff"
+            }
+          },
+          "updatedHash": "28fba751c766bc444445bb60e77b75500d2c213d630058cf15fd0322180d44ba",
+          "syncedHash": "28fba751c766bc444445bb60e77b75500d2c213d630058cf15fd0322180d44ba",
+          "managed": false
+        }
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": "#3d66e8ff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23657",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#3d66e8ff"
+            }
+          },
+          "updatedHash": "a0344d593e38f7d62eb683b6a2ae6faac1cb5caf80ba06d7d55fa75cb680aab8",
+          "syncedHash": "a0344d593e38f7d62eb683b6a2ae6faac1cb5caf80ba06d7d55fa75cb680aab8",
+          "managed": false
+        }
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": "#2e4fd6ff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23658",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#2e4fd6ff"
+            }
+          },
+          "updatedHash": "a85b3d70012c1229d47cff92baf6992d3f544d1e2eaff0bbd83532278e842381",
+          "syncedHash": "a85b3d70012c1229d47cff92baf6992d3f544d1e2eaff0bbd83532278e842381",
+          "managed": false
+        }
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": "#2640b8ff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23659",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#2640b8ff"
+            }
+          },
+          "updatedHash": "dfc83f5b2cc414536e3ca0cd404dff437bad6dcab32d74e87d5144be3e4e4be0",
+          "syncedHash": "dfc83f5b2cc414536e3ca0cd404dff437bad6dcab32d74e87d5144be3e4e4be0",
+          "managed": false
+        }
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": "#1f3694ff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23660",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#1f3694ff"
+            }
+          },
+          "updatedHash": "4f269f4d7e76b84948522603ce3b86f2a1c6dc99b4f782ad5b61f56745c4f531",
+          "syncedHash": "4f269f4d7e76b84948522603ce3b86f2a1c6dc99b4f782ad5b61f56745c4f531",
+          "managed": false
+        }
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": "#1a2b75ff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23661",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#1a2b75ff"
+            }
+          },
+          "updatedHash": "733fd6f47982734b6282dd26882c2606942c352658df0df589f8d3f91fcb8f68",
+          "syncedHash": "733fd6f47982734b6282dd26882c2606942c352658df0df589f8d3f91fcb8f68",
+          "managed": false
+        }
+      }
+    }
+  },
+  "green": {
+    "50": {
+      "$type": "color",
+      "$value": "#edfcf2ff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23662",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#edfcf2ff"
+            }
+          },
+          "updatedHash": "a80dc63b15a7a033101bc93bde6d7e9518b74807b24bd1b4fcf7715f7fc7edf0",
+          "syncedHash": "a80dc63b15a7a033101bc93bde6d7e9518b74807b24bd1b4fcf7715f7fc7edf0",
+          "managed": false
+        }
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": "#d1f7deff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23663",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#d1f7deff"
+            }
+          },
+          "updatedHash": "c19f898ba84e27a6580e56002cadae1ddc7f39737689263b1c94ec942c480ca2",
+          "syncedHash": "c19f898ba84e27a6580e56002cadae1ddc7f39737689263b1c94ec942c480ca2",
+          "managed": false
+        }
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#a6edbfff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23664",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#a6edbfff"
+            }
+          },
+          "updatedHash": "74aedb1c338ecbe48764bdd2a118b8575e1b5b627bc20e8e2bb5cb83e30086fb",
+          "syncedHash": "74aedb1c338ecbe48764bdd2a118b8575e1b5b627bc20e8e2bb5cb83e30086fb",
+          "managed": false
+        }
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": "#70de96ff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23665",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#70de96ff"
+            }
+          },
+          "updatedHash": "aac5f9c00bb14348306f0616672286c01fa0b2ac6080295eeb384dced93a0a03",
+          "syncedHash": "aac5f9c00bb14348306f0616672286c01fa0b2ac6080295eeb384dced93a0a03",
+          "managed": false
+        }
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": "#45c473ff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23666",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#45c473ff"
+            }
+          },
+          "updatedHash": "25383231d341d1d77c64b18262d575afda71ee24a58c7fbf4bd2f1813afb8e03",
+          "syncedHash": "25383231d341d1d77c64b18262d575afda71ee24a58c7fbf4bd2f1813afb8e03",
+          "managed": false
+        }
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": "#21a654ff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23667",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#21a654ff"
+            }
+          },
+          "updatedHash": "ae0eed1e49b4d6573442ff4cea24aa7022a3a847053f2e07b31c3dfc89632b54",
+          "syncedHash": "ae0eed1e49b4d6573442ff4cea24aa7022a3a847053f2e07b31c3dfc89632b54",
+          "managed": false
+        }
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": "#178542ff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23668",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#178542ff"
+            }
+          },
+          "updatedHash": "9791aaa5661f584e409ac5378a3d0cedbcb76d4b5c0b4d02dbeee8fe4af34c98",
+          "syncedHash": "9791aaa5661f584e409ac5378a3d0cedbcb76d4b5c0b4d02dbeee8fe4af34c98",
+          "managed": false
+        }
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": "#146e38ff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23669",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#146e38ff"
+            }
+          },
+          "updatedHash": "396576af28f991dc82a0c18f76a662e49d44ba9b7161985574d5b576f6029e48",
+          "syncedHash": "396576af28f991dc82a0c18f76a662e49d44ba9b7161985574d5b576f6029e48",
+          "managed": false
+        }
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": "#125930ff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23670",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#125930ff"
+            }
+          },
+          "updatedHash": "aa8db5445a566e2fd151825a17ae18fd5a1639713d210f184ba6df7e11567f8a",
+          "syncedHash": "aa8db5445a566e2fd151825a17ae18fd5a1639713d210f184ba6df7e11567f8a",
+          "managed": false
+        }
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": "#0d4a29ff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23671",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#0d4a29ff"
+            }
+          },
+          "updatedHash": "53700efdfa75b883ad0bfd4f4e3b79fa1a862d48fa2894b002eccbb9ed92df0d",
+          "syncedHash": "53700efdfa75b883ad0bfd4f4e3b79fa1a862d48fa2894b002eccbb9ed92df0d",
+          "managed": false
+        }
+      }
+    }
+  },
+  "red": {
+    "50": {
+      "$type": "color",
+      "$value": "#fff2f2ff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23672",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#fff2f2ff"
+            }
+          },
+          "updatedHash": "1a088693ba89644f4f887f16f2b1eb60e695e80fddfb5342e8bd15727ba6e104",
+          "syncedHash": "1a088693ba89644f4f887f16f2b1eb60e695e80fddfb5342e8bd15727ba6e104",
+          "managed": false
+        }
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": "#ffe0e0ff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23673",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#ffe0e0ff"
+            }
+          },
+          "updatedHash": "5bfeeaa5a1077a68e87664d1a52e4ee76be14e0d0016c07b03a550d7d78ed198",
+          "syncedHash": "5bfeeaa5a1077a68e87664d1a52e4ee76be14e0d0016c07b03a550d7d78ed198",
+          "managed": false
+        }
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#fcc2c2ff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23674",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#fcc2c2ff"
+            }
+          },
+          "updatedHash": "6cf1076e6668032c833f659694ffefb5ee4f871e9dd3b7d8bd0482d769539383",
+          "syncedHash": "6cf1076e6668032c833f659694ffefb5ee4f871e9dd3b7d8bd0482d769539383",
+          "managed": false
+        }
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": "#fa9494ff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23675",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#fa9494ff"
+            }
+          },
+          "updatedHash": "5b3801b99a38d43397ecf7d90cbfc4404b99c5cc75a7715e774c980943002f5c",
+          "syncedHash": "5b3801b99a38d43397ecf7d90cbfc4404b99c5cc75a7715e774c980943002f5c",
+          "managed": false
+        }
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": "#f56161ff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23676",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#f56161ff"
+            }
+          },
+          "updatedHash": "653c13c2bf7c875a38af0e6cf029c772d06425ddcf1cf376709a2f50caafd310",
+          "syncedHash": "653c13c2bf7c875a38af0e6cf029c772d06425ddcf1cf376709a2f50caafd310",
+          "managed": false
+        }
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": "#eb3838ff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23677",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#eb3838ff"
+            }
+          },
+          "updatedHash": "323e93bf8e5cd9cd83cc99d701fb2ad585ca7890479ced0921bd39fb82e08dd7",
+          "syncedHash": "323e93bf8e5cd9cd83cc99d701fb2ad585ca7890479ced0921bd39fb82e08dd7",
+          "managed": false
+        }
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": "#cc2626ff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23678",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#cc2626ff"
+            }
+          },
+          "updatedHash": "4d9121a3d2a3f0beaea0e3ce1f350e949e3356744dae163804bdf3fa694685a0",
+          "syncedHash": "4d9121a3d2a3f0beaea0e3ce1f350e949e3356744dae163804bdf3fa694685a0",
+          "managed": false
+        }
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": "#ad1f1fff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23679",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#ad1f1fff"
+            }
+          },
+          "updatedHash": "58ae3154f33fafb07f2c7e44466438a5b6f1604fd16dd4d59b359b0504bd7ed7",
+          "syncedHash": "58ae3154f33fafb07f2c7e44466438a5b6f1604fd16dd4d59b359b0504bd7ed7",
+          "managed": false
+        }
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": "#8c1a1aff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23680",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#8c1a1aff"
+            }
+          },
+          "updatedHash": "ee35ee471f2d3cb1a5fbd761720f2844767602590ba850e0a89f218e0f9d80d7",
+          "syncedHash": "ee35ee471f2d3cb1a5fbd761720f2844767602590ba850e0a89f218e0f9d80d7",
+          "managed": false
+        }
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": "#731414ff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23681",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#731414ff"
+            }
+          },
+          "updatedHash": "28ae997c6f0bd2d897f2ea965a81fd97230444f911e240e7e91c2ed81940e255",
+          "syncedHash": "28ae997c6f0bd2d897f2ea965a81fd97230444f911e240e7e91c2ed81940e255",
+          "managed": false
+        }
+      }
+    }
+  },
+  "yellow": {
+    "50": {
+      "$type": "color",
+      "$value": "#fffcebff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23682",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#fffcebff"
+            }
+          },
+          "updatedHash": "5995421e269abe0af8b60f43d345b00a76f4fe5161430e0e360a5f30edf069c3",
+          "syncedHash": "5995421e269abe0af8b60f43d345b00a76f4fe5161430e0e360a5f30edf069c3",
+          "managed": false
+        }
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": "#fff7c7ff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23683",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#fff7c7ff"
+            }
+          },
+          "updatedHash": "5576631be3a9ffe113b115175ea028729d16765db0fb509cbb7ddf6163243d33",
+          "syncedHash": "5576631be3a9ffe113b115175ea028729d16765db0fb509cbb7ddf6163243d33",
+          "managed": false
+        }
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": "#fced8aff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23684",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#fced8aff"
+            }
+          },
+          "updatedHash": "7c5d0d3f472999c51e081bfb333ff0efa1b45af81dce3674558aa7300b1659a4",
+          "syncedHash": "7c5d0d3f472999c51e081bfb333ff0efa1b45af81dce3674558aa7300b1659a4",
+          "managed": false
+        }
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": "#fade47ff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23685",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#fade47ff"
+            }
+          },
+          "updatedHash": "01223a4659a3c9eaa521401f86ca0170082844869fae41499334f3a91427c240",
+          "syncedHash": "01223a4659a3c9eaa521401f86ca0170082844869fae41499334f3a91427c240",
+          "managed": false
+        }
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": "#f5c71fff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23686",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#f5c71fff"
+            }
+          },
+          "updatedHash": "be69488b1d74c6881aa7aaf8c05b4274ffff11aad8b2e8549d532abdac78a850",
+          "syncedHash": "be69488b1d74c6881aa7aaf8c05b4274ffff11aad8b2e8549d532abdac78a850",
+          "managed": false
+        }
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": "#ebad0dff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23687",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#ebad0dff"
+            }
+          },
+          "updatedHash": "adbffd5d045429c2818c79a766fd8e5b14857bb3aa86bfc176430b6fe0664e24",
+          "syncedHash": "adbffd5d045429c2818c79a766fd8e5b14857bb3aa86bfc176430b6fe0664e24",
+          "managed": false
+        }
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": "#cc8708ff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23688",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#cc8708ff"
+            }
+          },
+          "updatedHash": "c18cd6358a4feb13158829a672de7d9a50f65f0357d88688251c54f8f2997415",
+          "syncedHash": "c18cd6358a4feb13158829a672de7d9a50f65f0357d88688251c54f8f2997415",
+          "managed": false
+        }
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": "#a1610aff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23689",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#a1610aff"
+            }
+          },
+          "updatedHash": "201f585485d405ba9accdc1451799e94a6f69c59c7513b01c69d5618eee2f1aa",
+          "syncedHash": "201f585485d405ba9accdc1451799e94a6f69c59c7513b01c69d5618eee2f1aa",
+          "managed": false
+        }
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": "#854f0dff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23690",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#854f0dff"
+            }
+          },
+          "updatedHash": "d6f74e409a4c3c63bc7ad785705750e9688717ce78f01b786f2c8cd9c7f9f4df",
+          "syncedHash": "d6f74e409a4c3c63bc7ad785705750e9688717ce78f01b786f2c8cd9c7f9f4df",
+          "managed": false
+        }
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": "#70420fff",
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:13797:23691",
+          "collectionId": "VariableCollectionId:13797:23641",
+          "modeValues": {
+            "13797:3": {
+              "hex": "#70420fff"
+            }
+          },
+          "updatedHash": "2a89b58b5f835947d2feb961ab106fa21ed3cce3583896095cfa7347795a1c85",
+          "syncedHash": "2a89b58b5f835947d2feb961ab106fa21ed3cce3583896095cfa7347795a1c85",
+          "managed": false
+        }
+      }
+    }
+  }
+}

@@ -60,7 +60,7 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "styleId": "S:eaeb8ab6015ce3d88fd631e2560fa8ebb5a8fa53,",
+          "styleId": "S:64d47885ae3151c64532d12fe8d353df75edc82b,",
           "styleType": "effect",
           "boundVariables": {
             "effects": [
@@ -128,7 +128,7 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "styleId": "S:74b8d5c9ce910dc9bc84c98c4cb9b6fb73d43935,",
+          "styleId": "S:05ce61f2eafe64c36da0483f2d9b7e378830b5f6,",
           "styleType": "effect",
           "boundVariables": {
             "effects": [
@@ -196,7 +196,7 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "styleId": "S:e72a8b07c41314a24957112ab3a63f3feb7bb734,",
+          "styleId": "S:f349fe267c3f23959928da23ad21226e9618b055,",
           "styleType": "effect",
           "boundVariables": {
             "effects": [
@@ -264,7 +264,7 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "styleId": "S:71af77037f1dff7fa692bd85732c7163b23b88ca,",
+          "styleId": "S:31151eb5ffe0ba00b7bb60ed32354794389d1265,",
           "styleType": "effect",
           "boundVariables": {
             "effects": [
@@ -332,7 +332,7 @@
       "$description": "",
       "$extensions": {
         "figmaSync": {
-          "styleId": "S:e1a16f861f806e670a0661c43e70a3f3d85913bd,",
+          "styleId": "S:b84c0f04ce4b6b11a91d5a54d45df743ea3b1ff2,",
           "styleType": "effect",
           "boundVariables": {
             "effects": [
@@ -364,9 +364,9 @@
           }
         },
         "color": {
-          "r": 0.9215686321258545,
-          "g": 0.03921568766236305,
-          "b": 0.11764705926179886,
+          "r": 0.003921568859368563,
+          "g": 0.529411792755127,
+          "b": 0.6549019813537598,
           "a": 1
         },
         "offset": {
@@ -381,7 +381,7 @@
     "$description": "",
     "$extensions": {
       "figmaSync": {
-        "styleId": "S:990eba676068cddb58938ad623bea39f06815119,",
+        "styleId": "S:d9f38203c778f8c00f04e0964fb65767b22e2929,",
         "styleType": "effect",
         "boundVariables": {
           "effects": [
@@ -389,8 +389,8 @@
             "VariableID:10618:9666"
           ]
         },
-        "updatedHash": "2a1c0a978cbb9482561b611f23beebfa0c1e5da8d7ea01e69c4389b73127d886",
-        "syncedHash": "2a1c0a978cbb9482561b611f23beebfa0c1e5da8d7ea01e69c4389b73127d886",
+        "updatedHash": "ebd5ad7c86691a4625a82b41c62931ea1c8ee14c7f47b82fa48ecbb99f4060a7",
+        "syncedHash": "ebd5ad7c86691a4625a82b41c62931ea1c8ee14c7f47b82fa48ecbb99f4060a7",
         "managed": false
       }
     }
