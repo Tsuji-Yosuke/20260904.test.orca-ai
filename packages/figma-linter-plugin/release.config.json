@@ -1,0 +1,4 @@
+{
+  "_comment": "minBuildNumber: これを下回る buildNumber のビルドは起動時に強制更新 (UI 全体をブロック) になる。普段は 0 のまま据え置き、後方互換を壊す変更を main に入れたときだけ、その時点のリリース buildNumber 以上へ引き上げてコミットする。CI (figma-linter-plugin-release.yml) が version.json にこの値を載せる。",
+  "minBuildNumber": 0
+}

@@ -1,0 +1,12 @@
+{
+  "name": "@orca/design-language",
+  "version": "0.0.0",
+  "private": true,
+  "description": "orca デザインシステムの原典と機械可読な contracts（SSOT）",
+  "type": "module",
+  "files": [
+    "DESIGN.md",
+    "components",
+    "foundations"
+  ]
+}

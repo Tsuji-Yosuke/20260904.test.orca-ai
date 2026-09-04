@@ -1,0 +1,9 @@
+:root {
+  --website-color-hero: #1f1a1e;
+  --website-color-hero-tab-active: #343434;
+}
+
+@theme inline {
+  --color-website-hero: var(--website-color-hero);
+  --color-website-hero-tab-active: var(--website-color-hero-tab-active);
+}

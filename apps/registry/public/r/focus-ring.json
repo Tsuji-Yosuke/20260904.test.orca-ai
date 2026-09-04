@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "focus-ring",
+  "title": "Focus ring",
+  "description": "focus-visible 時のフォーカスリングを与える共通クラス定数。",
+  "registryDependencies": [
+    "@orca/tokens"
+  ],
+  "files": [
+    {
+      "path": "packages/react/src/lib/focus-ring.ts",
+      "content": "/**\n * `focus-visible` 時の共有フォーカスリング（outline リセット + shadow-focus-outline）。\n *\n * Figma の Focused Outline effect（Sizing/Border/md = 2px）に対応する\n * `focus-visible:outline-none focus-visible:shadow-focus-outline` のペアを、\n * 各コンポーネントに文字列として重複コピーしないための定数。\n *\n * @orca/react の index.ts からは export しない（内部専用）。\n */\nexport const FOCUS_VISIBLE_RING =\n  \"focus-visible:outline-none focus-visible:shadow-focus-outline\";\n",
+      "type": "registry:lib"
+    }
+  ],
+  "type": "registry:lib"
+}

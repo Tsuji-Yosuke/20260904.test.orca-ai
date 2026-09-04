@@ -1,0 +1,19 @@
+{
+  "name": "Figma Variable Sync",
+  "id": "com.example.figma-variable-sync",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/ui.html",
+  "editorType": [
+    "figma"
+  ],
+  "permissions": [
+    "currentuser"
+  ],
+  "networkAccess": {
+    "allowedDomains": [
+      "https://api.github.com"
+    ]
+  },
+  "documentAccess": "dynamic-page"
+}

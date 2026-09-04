@@ -1,0 +1,96 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**", "generated/**"]
+    },
+    "@orca/storybook#build": {
+      "dependsOn": ["^build"],
+      "outputs": ["storybook-static/**"]
+    },
+    "test": {
+      "dependsOn": ["^build"]
+    },
+    "@orca/react#test": {
+      "dependsOn": ["^build"],
+      "inputs": [
+        "$TURBO_DEFAULT$",
+        "$TURBO_ROOT$/packages/design-language/components/**/*.md"
+      ]
+    },
+    "@orca/registry#build": {
+      "inputs": [
+        "$TURBO_DEFAULT$",
+        "$TURBO_ROOT$/packages/component-meta/src/**",
+        "$TURBO_ROOT$/packages/react/src/**",
+        "$TURBO_ROOT$/packages/react/package.json",
+        "$TURBO_ROOT$/packages/token-pipeline/generated/**",
+        "$TURBO_ROOT$/packages/token-pipeline/registry/**",
+        "$TURBO_ROOT$/packages/design-language/components/**/*.md",
+        "$TURBO_ROOT$/apps/storybook/package.json"
+      ],
+      "outputs": ["$TURBO_ROOT$/registry.json", "public/r/**"]
+    },
+    "@orca/registry#test": {
+      "inputs": [
+        "$TURBO_DEFAULT$",
+        "$TURBO_ROOT$/packages/component-meta/src/**",
+        "$TURBO_ROOT$/packages/react/src/**",
+        "$TURBO_ROOT$/packages/react/package.json",
+        "$TURBO_ROOT$/packages/token-pipeline/generated/**",
+        "$TURBO_ROOT$/packages/token-pipeline/registry/**",
+        "$TURBO_ROOT$/packages/design-language/components/**/*.md",
+        "$TURBO_ROOT$/apps/storybook/package.json"
+      ]
+    },
+    "@orca/registry#registry:check": {
+      "dependsOn": ["build", "@orca/token-pipeline#tokens:check"],
+      "cache": false
+    },
+    "@orca/component-meta#meta:check": {
+      "cache": false
+    },
+    "@orca/website#build": {
+      "dependsOn": ["^build"],
+      "inputs": [
+        "$TURBO_DEFAULT$",
+        "$TURBO_ROOT$/packages/component-meta/src/**",
+        "$TURBO_ROOT$/packages/design-language/components/**/*.md"
+      ],
+      "outputs": [
+        ".next/**",
+        "!.next/cache/**",
+        "out/**",
+        "next-env.d.ts"
+      ]
+    },
+    "@orca/website#typecheck": {
+      "dependsOn": ["^build", "@orca/website#build"]
+    },
+    "@orca/website#test": {
+      "dependsOn": ["^build"],
+      "inputs": [
+        "$TURBO_DEFAULT$",
+        "$TURBO_ROOT$/packages/component-meta/src/**",
+        "$TURBO_ROOT$/packages/design-language/components/**/*.md"
+      ]
+    },
+    "typecheck": {
+      "dependsOn": ["^build"]
+    },
+    "lint": {},
+    "tokens": {
+      "outputs": ["generated/**"]
+    },
+    "tokens:check": {},
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "storybook": {
+      "cache": false,
+      "persistent": true
+    }
+  }
+}

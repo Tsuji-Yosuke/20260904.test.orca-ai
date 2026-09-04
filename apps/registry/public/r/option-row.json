@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "option-row",
+  "title": "Option row",
+  "description": "Select / Search が共有するオプション行の視覚プリミティブ。",
+  "dependencies": [
+    "clsx@^2.1.1"
+  ],
+  "registryDependencies": [
+    "@orca/tokens"
+  ],
+  "files": [
+    {
+      "path": "packages/react/src/lib/option-row.tsx",
+      "content": "\"use client\";\n\nimport clsx from \"clsx\";\nimport type { ReactNode } from \"react\";\n\n/**\n * Select と Search が共有する候補行（Item/Option）の視覚専用モジュール。\n *\n * Figma `Select/Menu/MenuItem`（node 1688:26347）の Enabled/Hover/Focused/Active/Disabled\n * 5 状態を、Base UI の `Select.Item`（SelectItem）と `Autocomplete.Item`（ComboboxItem）が\n * 出す `data-highlighted` / `data-selected` / `data-disabled` から駆動する。\n * Base UI の Root/Context には一切触れない、非公開の視覚のみのプリミティブ。\n * 判断根拠: plans/spike-notes/010-option-primitive-design.md（案A）。\n *\n * @orca/react の index.ts からは export しない（内部専用）。\n */\n\nexport interface OptionRowClassNameOptions {\n  /**\n   * 選択済み（data-selected）を行全面の黒塗り + 前景反転で表現するか。\n   * Select のみ true にする。Search は「一時的な候補提示」であり永続的な\n   * 選択済み表現を持たないため false のまま使う（Select.md AC-Select-11）。\n   */\n  selectable?: boolean;\n}\n\n/**\n * Row Container（Item 要素自体）に渡す className。\n *\n * Base UI はポインタ重畳とキーボード操作の両方を同じ `data-highlighted` に\n * 統合するため、属性だけでは Hover と Focused を区別できない。そこで\n * `:hover` の有無で判別する（focus-visible と同じ発想）:\n * - ポインタ重畳中（:hover）→ state layer の重畳のみ（Figma の Hover）\n * - ポインタ非重畳で data-highlighted → 共有 focus リング（Figma の Focused、\n *   キーボード操作時に相当）\n */\nexport function optionRowClassName({\n  selectable = false,\n}: OptionRowClassNameOptions = {}): string {\n  return clsx(\n    // 行高は Figma MenuItem（node 1688:26347、2026-08-07 再実測）の component/full/sm（40px）を\n    // 下限高として固定し、テキスト拡大時は内容を切らずに伸びる（height token + min-h の写像規約）。\n    // 横 padding 16px（padding/md）・アイコンと Label の gap 8px（margin/lg）も同実測。\n    \"flex min-h-component-full-sm items-center gap-margin-lg px-padding-md\",\n    \"typography-tight-body-small text-on-surface\",\n    \"cursor-default select-none outline-none\",\n    // Hover: state layer の重畳（disabled には付けない）\n    \"[&:hover:not([data-disabled])]:state-layer-8\",\n    // Focused（キーボードによるハイライト）: ポインタ非重畳時のみ共有 focus リング\n    \"[&[data-highlighted]:not(:hover)]:shadow-focus-outline\",\n    // Disabled: 背景は変えず文字色のみ弱める（Select.md Visual Semantics）\n    \"data-[disabled]:text-on-disabled data-[disabled]:cursor-not-allowed\",\n    // Active（選択済み）: 行全面の黒塗り + 前景反転。Select のみ opt-in。\n    selectable && \"data-[selected]:bg-primary data-[selected]:text-on-primary\",\n  );\n}\n\n/** Item の主内容。1 行省略。 */\nexport function OptionRowLabel({ children }: { children: ReactNode }) {\n  return <span className=\"min-w-0 flex-1 truncate\">{children}</span>;\n}\n\n/**\n * Item 任意の Leading / Trailing Icon スロット（Select.md AC-Select-13）。\n * 行の Size に依らず 16px 固定。装飾でありアクセシブルネームに寄与しない。\n * 前景色は指定せず、Label の前景色（Active の反転・Disabled の弱色）に追従させる。\n */\nexport function OptionRowIcon({ children }: { children: ReactNode }) {\n  return (\n    <span\n      data-item-icon\n      aria-hidden=\"true\"\n      className=\"shrink-0 inline-flex size-icon-sm items-center justify-center\"\n    >\n      {children}\n    </span>\n  );\n}\n",
+      "type": "registry:lib"
+    }
+  ],
+  "type": "registry:lib"
+}

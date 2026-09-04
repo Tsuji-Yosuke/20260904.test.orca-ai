@@ -1,0 +1,377 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "orca",
+  "homepage": "https://github.com/orca-ds/orca",
+  "items": [
+    {
+      "name": "avatar",
+      "type": "registry:ui",
+      "title": "Avatar",
+      "description": "ユーザーや対象を画像・イニシャルで表す Avatar と、重なり表示のための AvatarUnit。",
+      "files": [
+        {
+          "path": "packages/react/src/ui/avatar.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "packages/react/src/ui/avatar-unit.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "dependencies": [
+        "@base-ui/react@1.6.0",
+        "clsx@^2.1.1"
+      ],
+      "registryDependencies": [
+        "@orca/tokens"
+      ]
+    },
+    {
+      "name": "button",
+      "type": "registry:ui",
+      "title": "Button",
+      "description": "primary / secondary / ghost と 3 サイズ、前後アイコンを備えたボタン。",
+      "files": [
+        {
+          "path": "packages/react/src/ui/button.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "dependencies": [
+        "clsx@^2.1.1"
+      ],
+      "registryDependencies": [
+        "@orca/focus-ring",
+        "@orca/tokens"
+      ]
+    },
+    {
+      "name": "card",
+      "type": "registry:ui",
+      "title": "Card",
+      "description": "ヘッダースロットを持つコンテンツコンテナ。",
+      "files": [
+        {
+          "path": "packages/react/src/ui/card.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "dependencies": [
+        "clsx@^2.1.1"
+      ],
+      "registryDependencies": [
+        "@orca/tokens"
+      ]
+    },
+    {
+      "name": "checkbox",
+      "type": "registry:ui",
+      "title": "Checkbox",
+      "description": "indeterminate を含む選択状態を扱うチェックボックス（Base UI ベース）。",
+      "files": [
+        {
+          "path": "packages/react/src/ui/checkbox.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "dependencies": [
+        "@base-ui/react@1.6.0",
+        "clsx@^2.1.1"
+      ],
+      "registryDependencies": [
+        "@orca/focus-ring",
+        "@orca/tokens"
+      ]
+    },
+    {
+      "name": "chip",
+      "type": "registry:ui",
+      "title": "Chip",
+      "description": "選択・フィルタ操作のためのトグル可能なチップ（Base UI Toggle ベース）。",
+      "files": [
+        {
+          "path": "packages/react/src/ui/chip.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "dependencies": [
+        "@base-ui/react@1.6.0",
+        "clsx@^2.1.1"
+      ],
+      "registryDependencies": [
+        "@orca/focus-ring",
+        "@orca/tokens"
+      ]
+    },
+    {
+      "name": "dialog",
+      "type": "registry:ui",
+      "title": "Dialog",
+      "description": "small / large と alert 表現を持つモーダルダイアログ（Base UI ベース）。",
+      "files": [
+        {
+          "path": "packages/react/src/ui/dialog.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "dependencies": [
+        "@base-ui/react@1.6.0",
+        "clsx@^2.1.1"
+      ],
+      "registryDependencies": [
+        "@orca/icon-button",
+        "@orca/tokens"
+      ]
+    },
+    {
+      "name": "dropdown",
+      "type": "registry:ui",
+      "title": "Dropdown",
+      "description": "トリガーとメニュー項目からなるドロップダウンメニュー（Base UI Menu ベース）。",
+      "files": [
+        {
+          "path": "packages/react/src/ui/dropdown.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "dependencies": [
+        "@base-ui/react@1.6.0",
+        "clsx@^2.1.1"
+      ],
+      "registryDependencies": [
+        "@orca/focus-ring",
+        "@orca/icon-button",
+        "@orca/tokens"
+      ]
+    },
+    {
+      "name": "focus-ring",
+      "type": "registry:lib",
+      "title": "Focus ring",
+      "description": "focus-visible 時のフォーカスリングを与える共通クラス定数。",
+      "files": [
+        {
+          "path": "packages/react/src/lib/focus-ring.ts",
+          "type": "registry:lib"
+        }
+      ],
+      "registryDependencies": [
+        "@orca/tokens"
+      ]
+    },
+    {
+      "name": "icon-button",
+      "type": "registry:ui",
+      "title": "IconButton",
+      "description": "アイコンのみのボタン。variant / size / shape を持つ。",
+      "files": [
+        {
+          "path": "packages/react/src/ui/icon-button.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "dependencies": [
+        "clsx@^2.1.1"
+      ],
+      "registryDependencies": [
+        "@orca/focus-ring",
+        "@orca/tokens"
+      ]
+    },
+    {
+      "name": "option-row",
+      "type": "registry:lib",
+      "title": "Option row",
+      "description": "Select / Search が共有するオプション行の視覚プリミティブ。",
+      "files": [
+        {
+          "path": "packages/react/src/lib/option-row.tsx",
+          "type": "registry:lib"
+        }
+      ],
+      "dependencies": [
+        "clsx@^2.1.1"
+      ],
+      "registryDependencies": [
+        "@orca/tokens"
+      ]
+    },
+    {
+      "name": "orca",
+      "type": "registry:item",
+      "title": "Orca UI (all components)",
+      "description": "Orca の全コンポーネントとデザイントークンを一括インストールするメタアイテム。",
+      "files": [],
+      "registryDependencies": [
+        "@orca/avatar",
+        "@orca/button",
+        "@orca/card",
+        "@orca/checkbox",
+        "@orca/chip",
+        "@orca/dialog",
+        "@orca/dropdown",
+        "@orca/icon-button",
+        "@orca/pagination",
+        "@orca/search",
+        "@orca/select",
+        "@orca/sidebar",
+        "@orca/table",
+        "@orca/tabs"
+      ]
+    },
+    {
+      "name": "pagination",
+      "type": "registry:ui",
+      "title": "Pagination",
+      "description": "省略記号を含むページ番号ナビゲーションと、その項目計算のピュア関数。",
+      "files": [
+        {
+          "path": "packages/react/src/ui/pagination.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "packages/react/src/ui/get-pagination-items.ts",
+          "type": "registry:ui"
+        }
+      ],
+      "dependencies": [
+        "clsx@^2.1.1"
+      ],
+      "registryDependencies": [
+        "@orca/focus-ring",
+        "@orca/tokens"
+      ]
+    },
+    {
+      "name": "search",
+      "type": "registry:ui",
+      "title": "Search",
+      "description": "サジェスト付き検索入力（Base UI Autocomplete ベース）。",
+      "files": [
+        {
+          "path": "packages/react/src/ui/search.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "dependencies": [
+        "@base-ui/react@1.6.0",
+        "clsx@^2.1.1"
+      ],
+      "registryDependencies": [
+        "@orca/focus-ring",
+        "@orca/option-row",
+        "@orca/tokens"
+      ]
+    },
+    {
+      "name": "select",
+      "type": "registry:ui",
+      "title": "Select",
+      "description": "単一選択のセレクト（Base UI Select ベース）。",
+      "files": [
+        {
+          "path": "packages/react/src/ui/select.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "dependencies": [
+        "@base-ui/react@1.6.0",
+        "clsx@^2.1.1"
+      ],
+      "registryDependencies": [
+        "@orca/option-row",
+        "@orca/tokens"
+      ]
+    },
+    {
+      "name": "sidebar",
+      "type": "registry:ui",
+      "title": "Sidebar",
+      "description": "ナビゲーション項目を並べるサイドバー。",
+      "files": [
+        {
+          "path": "packages/react/src/ui/sidebar.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "dependencies": [
+        "clsx@^2.1.1"
+      ],
+      "registryDependencies": [
+        "@orca/focus-ring",
+        "@orca/tokens"
+      ]
+    },
+    {
+      "name": "table",
+      "type": "registry:ui",
+      "title": "Table",
+      "description": "サイズとセル種別を持つデータテーブル。",
+      "files": [
+        {
+          "path": "packages/react/src/ui/table.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "dependencies": [
+        "clsx@^2.1.1"
+      ],
+      "registryDependencies": [
+        "@orca/tokens"
+      ]
+    },
+    {
+      "name": "tabs",
+      "type": "registry:ui",
+      "title": "Tabs",
+      "description": "TabList / Tab / TabPanel からなるタブ（Base UI Tabs ベース）。",
+      "files": [
+        {
+          "path": "packages/react/src/ui/tabs.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "dependencies": [
+        "@base-ui/react@1.6.0",
+        "clsx@^2.1.1"
+      ],
+      "registryDependencies": [
+        "@orca/focus-ring",
+        "@orca/tokens"
+      ]
+    },
+    {
+      "name": "tokens",
+      "type": "registry:item",
+      "title": "Orca design tokens",
+      "description": "Terrazzo 生成のトークン CSS 一式（Tailwind v4 @theme、typography / state-layer ユーティリティ、data-lang / data-density / data-color-system テーマ変数）とフォント。",
+      "files": [
+        {
+          "path": "packages/token-pipeline/registry/orca.css",
+          "type": "registry:file",
+          "target": "~/styles/orca/orca.css"
+        },
+        {
+          "path": "packages/token-pipeline/generated/tailwind-tokens.css",
+          "type": "registry:file",
+          "target": "~/styles/orca/tailwind-tokens.css"
+        },
+        {
+          "path": "packages/token-pipeline/generated/typography-utilities.css",
+          "type": "registry:file",
+          "target": "~/styles/orca/typography-utilities.css"
+        },
+        {
+          "path": "packages/token-pipeline/generated/tokens.css",
+          "type": "registry:file",
+          "target": "~/styles/orca/tokens.css"
+        }
+      ],
+      "dependencies": [
+        "@fontsource/noto-sans-jp@^5.2.9",
+        "@fontsource/roboto@^5.2.10"
+      ],
+      "docs": "グローバル CSS の `@import \"tailwindcss\";` の後に 1 行追加してください:\n  @import \"../styles/orca/orca.css\";\n（パスは globals.css から styles/orca/ への相対パスに合わせて調整）\nstyles/orca/ 配下は手編集せず、更新時は tokens を再 add（--overwrite）してください。\nnext/font 等でフォントを自前管理する場合は orca.css 先頭の @fontsource 4 行を削除できます。\nテーマ属性（任意）: <html> に data-lang / data-density / data-color-system。現状 light テーマのみ。"
+    }
+  ]
+}

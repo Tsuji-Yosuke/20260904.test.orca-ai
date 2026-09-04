@@ -1,0 +1,30 @@
+@custom-variant website-desktop {
+  @media (width > 60rem) {
+    @slot;
+  }
+}
+
+:root {
+  --website-breakpoint-desktop: 60rem;
+  --website-header-height: var(--spacing-12);
+  --website-rail-width: var(--spacing-20);
+  --website-sidenav-width: var(--spacing-60);
+  --website-mobile-section-height: calc(var(--spacing-11) + var(--border-width-sm));
+  --website-home-hero-height: 513px;
+}
+
+@theme {
+  --animate-website-drawer-in: website-drawer-in 160ms ease;
+
+  @keyframes website-drawer-in {
+    from {
+      transform: translateY(calc(var(--spacing-2) * -1));
+      opacity: 0;
+    }
+
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+}

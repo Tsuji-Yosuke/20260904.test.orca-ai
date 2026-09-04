@@ -1,0 +1,28 @@
+@import "@fontsource/noto-sans-jp/400.css";
+@import "@fontsource/noto-sans-jp/700.css";
+@import "@fontsource/roboto/latin-400.css";
+@import "@fontsource/roboto/latin-700.css";
+@import "tailwindcss";
+@import "@orca/token-pipeline/generated/tailwind-tokens.css";
+@import "@orca/token-pipeline/generated/tokens.css";
+
+@source "../../../packages/react/src/**/*.{ts,tsx}";
+
+[data-theme="light"] {
+  color-scheme: light;
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+}
+
+/* orca は body の既定の面色を規定しないため、利用側と同じ流儀でここで指定する
+   （docs/registry.md の手順 6 と同じ 2 行）。
+   注: Figma 側のダークモードは現状 mode の枠のみで値が未設計のため、
+   data-theme="dark" でも面色はライトと同じになる（#2）。 */
+body {
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  font-synthesis: none;
+  transition: background-color 150ms ease, color 150ms ease;
+}

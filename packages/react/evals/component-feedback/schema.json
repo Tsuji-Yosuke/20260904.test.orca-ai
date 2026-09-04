@@ -1,0 +1,229 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orca.local/schemas/component-feedback.schema.json",
+  "title": "Orca component implementation feedback case",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "id",
+    "recordedAt",
+    "component",
+    "category",
+    "scope",
+    "status",
+    "context",
+    "feedback",
+    "before",
+    "after",
+    "resolution",
+    "promotionTargets"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "1.0"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "recordedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "component": {
+      "type": "string",
+      "minLength": 1
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "wrong-token",
+        "raw-value",
+        "missing-token",
+        "wrong-composition",
+        "wrong-state-layer",
+        "variant-gap",
+        "storybook-context",
+        "behavior-gap",
+        "api-gap",
+        "design-gap",
+        "other"
+      ]
+    },
+    "scope": {
+      "type": "string",
+      "enum": ["run-only", "component", "component-family", "all-components"]
+    },
+    "status": {
+      "type": "string",
+      "enum": ["approved", "superseded"]
+    },
+    "context": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["figma", "repository", "storybook", "skill"],
+      "properties": {
+        "figma": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["fileKey", "nodeIds"],
+          "properties": {
+            "fileKey": { "type": "string", "minLength": 1 },
+            "nodeIds": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": { "type": "string", "minLength": 1 }
+            },
+            "fingerprint": { "type": ["string", "null"] },
+            "variant": {
+              "type": "object",
+              "additionalProperties": { "type": "string" }
+            }
+          }
+        },
+        "repository": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["beforeRevision", "afterRevision", "changedFiles"],
+          "properties": {
+            "beforeRevision": { "type": "string", "minLength": 1 },
+            "afterRevision": { "type": "string", "minLength": 1 },
+            "changedFiles": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": { "type": "string", "minLength": 1 }
+            },
+            "designLanguagePath": { "type": ["string", "null"] }
+          }
+        },
+        "storybook": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["storyId", "args", "globals", "viewport"],
+          "properties": {
+            "storyId": { "type": "string", "minLength": 1 },
+            "args": { "type": "object" },
+            "globals": { "type": "object" },
+            "viewport": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["width", "height"],
+              "properties": {
+                "width": { "type": "integer", "minimum": 1 },
+                "height": { "type": "integer", "minimum": 1 }
+              }
+            }
+          }
+        },
+        "skill": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["name", "revision"],
+          "properties": {
+            "name": { "type": "string", "minLength": 1 },
+            "revision": { "type": "string", "minLength": 1 },
+            "model": { "type": ["string", "null"] }
+          }
+        }
+      }
+    },
+    "feedback": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["summary", "target", "artifactLocators"],
+      "properties": {
+        "summary": { "type": "string", "minLength": 1 },
+        "target": { "type": "string", "minLength": 1 },
+        "artifactLocators": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "before": { "$ref": "#/$defs/implementationObservation" },
+    "after": { "$ref": "#/$defs/implementationObservation" },
+    "resolution": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["summary", "reason", "approvedAt", "regressionChecks"],
+      "properties": {
+        "summary": { "type": "string", "minLength": 1 },
+        "reason": { "type": "string", "minLength": 1 },
+        "approvedAt": { "type": "string", "format": "date-time" },
+        "regressionChecks": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/regressionCheck" }
+        }
+      }
+    },
+    "promotionTargets": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "case-only",
+          "design-language",
+          "react-guidance",
+          "skill-reference",
+          "lint-or-test",
+          "token-pipeline"
+        ]
+      }
+    },
+    "supersededBy": { "type": ["string", "null"] }
+  },
+  "$defs": {
+    "implementationObservation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["summary", "codeLocators"],
+      "properties": {
+        "summary": { "type": "string", "minLength": 1 },
+        "codeLocators": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "tokenUsage": { "$ref": "#/$defs/tokenUsage" }
+      }
+    },
+    "tokenUsage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "figmaVariable",
+        "token",
+        "cssVariable",
+        "className",
+        "resolvedValue"
+      ],
+      "properties": {
+        "figmaVariable": { "type": ["string", "null"] },
+        "token": { "type": ["string", "null"] },
+        "cssVariable": { "type": ["string", "null"] },
+        "className": { "type": ["string", "null"] },
+        "resolvedValue": { "type": ["string", "null"] }
+      }
+    },
+    "regressionCheck": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "locator", "expectation"],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": ["test", "storybook", "lint", "manual"]
+        },
+        "locator": { "type": "string", "minLength": 1 },
+        "expectation": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

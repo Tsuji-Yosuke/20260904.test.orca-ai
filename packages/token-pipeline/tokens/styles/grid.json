@@ -1,0 +1,315 @@
+{
+  "$extensions": {
+    "figmaSync": {
+      "styleType": "grid"
+    }
+  },
+  "Icon": {
+    "16px": {
+      "$type": "other",
+      "$value": [
+        {
+          "pattern": "GRID",
+          "visible": true,
+          "color": {
+            "r": 1,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          },
+          "sectionSize": 1,
+          "boundVariables": {}
+        },
+        {
+          "pattern": "COLUMNS",
+          "visible": true,
+          "color": {
+            "r": 0.5921568870544434,
+            "g": 0.27843138575553894,
+            "b": 1,
+            "a": 0.10000000149011612
+          },
+          "gutterSize": 12,
+          "alignment": "STRETCH",
+          "count": 2,
+          "offset": 0,
+          "boundVariables": {}
+        },
+        {
+          "pattern": "ROWS",
+          "visible": true,
+          "color": {
+            "r": 0.5921568870544434,
+            "g": 0.27843138575553894,
+            "b": 1,
+            "a": 0.10000000149011612
+          },
+          "gutterSize": 12,
+          "alignment": "STRETCH",
+          "count": 2,
+          "offset": 0,
+          "boundVariables": {}
+        }
+      ],
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "styleId": "S:30879435a239c1ae8a1ce6ef716becbf3cf50775,",
+          "styleType": "grid",
+          "boundVariables": {},
+          "grid": [
+            {
+              "pattern": "GRID",
+              "visible": true,
+              "color": {
+                "r": 1,
+                "g": 0,
+                "b": 0,
+                "a": 0.10000000149011612
+              },
+              "sectionSize": 1,
+              "boundVariables": {}
+            },
+            {
+              "pattern": "COLUMNS",
+              "visible": true,
+              "color": {
+                "r": 0.5921568870544434,
+                "g": 0.27843138575553894,
+                "b": 1,
+                "a": 0.10000000149011612
+              },
+              "gutterSize": 12,
+              "alignment": "STRETCH",
+              "count": 2,
+              "offset": 0,
+              "boundVariables": {}
+            },
+            {
+              "pattern": "ROWS",
+              "visible": true,
+              "color": {
+                "r": 0.5921568870544434,
+                "g": 0.27843138575553894,
+                "b": 1,
+                "a": 0.10000000149011612
+              },
+              "gutterSize": 12,
+              "alignment": "STRETCH",
+              "count": 2,
+              "offset": 0,
+              "boundVariables": {}
+            }
+          ],
+          "updatedHash": "a1783b46b496bcc739bc40d5405279d30403ee220c7993b6b208cafe374dc6ed",
+          "syncedHash": "a1783b46b496bcc739bc40d5405279d30403ee220c7993b6b208cafe374dc6ed",
+          "managed": false
+        }
+      }
+    },
+    "20px": {
+      "$type": "other",
+      "$value": [
+        {
+          "pattern": "GRID",
+          "visible": true,
+          "color": {
+            "r": 1,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          },
+          "sectionSize": 1,
+          "boundVariables": {}
+        },
+        {
+          "pattern": "COLUMNS",
+          "visible": true,
+          "color": {
+            "r": 0.5921568870544434,
+            "g": 0.27843138575553894,
+            "b": 1,
+            "a": 0.10000000149011612
+          },
+          "gutterSize": 14,
+          "alignment": "STRETCH",
+          "count": 2,
+          "offset": 0,
+          "boundVariables": {}
+        },
+        {
+          "pattern": "ROWS",
+          "visible": true,
+          "color": {
+            "r": 0.5921568870544434,
+            "g": 0.27843138575553894,
+            "b": 1,
+            "a": 0.10000000149011612
+          },
+          "gutterSize": 14,
+          "alignment": "STRETCH",
+          "count": 2,
+          "offset": 0,
+          "boundVariables": {}
+        }
+      ],
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "styleId": "S:e1e697764eadcef3825b3d394631afca17f53eb2,",
+          "styleType": "grid",
+          "boundVariables": {},
+          "grid": [
+            {
+              "pattern": "GRID",
+              "visible": true,
+              "color": {
+                "r": 1,
+                "g": 0,
+                "b": 0,
+                "a": 0.10000000149011612
+              },
+              "sectionSize": 1,
+              "boundVariables": {}
+            },
+            {
+              "pattern": "COLUMNS",
+              "visible": true,
+              "color": {
+                "r": 0.5921568870544434,
+                "g": 0.27843138575553894,
+                "b": 1,
+                "a": 0.10000000149011612
+              },
+              "gutterSize": 14,
+              "alignment": "STRETCH",
+              "count": 2,
+              "offset": 0,
+              "boundVariables": {}
+            },
+            {
+              "pattern": "ROWS",
+              "visible": true,
+              "color": {
+                "r": 0.5921568870544434,
+                "g": 0.27843138575553894,
+                "b": 1,
+                "a": 0.10000000149011612
+              },
+              "gutterSize": 14,
+              "alignment": "STRETCH",
+              "count": 2,
+              "offset": 0,
+              "boundVariables": {}
+            }
+          ],
+          "updatedHash": "dc6b5e81d1ccffab99bf655635d8cb4a0f9c1638950304541c6294c5f3221691",
+          "syncedHash": "dc6b5e81d1ccffab99bf655635d8cb4a0f9c1638950304541c6294c5f3221691",
+          "managed": false
+        }
+      }
+    },
+    "24px": {
+      "$type": "other",
+      "$value": [
+        {
+          "pattern": "GRID",
+          "visible": true,
+          "color": {
+            "r": 1,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          },
+          "sectionSize": 1,
+          "boundVariables": {}
+        },
+        {
+          "pattern": "COLUMNS",
+          "visible": true,
+          "color": {
+            "r": 0.5921568870544434,
+            "g": 0.27843138575553894,
+            "b": 1,
+            "a": 0.10000000149011612
+          },
+          "gutterSize": 16,
+          "alignment": "STRETCH",
+          "count": 2,
+          "offset": 0,
+          "boundVariables": {}
+        },
+        {
+          "pattern": "ROWS",
+          "visible": true,
+          "color": {
+            "r": 0.5921568870544434,
+            "g": 0.27843138575553894,
+            "b": 1,
+            "a": 0.10000000149011612
+          },
+          "gutterSize": 16,
+          "alignment": "STRETCH",
+          "count": 2,
+          "offset": 0,
+          "boundVariables": {}
+        }
+      ],
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "styleId": "S:e127cc7c314c711f10ced9acc8c53a76a4c8e0aa,",
+          "styleType": "grid",
+          "boundVariables": {},
+          "grid": [
+            {
+              "pattern": "GRID",
+              "visible": true,
+              "color": {
+                "r": 1,
+                "g": 0,
+                "b": 0,
+                "a": 0.10000000149011612
+              },
+              "sectionSize": 1,
+              "boundVariables": {}
+            },
+            {
+              "pattern": "COLUMNS",
+              "visible": true,
+              "color": {
+                "r": 0.5921568870544434,
+                "g": 0.27843138575553894,
+                "b": 1,
+                "a": 0.10000000149011612
+              },
+              "gutterSize": 16,
+              "alignment": "STRETCH",
+              "count": 2,
+              "offset": 0,
+              "boundVariables": {}
+            },
+            {
+              "pattern": "ROWS",
+              "visible": true,
+              "color": {
+                "r": 0.5921568870544434,
+                "g": 0.27843138575553894,
+                "b": 1,
+                "a": 0.10000000149011612
+              },
+              "gutterSize": 16,
+              "alignment": "STRETCH",
+              "count": 2,
+              "offset": 0,
+              "boundVariables": {}
+            }
+          ],
+          "updatedHash": "26792ca4b379e4a0e28d637a0ad18f8d2eef84631c50b3e8acf5dbee6d827eae",
+          "syncedHash": "26792ca4b379e4a0e28d637a0ad18f8d2eef84631c50b3e8acf5dbee6d827eae",
+          "managed": false
+        }
+      }
+    }
+  }
+}

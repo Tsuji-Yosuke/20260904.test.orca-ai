@@ -1,0 +1,165 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://orca.local/schemas/component-feedback-inbox.schema.json",
+  "title": "Orca component implementation feedback inbox entry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "id",
+    "submittedAt",
+    "updatedAt",
+    "submittedBy",
+    "component",
+    "category",
+    "scope",
+    "status",
+    "context",
+    "feedback",
+    "discussionUrl",
+    "triage"
+  ],
+  "properties": {
+    "schemaVersion": { "const": "1.0" },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "submittedAt": { "type": "string", "format": "date-time" },
+    "updatedAt": { "type": "string", "format": "date-time" },
+    "submittedBy": { "type": "string", "minLength": 1 },
+    "component": { "type": "string", "minLength": 1 },
+    "category": {
+      "type": "string",
+      "enum": [
+        "untriaged",
+        "wrong-token",
+        "raw-value",
+        "missing-token",
+        "wrong-composition",
+        "wrong-state-layer",
+        "variant-gap",
+        "storybook-context",
+        "behavior-gap",
+        "api-gap",
+        "design-gap",
+        "other"
+      ]
+    },
+    "scope": {
+      "type": "string",
+      "enum": ["untriaged", "run-only", "component", "component-family", "all-components"]
+    },
+    "status": {
+      "type": "string",
+      "enum": ["new", "triaged", "accepted", "rejected"]
+    },
+    "capture": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["method", "dedupeKey"],
+      "properties": {
+        "method": { "enum": ["agent-command", "manual"] },
+        "dedupeKey": {
+          "type": "string",
+          "pattern": "^sha256:[a-f0-9]{64}$"
+        }
+      }
+    },
+    "context": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["figma", "repository", "storybook", "skill"],
+      "properties": {
+        "figma": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["fileKey", "nodeIds"],
+          "properties": {
+            "fileKey": { "type": ["string", "null"], "minLength": 1 },
+            "nodeIds": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": { "type": "string", "minLength": 1 }
+            },
+            "fingerprint": { "type": ["string", "null"] },
+            "variant": {
+              "type": "object",
+              "additionalProperties": { "type": "string" }
+            }
+          }
+        },
+        "repository": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["revision", "changedFiles", "designLanguagePath"],
+          "properties": {
+            "revision": { "type": "string", "minLength": 1 },
+            "changedFiles": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": { "type": "string", "minLength": 1 }
+            },
+            "designLanguagePath": { "type": ["string", "null"] }
+          }
+        },
+        "storybook": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["storyId", "args", "globals", "viewport"],
+          "properties": {
+            "storyId": { "type": ["string", "null"], "minLength": 1 },
+            "args": { "type": "object" },
+            "globals": { "type": "object" },
+            "viewport": {
+              "type": ["object", "null"],
+              "additionalProperties": false,
+              "required": ["width", "height"],
+              "properties": {
+                "width": { "type": "integer", "minimum": 1 },
+                "height": { "type": "integer", "minimum": 1 }
+              }
+            }
+          }
+        },
+        "skill": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["name", "revision"],
+          "properties": {
+            "name": { "type": "string", "minLength": 1 },
+            "revision": { "type": "string", "minLength": 1 },
+            "model": { "type": ["string", "null"] }
+          }
+        }
+      }
+    },
+    "feedback": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["summary", "target", "artifactLinks"],
+      "properties": {
+        "summary": { "type": "string", "minLength": 1 },
+        "verbatim": { "type": "string", "minLength": 1 },
+        "target": { "type": ["string", "null"], "minLength": 1 },
+        "artifactLinks": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "discussionUrl": { "type": ["string", "null"] },
+    "triage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["owner", "decision", "decidedAt", "caseId"],
+      "properties": {
+        "owner": { "type": ["string", "null"] },
+        "decision": { "type": ["string", "null"] },
+        "decidedAt": { "type": ["string", "null"], "format": "date-time" },
+        "caseId": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

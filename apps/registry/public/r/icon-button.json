@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "icon-button",
+  "title": "IconButton",
+  "description": "アイコンのみのボタン。variant / size / shape を持つ。",
+  "dependencies": [
+    "clsx@^2.1.1"
+  ],
+  "registryDependencies": [
+    "@orca/focus-ring",
+    "@orca/tokens"
+  ],
+  "files": [
+    {
+      "path": "packages/react/src/ui/icon-button.tsx",
+      "content": "\"use client\";\n\nimport { forwardRef, type ButtonHTMLAttributes, type ReactNode } from \"react\";\nimport clsx from \"clsx\";\nimport { FOCUS_VISIBLE_RING } from \"@/registry/orca/lib/focus-ring\";\n\nexport type IconButtonVariant = \"primary\" | \"secondary\" | \"ghost\";\nexport type IconButtonSize = \"sm\" | \"md\" | \"lg\";\nexport type IconButtonShape = \"rounded\" | \"circle\";\n\nexport interface IconButtonProps\n  extends Omit<ButtonHTMLAttributes<HTMLButtonElement>, \"aria-label\" | \"children\"> {\n  /** アクセシブルネーム。可視ラベルが無いため必須。 */\n  label: string;\n  /** 中央に配置する単一のアイコン。 */\n  icon: ReactNode;\n  variant?: IconButtonVariant;\n  size?: IconButtonSize;\n  shape?: IconButtonShape;\n}\n\nconst BASE_CLASS = [\n  \"inline-flex items-center justify-center border-sm\",\n  \"leading-none select-none\",\n  \"transition-[background-color,background-image,color,border-color,box-shadow] duration-150 ease-in-out\",\n  FOCUS_VISIBLE_RING,\n  \"disabled:cursor-not-allowed disabled:[background-image:none]\",\n].join(\" \");\n\nconst VARIANT_CLASS: Record<IconButtonVariant, string> = {\n  primary: [\n    \"border-transparent bg-primary text-on-primary\",\n    \"hover:state-layer-8\",\n    \"active:state-layer-16\",\n    \"disabled:border-transparent disabled:bg-disabled disabled:text-on-disabled\",\n  ].join(\" \"),\n  secondary: [\n    \"border-outline bg-transparent text-on-surface-dim\",\n    \"hover:state-layer-8\",\n    \"active:bg-surface-bright active:state-layer-16\",\n    \"disabled:border-disabled disabled:bg-transparent disabled:text-on-disabled\",\n  ].join(\" \"),\n  ghost: [\n    \"border-transparent bg-transparent text-primary\",\n    \"hover:state-layer-8\",\n    \"active:state-layer-16\",\n    \"disabled:border-transparent disabled:bg-transparent disabled:text-on-disabled\",\n  ].join(\" \"),\n};\n\n// Figma の IconButton は固定正方（Small 40 / Medium 48 / Large 56、円形も同寸）。\n// padding 積み上げでは Medium=48 を作る 14px トークンが無いため、sizing トークンの固定正方で再現する。\nconst SIZE_CLASS: Record<IconButtonSize, { container: string; icon: string }> = {\n  sm: { container: \"size-[var(--sizing-5xl)]\", icon: \"size-icon-sm\" },\n  md: { container: \"size-[var(--sizing-6xl)]\", icon: \"size-icon-md\" },\n  lg: { container: \"size-[var(--sizing-7xl)]\", icon: \"size-icon-lg\" },\n};\n\nconst SHAPE_CLASS: Record<IconButtonShape, string> = {\n  rounded: \"rounded-md\",\n  circle: \"rounded-full\",\n};\n\nconst ICON_CLASS = \"shrink-0 inline-flex items-center justify-center\";\n\nexport const IconButton = forwardRef<HTMLButtonElement, IconButtonProps>(\n  function IconButton(\n    {\n      label,\n      icon,\n      variant = \"primary\",\n      size = \"md\",\n      shape = \"rounded\",\n      disabled,\n      type = \"button\",\n      className,\n      ...rest\n    },\n    ref,\n  ) {\n    const sizes = SIZE_CLASS[size];\n    return (\n      <button\n        {...rest}\n        ref={ref}\n        type={type}\n        disabled={disabled}\n        aria-label={label}\n        data-variant={variant}\n        data-size={size}\n        data-shape={shape}\n        className={clsx(\n          BASE_CLASS,\n          VARIANT_CLASS[variant],\n          SHAPE_CLASS[shape],\n          sizes.container,\n          className,\n        )}\n      >\n        <span className={clsx(ICON_CLASS, sizes.icon)} aria-hidden=\"true\">\n          {icon}\n        </span>\n      </button>\n    );\n  },\n);\n\nIconButton.displayName = \"IconButton\";\n",
+      "type": "registry:ui"
+    }
+  ],
+  "type": "registry:ui"
+}

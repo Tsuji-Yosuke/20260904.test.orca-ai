@@ -1,0 +1,1910 @@
+:root {
+  /* bg / text / border は Figma の標準テーマトークンで light/dark に追従させる。 */
+  --bg: var(--figma-color-bg, #ffffff);
+  --bg-secondary: var(--figma-color-bg-secondary, #f5f5f5);
+  --bg-hover: var(--figma-color-bg-hover, #ebebeb);
+  --text: var(--figma-color-text, #1e1e1e);
+  --text-secondary: var(--figma-color-text-secondary, #707070);
+  --border: var(--figma-color-border, #e6e6e6);
+  --border-strong: var(--figma-color-border, #e0e0e0);
+  --track-border: var(--figma-color-border, #ededed);
+  /* 検査一覧の薄い区切り線 (デザインは #f6f6f6)。 */
+  --divider: var(--figma-color-border, #ececec);
+  /* アクセント色は Figma のテーマ変数に依存せず明示 hex で固定する。実機では一部のテーマ変数
+     (例 text-onbrand-secondary) が「ブランド背景前提の白系」に解決され、白背景上の選択中テキストや
+     ブルー要素が見えなくなるため。これらは light/dark どちらでも視認できる固定値にする。 */
+  --brand: #0d99ff;
+  --brand-text: #0076cd;
+  --on-brand: #ffffff;
+  --dot-off: #c4c4c4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* キーボード操作時のフォーカスを明示する (a11y 必須)。カスタムスタイルのボタン/ラジオ/
+   ドロップダウン/スライダーなどに一律で可視リングを付与する。 */
+:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family:
+    Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+  color: var(--text);
+  background: var(--bg);
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* ファイル注意アラート (Common UI Kit 本体のとき画面上部に表示)。色はテーマ変数に依存せず固定。 */
+.alert {
+  margin: 0;
+  padding: 10px 16px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #92400e;
+  background: #fef3c7;
+  border-bottom: 1px solid #fde68a;
+}
+
+/* === 更新通知の全面画面 (デザイン 109:785)。home/look/check の代わりに全面表示する。 === */
+/* screen__body (flex:1 / overflow-y:auto) の上で、中身を縦中央に寄せる。 */
+.update {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 32px 48px;
+  /* アイコン (currentColor) をテーマの本文色に追従させる (デザインは黒)。 */
+  color: var(--text);
+}
+
+.update__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+}
+
+/* アイコンの色は親 .update の color を currentColor 経由で継承する。 */
+.update__icon {
+  flex: 0 0 auto;
+}
+
+.update__text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  text-align: center;
+}
+
+.update__title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.update__desc {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--text-secondary);
+}
+
+/* ダウンロードボタン (全幅。a 要素なので中央寄せの flex を補う)。 */
+.update__action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 32px;
+  padding: 0 12px;
+  border-radius: 6px;
+  background: var(--brand);
+  color: var(--on-brand);
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.update__action:hover {
+  filter: brightness(1.05);
+}
+
+/* --- 上部アプリバー (タイトル + リスタート) --- */
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 46px;
+  padding: 0 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.topbar__title {
+  flex: 1;
+  min-width: 0;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* 戻るキャレット (サブ画面 → ホーム)。 */
+.topbar__back {
+  width: 24px;
+  height: 24px;
+  margin-left: -4px;
+  border-radius: 6px;
+  color: var(--text);
+}
+
+.topbar__back:hover {
+  background: var(--bg-secondary);
+}
+
+.topbar__reset {
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  color: var(--text-secondary);
+}
+
+.topbar__reset:hover {
+  background: var(--bg-secondary);
+  color: var(--text);
+}
+
+.topbar__reset:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+/* --- 本体: 縦スクロールの 1 ページ --- */
+.app__body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 32px;
+  min-height: 0;
+  padding: 20px 16px;
+  overflow-y: auto;
+}
+
+.app__error {
+  margin: 0;
+  padding: 8px 16px;
+}
+
+/* --- セクション (プリセット / デザイントークンの調整) --- */
+.section {
+  display: flex;
+  flex-direction: column;
+}
+
+.section__title {
+  margin: 0 0 16px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  color: var(--text-secondary);
+}
+
+.subsection {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.subsection + .subsection {
+  margin-top: 24px;
+}
+
+.subsection__title {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: left;
+  color: var(--text-secondary);
+}
+
+/* --- プリセット: Radio Card --- */
+.radio-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.radio-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2px;
+  width: 100%;
+  min-height: 56px;
+  padding: 8px 12px;
+  border: 1px solid var(--border-strong);
+  border-radius: 6px;
+  background: var(--bg);
+  text-align: left;
+  cursor: pointer;
+}
+
+.radio-card:hover {
+  background: var(--bg-hover);
+}
+
+.radio-card--selected,
+.radio-card--selected:hover {
+  border-color: var(--brand);
+  background: var(--bg);
+}
+
+.radio-card__title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.radio-card--selected .radio-card__title {
+  color: var(--brand-text);
+}
+
+.radio-card__description {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+/* --- Token Swapper --- */
+.swapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.swapper__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.swapper__label {
+  flex: 1;
+  min-width: 0;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.swapper__controls {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 6px;
+}
+
+.swapper__offset {
+  width: 68px;
+  height: 24px;
+  padding: 3px 6px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 12px;
+  font-weight: 600;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.swapper__offset:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.swapper__more {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: none;
+  border-radius: 6px;
+  background: var(--bg-secondary);
+  color: var(--text-secondary);
+  cursor: pointer;
+}
+
+.swapper__more:hover {
+  background: var(--bg-hover);
+  color: var(--text);
+}
+
+.swapper__more--open {
+  background: var(--text-secondary);
+  color: var(--on-brand);
+}
+
+.swapper__list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0;
+  padding: 8px 0;
+  list-style: none;
+  border-radius: 8px;
+  background: var(--bg-secondary);
+}
+
+.swapper__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 0 10px 0 12px;
+}
+
+.swapper__step {
+  flex: 1;
+  min-width: 0;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+/* --- ドロップダウン (参照先セレクト) --- */
+.dropdown {
+  position: relative;
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  width: 116px;
+  height: 24px;
+}
+
+.dropdown__select {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 3px 22px 3px 8px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 12px;
+  font-family: inherit;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.dropdown__select:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.dropdown__chevron {
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-secondary);
+  pointer-events: none;
+}
+
+.dropdown--active .dropdown__select {
+  border-color: var(--brand);
+  color: var(--brand-text);
+  font-weight: 600;
+  background: rgba(13, 153, 255, 0.1);
+  box-shadow: 0 2px 0 0 rgba(13, 153, 255, 0.25);
+}
+
+.dropdown--active .dropdown__chevron {
+  color: var(--brand-text);
+}
+
+/* --- 範囲スライダー (reference ドット上に範囲バーを重ね、ドラッグで全段スライド) --- */
+.rangeslider {
+  position: relative;
+  width: 100%;
+  height: 22px;
+  border: 1px solid var(--track-border);
+  border-radius: 6px;
+  background: var(--bg-secondary);
+}
+
+/* ドット/バーの描画領域 + 操作領域 (role=slider)。左右に 16px の余白を取る。 */
+.rangeslider__track {
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  top: 0;
+  bottom: 0;
+  cursor: grab;
+  touch-action: none;
+}
+
+.rangeslider__track:active {
+  cursor: grabbing;
+}
+
+/* 点灯ドットの最小〜最大を結ぶ細いレール (範囲とドラッグ可能の手掛かり)。割り当ての無い
+   ドットを塗りつぶさないよう薄く細くし、ドットの背面に敷く (left/width はインライン指定)。 */
+.rangeslider__rail {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 4px;
+  border-radius: 2px;
+  background: var(--brand);
+  opacity: 0.25;
+}
+
+.rangeslider__dots {
+  position: absolute;
+  inset: 0;
+}
+
+/* ドットは正確な位置 (left はインライン) に絶対配置。中央寄せ + scale で大きさを変える
+   (flex で並べると大きさ差が中心位置をずらすため)。未割り当て = 小さい灰。 */
+.rangeslider__dot {
+  position: absolute;
+  top: 50%;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--dot-off);
+  transform: translate(-50%, -50%) scale(0.5);
+}
+
+/* 割り当て済み = 大きい青 (この位置の reference を実際に指している段がある)。 */
+.rangeslider__dot--on {
+  background: var(--brand);
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.rangeslider--disabled {
+  opacity: 0.5;
+}
+
+.rangeslider--disabled .rangeslider__track {
+  cursor: default;
+}
+
+/* --- 状態表示 (読み込み中 / 空 / エラー) --- */
+.state {
+  padding: 16px;
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+.state--error {
+  color: var(--figma-color-text-danger, #f24822);
+}
+
+/* --- 確認モーダル (デフォルトに戻す) --- */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.modal {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  border-radius: 8px;
+  background: var(--bg);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.3);
+}
+
+.modal__title {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.modal__body {
+  margin: 0;
+  font-size: 11px;
+  line-height: 1.5;
+  color: var(--text-secondary);
+}
+
+.modal__actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.button {
+  flex: 0 0 auto;
+  min-width: 96px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  background: var(--brand);
+  color: var(--on-brand);
+}
+
+.button:hover {
+  filter: brightness(1.05);
+}
+
+.button--secondary {
+  background: var(--bg-secondary);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+.button--secondary:hover {
+  background: var(--bg-hover);
+}
+
+.button--danger {
+  background: var(--figma-color-bg-danger, #f24822);
+  color: var(--figma-color-text-onbrand, #ffffff);
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: default;
+  filter: none;
+}
+
+/* ===========================================================================
+   画面共通 (ルーターの各画面の枠)
+   =========================================================================== */
+.screen {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 0;
+}
+
+/* 上部バーの下、フッターの上をスクロールさせる本文領域。 */
+.screen__body {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+}
+
+/* ===========================================================================
+   ホーム画面 (トップのメニュー)
+   =========================================================================== */
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.home__hero {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 36px 20px 32px;
+}
+
+.home__title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.home__lead {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--text-secondary);
+}
+
+.home__menu {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px 20px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 16px 0;
+  border: none;
+  border-top: 1px solid var(--border-strong);
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+  /* スライダーアイコンのノブ抜き色を、行の背景 (通常 / hover) に追従させる。 */
+  --knob: var(--bg);
+}
+
+.menu-item:last-child {
+  border-bottom: 1px solid var(--border-strong);
+}
+
+.menu-item:hover {
+  background: var(--bg-secondary);
+  --knob: var(--bg-secondary);
+}
+
+.menu-item__icon {
+  display: inline-flex;
+  flex: 0 0 auto;
+  color: var(--text);
+}
+
+.menu-item__text {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+
+.menu-item__title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.menu-item__desc {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+/* ===========================================================================
+   チェックデザイン画面
+   =========================================================================== */
+.check {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 選択ノードのプレビュー (ドット背景。目印の基準は relative、スクロール時は上に貼り付く)。 */
+.check__preview {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  flex: 0 0 auto;
+  height: 200px;
+  background-color: #fbfbfb;
+  background-image: radial-gradient(var(--track-border) 1px, transparent 1px);
+  background-size: 14px 14px;
+  background-position: center;
+  overflow: hidden;
+  /* プレビューはあくまで「見るだけ」の図。テキスト選択やドラッグ (画像のゴーストドラッグ含む) を
+     一切無効化し、誤って中身を掴んだり選択したりできないようにする。 */
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+/* 画像を置く中央ステージ。上下 28px / 左右 36px の余白を空け、目印 (4 辺) はこの外側に置く。 */
+.check__preview-stage {
+  position: absolute;
+  inset: 28px 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 実寸を上限に、ステージ内へ contain (max-width/height は inline で min(100%, 実寸))。 */
+.check__preview-img {
+  display: block;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  /* 画像のネイティブなドラッグ (ゴースト) を抑止。pointer-events は外し、選択・掴みを完全に殺す。 */
+  -webkit-user-drag: none;
+  user-select: none;
+  -webkit-user-select: none;
+  pointer-events: none;
+}
+
+/* 線画 (Radius のアーク + 曲線矢印 / Height の破線 + 縦両矢印) を描く SVG オーバーレイ。 */
+.check__preview-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+/* hover ハイライトの強調/減衰をなめらかに。 */
+.check__preview-overlay g {
+  transition: opacity 0.12s ease;
+}
+
+/* padding / margin の領域を示す半透明の帯 (Canvas 全幅 or 全高に渡るルーラー風)。
+   プレビューは常に薄背景 (#fbfbfb) なので、色はテーマ非依存の固定値で扱う。 */
+.anatomy-band {
+  position: absolute;
+  pointer-events: none;
+  transition:
+    opacity 0.12s ease,
+    background-color 0.12s ease;
+}
+
+.anatomy-band--default {
+  background: #b3b3b3;
+  opacity: 0.3;
+}
+
+.anatomy-band--fail {
+  background: #dd500e;
+  opacity: 0.3;
+}
+
+.anatomy-band--hover {
+  background: #68d70d;
+  opacity: 0.42;
+}
+
+/* hover 対象がトークン未指定 (fail) のときは緑にせずエラー色で強調する。 */
+.anatomy-band--hoverFail {
+  background: #dd500e;
+  opacity: 0.42;
+}
+
+.anatomy-band--dim {
+  background: #b3b3b3;
+  opacity: 0.12;
+}
+
+/* Color のオーバーレイ (Bg = コンポーネント塗り全体 / On = 中身)。ホバー時のみ表示。 */
+.anatomy-overlay {
+  position: absolute;
+  pointer-events: none;
+  opacity: 0.4;
+  transition: opacity 0.12s ease;
+}
+
+/* 部位ラベルのチップ (短縮名ピル / Bg・On スウォッチ)。中心を (x, y) ピクセルに合わせる。 */
+.anatomy-chip {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  height: 18px;
+  min-width: 18px;
+  padding: 0 6px;
+  border: 1px solid #1e1e1e;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #1e1e1e;
+  font-family: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 1;
+  white-space: nowrap;
+  /* ドット背景の上でも切り抜けるよう、プレビュー地色のリングで縁取る。 */
+  box-shadow: 0 0 0 2px #fbfbfb;
+  pointer-events: none;
+  transition:
+    opacity 0.12s ease,
+    background-color 0.12s ease,
+    border-color 0.12s ease,
+    color 0.12s ease;
+}
+
+/* hover 対象 = 緑塗り・白縁・白文字。 */
+.anatomy-chip--hover {
+  background: #68d70d;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+/* 非 hover の他部位 = 枠と文字を薄くしてディム。 */
+.anatomy-chip--dim {
+  border-color: rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.2);
+}
+
+/* 失敗 (非システムトークン) = オレンジの「?」丸バッジ。 */
+.anatomy-chip--fail {
+  width: 18px;
+  min-width: 18px;
+  padding: 0;
+  background: #dd500e;
+  border-color: #ffffff;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+/* 他行 hover で薄くするとき、「?」丸バッジは色を保ったまま不透明度だけ下げる。 */
+.anatomy-chip--faint {
+  opacity: 0.35;
+}
+
+/* Bg / On スウォッチチップ。 */
+.anatomy-chip__label {
+  font-weight: 600;
+}
+
+.anatomy-chip__swatch {
+  flex: 0 0 auto;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #cbcbcb;
+  border-radius: 999px;
+}
+
+/* Color 行の失敗 = ラベル + 実色スウォッチは残しつつ、オレンジ枠で示す。 */
+.anatomy-chip--swatch.anatomy-chip--fail {
+  width: auto;
+  min-width: 18px;
+  padding: 0 6px;
+  background: #ffffff;
+  border-color: #dd500e;
+  color: #dd500e;
+}
+
+.anatomy-chip--dim .anatomy-chip__swatch {
+  opacity: 0.4;
+}
+
+/* 検査行の先頭に出すアナトミー番号 (プレビューの目印と対応)。 */
+.anatomy-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 15px;
+  height: 15px;
+  margin-right: 6px;
+  padding: 0 3px;
+  border-radius: 999px;
+  background: var(--brand);
+  color: #fff;
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.check__preview-empty {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.check__info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 20px 16px 0;
+}
+
+.check__name {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.check__desc {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--text-secondary);
+}
+
+.check__placeholder {
+  padding: 48px 24px;
+  line-height: 1.6;
+}
+
+.check-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 0 16px;
+  margin-top: 28px;
+}
+
+.check-section:last-of-type {
+  margin-bottom: 32px;
+}
+
+.check-section__title {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.check-section__rows {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid var(--divider);
+}
+
+.check-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  border-top: 1px solid var(--divider);
+}
+
+.check-row:hover {
+  background: var(--bg-secondary);
+}
+
+.check-row__main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.check-row__label {
+  margin: 0;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.check-row__chip {
+  align-self: flex-start;
+  max-width: 100%;
+  padding: 2px 8px;
+  border-radius: 5px;
+  background: var(--bg-secondary);
+  color: var(--text-secondary);
+  font-family: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 10px;
+  line-height: 1.5;
+  /* フルトークン名 (例 Dimension System/Sizing/Radius/xs) を省略せず全表示する。 */
+  white-space: normal;
+  word-break: break-word;
+}
+
+/* Background が 2 枚 fill (地色 + StateLayers オーバーレイ) のときの内訳チップ行。 */
+.check-row__fills {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+/* 内訳チップ: スウォッチドット + トークン名を 1 ピルにまとめる。 */
+.check-row__chip--fill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  align-self: auto;
+}
+
+/* fill 間の「+」セパレータ。 */
+.check-row__fill-plus {
+  color: var(--text-secondary);
+  font-size: 11px;
+  line-height: 1;
+}
+
+/* チップ内のスウォッチドット (トークンの実色)。 */
+.check-row__chip-swatch {
+  flex: 0 0 auto;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #cbcbcb;
+  border-radius: 999px;
+}
+
+/* fail = オレンジ枠 + オレンジ文字で「要確認」を示す。 */
+.check-row__chip--fail {
+  background: #fff;
+  border: 1px solid #dd500e;
+  color: #dd500e;
+}
+
+/* na (地色なしのプレースホルダ等) = 薄く沈める。 */
+.check-row__chip--na {
+  color: var(--text-secondary);
+  opacity: 0.7;
+}
+
+/* 合否バッジ (pass=緑チェック / fail=橙クエスチョン / na=灰ダッシュ)。 */
+.status-badge {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 999px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.status-badge--pass {
+  background: #68d70d;
+}
+
+.status-badge--fail {
+  background: #dd500e;
+}
+
+/* na は薄い背景 + 濃いグリフ (白ダッシュは低コントラストなので避ける)。 */
+.status-badge--na {
+  background: var(--bg-secondary);
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+}
+
+/* 追尾フッター (適用ボタン)。 */
+.footer {
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  padding: 12px 16px;
+  border-top: 1px solid var(--border);
+  background: var(--bg);
+}
+
+/* 2 ボタン構成の左ボタン (横断チェックへの「バリアント確認」など、青枠アウトライン)。 */
+.footer__secondary {
+  flex: 0 0 auto;
+  padding: 8px 14px;
+  border: 1px solid var(--brand);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--brand);
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.footer__secondary:hover {
+  background: var(--brand);
+  color: var(--on-brand);
+}
+
+.footer__apply {
+  flex: 1;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  background: var(--brand);
+  color: var(--on-brand);
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.footer__apply:hover {
+  filter: brightness(1.05);
+}
+
+.footer__apply:disabled {
+  opacity: 0.5;
+  cursor: default;
+  filter: none;
+}
+
+/* ===========================================================================
+   複数選択: インフォバー / Index 一覧 (チェックデザイン)
+   =========================================================================== */
+/* TopAppBar の下に出すドロップダウン的インフォバー (デザイン 106:862)。バー全体がトグル。 */
+.info-bar {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  height: 46px;
+  padding: 0 12px 0 16px;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+  text-align: left;
+  cursor: pointer;
+}
+
+.info-bar:hover {
+  background: var(--bg-secondary);
+}
+
+.info-bar__text {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.info-bar__caret {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-secondary);
+  transition: transform 0.15s ease;
+}
+
+/* 開いているとき (Index 表示) はキャレットを上向き (∧) に。 */
+.info-bar__caret--open {
+  transform: rotate(180deg);
+}
+
+/* 正しいトークン数 (緑) / 要確認数 (オレンジ) の小バッジ群 (インフォバー集計 + Index 行)。 */
+.count-badges {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 10px;
+}
+
+.count-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.count-badge__icon {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 999px;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.count-badge__icon--pass {
+  background: #68d70d;
+}
+
+.count-badge__icon--fail {
+  background: #dd500e;
+}
+
+.count-badge__num {
+  font-size: 12px;
+  line-height: 1;
+  color: var(--text-secondary);
+}
+
+/* Index (一覧)。各コンポーネントを 1 行で並べる (デザイン 106:1019)。 */
+.index-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+}
+
+.index-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  padding: 0;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+  color: inherit;
+}
+
+.index-row:hover:not(:disabled) {
+  background: var(--bg-secondary);
+}
+
+.index-row:disabled {
+  cursor: default;
+  opacity: 0.6;
+}
+
+/* サムネイル枠 (82×82)。実コンポーネントの PNG を contain で中央表示する。 */
+.index-row__thumb {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 82px;
+  height: 82px;
+  padding: 8px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  overflow: hidden;
+}
+
+.thumb__img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  -webkit-user-drag: none;
+  user-select: none;
+  -webkit-user-select: none;
+  pointer-events: none;
+}
+
+.thumb__empty {
+  display: block;
+}
+
+.index-row__details {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 0;
+}
+
+.index-row__name {
+  display: -webkit-box;
+  width: 100%;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.3;
+  color: var(--text);
+  word-break: break-word;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.index-row__na {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.index-row__caret {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-secondary);
+}
+
+/* ===========================================================================
+   変更内容 (diff) 確認モーダル — Apply Variables (デザイン 111:1314)
+   =========================================================================== */
+/* 背景画面 (look/check) の上に被せる全面の薄暗幕。8px の余白でカードを描画可能高さいっぱいに置く。 */
+.apply-modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  padding: 8px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* 白カード本体。ヘッダー / 本文 (スクロール) / フッターの縦 3 分割。常に描画可能高さいっぱい
+   (8px 余白を除いた全高) で、中身の量に関わらず縮まない。あふれたら本文だけスクロールし、
+   フッターは常に最下部に貼り付く。 */
+.apply-modal {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  background: var(--bg);
+  overflow: hidden;
+}
+
+.apply-modal__header {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 8px;
+  height: 46px;
+  padding: 0 12px 0 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.apply-modal__title {
+  flex: 1;
+  min-width: 0;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.apply-modal__close {
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  color: var(--text-secondary);
+}
+
+.apply-modal__close:hover {
+  background: var(--bg-secondary);
+  color: var(--text);
+}
+
+/* 本文: Dimension / Color のグループを縦に積む。中身が高ければここがスクロールする。 */
+.apply-modal__body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 32px;
+  min-height: 0;
+  padding: 18px 16px 24px;
+  overflow-y: auto;
+}
+
+.apply-group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.apply-group__title {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.apply-group__rows {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* 1 項目 (例 Padding Left): 見出し行 (ドット + ラベル) + before→after の行。 */
+.apply-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.apply-item__head {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.apply-item__label {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+/* before(grey) → 矢印 → after(列: チップ + 注記)。after は注記のぶん下に伸びるので上揃え。 */
+.apply-item__row {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.apply-item__after {
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.apply-item__note {
+  margin: 0;
+  font-size: 10px;
+  font-weight: 500;
+  text-align: right;
+  color: #9f7400;
+}
+
+/* 見出しの状態ドット。緑=値そのまま / 黄=値が変わる。 */
+.apply-dot {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 999px;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.apply-dot--ok {
+  background: #68d70d;
+}
+
+.apply-dot--diff {
+  background: #d4a116;
+}
+
+/* before / after のトークンチップ。 */
+.apply-pill {
+  display: flex;
+  align-items: center;
+  height: 28px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.apply-pill--before {
+  flex: 1 1 0;
+  gap: 4px;
+  min-width: 0;
+  padding: 3px 4px 3px 8px;
+  background: var(--bg-secondary);
+}
+
+/* after は透明 select を全面に重ねるので位置の基準にする。 */
+.apply-pill--after {
+  position: relative;
+  padding: 3px 2px 3px 8px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+}
+
+/* after ピル全面に重ねる透明なネイティブ select。クリックでネイティブのリストが開く。
+   見た目はその下の inner / chevron が担い、select 自身は opacity:0 で透かす。 */
+.apply-pill__select {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  font: inherit;
+  cursor: pointer;
+  opacity: 0;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.apply-pill__select:disabled {
+  cursor: default;
+}
+
+/* フォーカスリングは透明な select ではなくピル枠に出す (キーボード操作の可視化)。 */
+.apply-pill--after:focus-within {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}
+
+.apply-pill__inner {
+  display: flex;
+  flex: 1 1 0;
+  align-items: center;
+  gap: 4px;
+  min-width: 0;
+  /* select を上に重ねるので、見た目層はクリックを透過させる。 */
+  pointer-events: none;
+}
+
+.apply-pill__token {
+  flex: 1 1 0;
+  min-width: 0;
+  overflow: hidden;
+  font-size: 12px;
+  color: var(--text);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.apply-pill__swatch {
+  flex: 0 0 auto;
+  width: 12px;
+  height: 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+}
+
+.apply-pill__chevron {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-secondary);
+  pointer-events: none;
+}
+
+/* 実数の値ボックス。before=白地グレー文字 / after=変更時 黄・据置 緑。 */
+.apply-value {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  border-radius: 4px;
+  font-family: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.apply-value--before {
+  background: var(--bg);
+  color: #a2a69e;
+}
+
+.apply-value--diff {
+  border: 1px solid rgba(217, 217, 217, 0.4);
+  background: #fbf6e8;
+  color: #c49107;
+}
+
+.apply-value--ok {
+  border: 1px solid rgba(217, 217, 217, 0.4);
+  background: #f0fbe7;
+  color: #59c104;
+}
+
+/* 色の after は数値の代わりに「?」(変更) / 「✓」(据置) のフラグを出す。 */
+.apply-flag {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 19px;
+  height: 19px;
+  border-radius: 4px;
+  border: 1px solid rgba(217, 217, 217, 0.4);
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.apply-flag--diff {
+  background: #fbf6e8;
+  color: #c49107;
+}
+
+.apply-flag--ok {
+  background: #f0fbe7;
+  color: #59c104;
+}
+
+/* before → after の矢印。28px の箱で縦中央にしてチップと高さを合わせる。 */
+.apply-arrow {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  height: 28px;
+  color: var(--text-secondary);
+}
+
+/* 追尾フッターの全幅ボタン (一括で修正)。 */
+.apply-modal__footer {
+  display: flex;
+  flex: 0 0 auto;
+  padding: 12px 16px;
+  border-top: 1px solid var(--border);
+  background: var(--bg);
+}
+
+.apply-modal__button {
+  flex: 1;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  background: var(--brand);
+  color: var(--on-brand);
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.apply-modal__button:hover {
+  filter: brightness(1.05);
+}
+
+.apply-modal__button:disabled {
+  opacity: 0.5;
+  cursor: default;
+  filter: none;
+}
+
+/* ===========================================================================
+   機能5: 横断チェック (Variant Consistency)
+   =========================================================================== */
+.consistency {
+  display: flex;
+  flex-direction: column;
+}
+
+.consistency__summary {
+  padding: 16px 16px 0;
+}
+
+.consistency__set {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.consistency__meta {
+  margin: 2px 0 0;
+  font-size: 11px;
+  color: var(--text-secondary);
+}
+
+.consistency__ok {
+  margin-top: 28px;
+}
+
+/* サマリーの指摘件数 (⚠ N 件 · 直せる N · 要確認 N)。 */
+.consistency__counts {
+  margin: 6px 0 0;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.consistency__findings {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px 8px 16px;
+}
+
+/* 指摘 1 件 = カード 1 枚 (プロパティ × 固定軸グループ)。 */
+.finding {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid #ececec;
+  border-radius: 8px;
+  background: var(--bg);
+}
+
+.finding__head {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+}
+
+.finding__heading {
+  flex: 1 0 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.finding__title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+/* 固定して見る軸 (gov) の値。プロパティ名の続きに薄く添える。 */
+.finding__context {
+  margin-left: 6px;
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--text-secondary);
+}
+
+/* 「[揃え先] に揃える」行。 */
+.finding__target {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.finding__target-label {
+  font-size: 12px;
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+
+/* カード単位の「修正」ボタン (青枠アウトライン)。 */
+.finding__fix {
+  flex: 0 0 auto;
+  height: 24px;
+  padding: 0 12px;
+  border: 1px solid var(--brand);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--brand);
+  font-size: 11px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.finding__fix:hover:not(:disabled) {
+  background: var(--brand);
+  color: var(--on-brand);
+}
+
+.finding__fix:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+/* 比較軸 (free) の各値を 1 行ずつ。 */
+.finding__rows {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.finding__row {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  min-height: 28px;
+}
+
+.finding__rowlabel {
+  flex: 1 0 0;
+  min-width: 0;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* 外れている行: ラベルをオレンジ強調。 */
+.finding__row--diff .finding__rowlabel {
+  color: #dd500e;
+  font-weight: 600;
+}
+
+/* --- TokenSelect ピル (現在トークン / 揃え先の表示・選択) --- */
+.tokensel {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+/* 行のピル: 固定幅で右端を揃える。 */
+.tokensel--row {
+  flex: 0 0 auto;
+  width: 143px;
+  height: 28px;
+  gap: 4px;
+  padding: 3px 4px 3px 6px;
+}
+
+/* 「に揃える」先の小型タグ。 */
+.tokensel--tag {
+  gap: 2px;
+  height: 17px;
+  padding: 2px 4px;
+  border: 1px solid #f1f1f1;
+  background: var(--bg);
+}
+
+/* 揃っている行: 淡いグレーで沈める。 */
+.tokensel--row.tokensel--match {
+  background: var(--bg-secondary);
+}
+
+/* 外れている行: 白地 + 枠でアクティブに見せ、選び直し可能を示す。 */
+.tokensel--row.tokensel--diff {
+  background: var(--bg);
+  border: 1px solid #e6e6e6;
+  cursor: pointer;
+}
+
+.tokensel__swatch {
+  flex: 0 0 auto;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #e2e2e2;
+  border-radius: 999px;
+  background: var(--bg);
+}
+
+.tokensel__name {
+  flex: 1 0 0;
+  min-width: 0;
+  font-size: 11px;
+  color: var(--text);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* 値バッジ (寸法値) / 「?」バッジ (要確認)。 */
+.tokensel__badge {
+  flex: 0 0 auto;
+  padding: 1px 5px;
+  border-radius: 4px;
+  background: var(--bg-secondary);
+  color: var(--text-secondary);
+  font-size: 11px;
+  line-height: 1.3;
+}
+
+.tokensel__badge--diff {
+  border: 1px solid rgba(217, 217, 217, 0.4);
+  background: rgba(212, 161, 22, 0.1);
+  color: #8a6d0f;
+}
+
+.tokensel__chevron {
+  flex: 0 0 auto;
+  color: var(--text-secondary);
+}
+
+/* 見た目の上に重ねる透明なネイティブ select (キーボード操作・OS 候補リストに委ねる)。 */
+.tokensel__native {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  opacity: 0;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+}

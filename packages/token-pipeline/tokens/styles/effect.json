@@ -1,0 +1,398 @@
+{
+  "$extensions": {
+    "figmaSync": {
+      "styleType": "effect"
+    }
+  },
+  "Elevation": {
+    "Level 1": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 2,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:157:9771"
+            }
+          },
+          "color": {
+            "r": 0.12156862765550613,
+            "g": 0.12156862765550613,
+            "b": 0.12156862765550613,
+            "a": 0.20000000298023224
+          },
+          "offset": {
+            "x": 0,
+            "y": 1
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 1,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:157:9771"
+            }
+          },
+          "color": {
+            "r": 0.12156862765550613,
+            "g": 0.12156862765550613,
+            "b": 0.12156862765550613,
+            "a": 0.20000000298023224
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ],
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "styleId": "S:eaeb8ab6015ce3d88fd631e2560fa8ebb5a8fa53,",
+          "styleType": "effect",
+          "boundVariables": {
+            "effects": [
+              "VariableID:157:9771"
+            ]
+          },
+          "updatedHash": "2609561bb2b6c13a9bc4c1722b116ed97f46a196dcdccaaf1f8418f896c85d82",
+          "syncedHash": "2609561bb2b6c13a9bc4c1722b116ed97f46a196dcdccaaf1f8418f896c85d82",
+          "managed": false
+        }
+      }
+    },
+    "Level 2": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 6,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:157:9771"
+            }
+          },
+          "color": {
+            "r": 0.12156862765550613,
+            "g": 0.12156862765550613,
+            "b": 0.12156862765550613,
+            "a": 0.20000000298023224
+          },
+          "offset": {
+            "x": 0,
+            "y": 2
+          },
+          "spread": -1,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 1,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:157:9771"
+            }
+          },
+          "color": {
+            "r": 0.12156862765550613,
+            "g": 0.12156862765550613,
+            "b": 0.12156862765550613,
+            "a": 0.20000000298023224
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ],
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "styleId": "S:74b8d5c9ce910dc9bc84c98c4cb9b6fb73d43935,",
+          "styleType": "effect",
+          "boundVariables": {
+            "effects": [
+              "VariableID:157:9771"
+            ]
+          },
+          "updatedHash": "48c25fafac8a3399413ae73afc706201eae13949e38a8d51b4a03df03b9a8116",
+          "syncedHash": "48c25fafac8a3399413ae73afc706201eae13949e38a8d51b4a03df03b9a8116",
+          "managed": false
+        }
+      }
+    },
+    "Level 3": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 10,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:157:9771"
+            }
+          },
+          "color": {
+            "r": 0.12156862765550613,
+            "g": 0.12156862765550613,
+            "b": 0.12156862765550613,
+            "a": 0.20000000298023224
+          },
+          "offset": {
+            "x": 0,
+            "y": 4
+          },
+          "spread": -2,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 1,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:157:9771"
+            }
+          },
+          "color": {
+            "r": 0.12156862765550613,
+            "g": 0.12156862765550613,
+            "b": 0.12156862765550613,
+            "a": 0.20000000298023224
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ],
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "styleId": "S:e72a8b07c41314a24957112ab3a63f3feb7bb734,",
+          "styleType": "effect",
+          "boundVariables": {
+            "effects": [
+              "VariableID:157:9771"
+            ]
+          },
+          "updatedHash": "c0a7f267cba94ce7818a1b56540c3bc5f6692b331b3b7bf249c3bdee07f52e9a",
+          "syncedHash": "c0a7f267cba94ce7818a1b56540c3bc5f6692b331b3b7bf249c3bdee07f52e9a",
+          "managed": false
+        }
+      }
+    },
+    "Level 4": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 16,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:157:9771"
+            }
+          },
+          "color": {
+            "r": 0.12156862765550613,
+            "g": 0.12156862765550613,
+            "b": 0.12156862765550613,
+            "a": 0.20000000298023224
+          },
+          "offset": {
+            "x": 0,
+            "y": 6
+          },
+          "spread": -2,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 1,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:157:9771"
+            }
+          },
+          "color": {
+            "r": 0.12156862765550613,
+            "g": 0.12156862765550613,
+            "b": 0.12156862765550613,
+            "a": 0.20000000298023224
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ],
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "styleId": "S:71af77037f1dff7fa692bd85732c7163b23b88ca,",
+          "styleType": "effect",
+          "boundVariables": {
+            "effects": [
+              "VariableID:157:9771"
+            ]
+          },
+          "updatedHash": "4e4ef52205d188cae9162a87734e16b528a38de02e427a05bde436c80746de26",
+          "syncedHash": "4e4ef52205d188cae9162a87734e16b528a38de02e427a05bde436c80746de26",
+          "managed": false
+        }
+      }
+    },
+    "Level 5": {
+      "$type": "shadow",
+      "$value": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 24,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:157:9771"
+            }
+          },
+          "color": {
+            "r": 0.12156862765550613,
+            "g": 0.12156862765550613,
+            "b": 0.12156862765550613,
+            "a": 0.20000000298023224
+          },
+          "offset": {
+            "x": 0,
+            "y": 8
+          },
+          "spread": 2,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        },
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 1,
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:157:9771"
+            }
+          },
+          "color": {
+            "r": 0.12156862765550613,
+            "g": 0.12156862765550613,
+            "b": 0.12156862765550613,
+            "a": 0.20000000298023224
+          },
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ],
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "styleId": "S:e1a16f861f806e670a0661c43e70a3f3d85913bd,",
+          "styleType": "effect",
+          "boundVariables": {
+            "effects": [
+              "VariableID:157:9771"
+            ]
+          },
+          "updatedHash": "5fd988ce386187ef6044dcc87072b7af7aebf045b279c54b61700e63ff7988e1",
+          "syncedHash": "5fd988ce386187ef6044dcc87072b7af7aebf045b279c54b61700e63ff7988e1",
+          "managed": false
+        }
+      }
+    }
+  },
+  "Focused Outline": {
+    "$type": "shadow",
+    "$value": [
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 0,
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:714:3263"
+          },
+          "spread": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:10618:9666"
+          }
+        },
+        "color": {
+          "r": 0.9215686321258545,
+          "g": 0.03921568766236305,
+          "b": 0.11764705926179886,
+          "a": 1
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "spread": 2,
+        "blendMode": "NORMAL",
+        "showShadowBehindNode": false
+      }
+    ],
+    "$description": "",
+    "$extensions": {
+      "figmaSync": {
+        "styleId": "S:990eba676068cddb58938ad623bea39f06815119,",
+        "styleType": "effect",
+        "boundVariables": {
+          "effects": [
+            "VariableID:714:3263",
+            "VariableID:10618:9666"
+          ]
+        },
+        "updatedHash": "2a1c0a978cbb9482561b611f23beebfa0c1e5da8d7ea01e69c4389b73127d886",
+        "syncedHash": "2a1c0a978cbb9482561b611f23beebfa0c1e5da8d7ea01e69c4389b73127d886",
+        "managed": false
+      }
+    }
+  }
+}

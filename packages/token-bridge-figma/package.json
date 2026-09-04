@@ -1,0 +1,22 @@
+{
+  "name": "@orca/token-bridge-figma",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "tsc -p tsconfig.test.json && node --test .tmp-tests/tests/*.test.js",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "build": "npm run typecheck && node scripts/build.mjs"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.123.0",
+    "@preact/preset-vite": "^2.10.3",
+    "@types/node": "^25.4.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
+  },
+  "dependencies": {
+    "@preact/signals": "^2.8.2",
+    "preact": "^10.29.0"
+  }
+}

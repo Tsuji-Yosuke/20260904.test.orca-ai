@@ -1,0 +1,843 @@
+{
+  "$extensions": {
+    "figmaSync": {
+      "collectionId": "VariableCollectionId:10697:1194",
+      "parentCollectionId": "VariableCollectionId:72:9871",
+      "name": "Productive",
+      "defaultModeId": "VariableCollectionId:10697:1194/10697:6",
+      "modes": [
+        {
+          "modeId": "VariableCollectionId:10697:1194/10697:6",
+          "name": "JP"
+        },
+        {
+          "modeId": "VariableCollectionId:10697:1194/10697:7",
+          "name": "EN"
+        }
+      ],
+      "updatedHash": "c890ba18dc960382e665878a52d5f9e4d76ba3f8ffbf5f5d201e2118276a9760",
+      "syncedHash": "c890ba18dc960382e665878a52d5f9e4d76ba3f8ffbf5f5d201e2118276a9760",
+      "managed": true
+    }
+  },
+  "Body": {
+    "BodyLarge": {
+      "FontSize": {
+        "$type": "number",
+        "$value": "{FontSize.md}",
+        "$description": "",
+        "$extensions": {
+          "mode": {
+            "JP": "{FontSize.md}",
+            "EN": "{FontSize.md}"
+          },
+          "figmaSync": {
+            "variableId": "VariableID:77:10558",
+            "collectionId": "VariableCollectionId:10697:1194",
+            "modeValues": {
+              "VariableCollectionId:10697:1194/10697:6": {
+                "alias": "VariableID:72:8604"
+              },
+              "VariableCollectionId:10697:1194/10697:7": {
+                "alias": "VariableID:72:8604"
+              }
+            },
+            "updatedHash": "df7a0d81730308d93209361fdd9c24c5bffbccffa36913e79dce3bebb24715b1",
+            "syncedHash": "df7a0d81730308d93209361fdd9c24c5bffbccffa36913e79dce3bebb24715b1",
+            "managed": false
+          }
+        }
+      }
+    },
+    "BodyMedium": {
+      "FontSize": {
+        "$type": "number",
+        "$value": "{FontSize.sm}",
+        "$description": "",
+        "$extensions": {
+          "mode": {
+            "JP": "{FontSize.sm}",
+            "EN": "{FontSize.sm}"
+          },
+          "figmaSync": {
+            "variableId": "VariableID:149:8456",
+            "collectionId": "VariableCollectionId:10697:1194",
+            "modeValues": {
+              "VariableCollectionId:10697:1194/10697:6": {
+                "alias": "VariableID:72:8621"
+              },
+              "VariableCollectionId:10697:1194/10697:7": {
+                "alias": "VariableID:72:8621"
+              }
+            },
+            "updatedHash": "b5b65ae8c855c054a368f861107a2c9a4c6daaad01f524dbb57533b56ac4ab3a",
+            "syncedHash": "b5b65ae8c855c054a368f861107a2c9a4c6daaad01f524dbb57533b56ac4ab3a",
+            "managed": false
+          }
+        }
+      }
+    },
+    "BodySmall": {
+      "FontSize": {
+        "$type": "number",
+        "$value": "{FontSize.xs}",
+        "$description": "",
+        "$extensions": {
+          "mode": {
+            "JP": "{FontSize.xs}",
+            "EN": "{FontSize.xs}"
+          },
+          "figmaSync": {
+            "variableId": "VariableID:77:10726",
+            "collectionId": "VariableCollectionId:10697:1194",
+            "modeValues": {
+              "VariableCollectionId:10697:1194/10697:6": {
+                "alias": "VariableID:149:8147"
+              },
+              "VariableCollectionId:10697:1194/10697:7": {
+                "alias": "VariableID:149:8147"
+              }
+            },
+            "updatedHash": "4c9568e8d623907b866921f710090c41534bc3379d1192f69fab3fde1ca1ab39",
+            "syncedHash": "4c9568e8d623907b866921f710090c41534bc3379d1192f69fab3fde1ca1ab39",
+            "managed": false
+          }
+        }
+      }
+    },
+    "FontFamily": {
+      "$type": "string",
+      "$value": "{FontFamily.JP}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "JP": "{FontFamily.JP}",
+          "EN": "{FontFamily.EN}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:77:10725",
+          "collectionId": "VariableCollectionId:10697:1194",
+          "modeValues": {
+            "VariableCollectionId:10697:1194/10697:6": {
+              "alias": "VariableID:72:9825"
+            },
+            "VariableCollectionId:10697:1194/10697:7": {
+              "alias": "VariableID:72:9824"
+            }
+          },
+          "updatedHash": "3e445ba860acd6340bafaad99add40382342e5517604acd243b0d514a2aad527",
+          "syncedHash": "3e445ba860acd6340bafaad99add40382342e5517604acd243b0d514a2aad527",
+          "managed": false
+        }
+      }
+    },
+    "FontWeight": {
+      "$type": "string",
+      "$value": "{FontWeight.Regular}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "JP": "{FontWeight.Regular}",
+          "EN": "{FontWeight.Regular}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:77:10727",
+          "collectionId": "VariableCollectionId:10697:1194",
+          "modeValues": {
+            "VariableCollectionId:10697:1194/10697:6": {
+              "alias": "VariableID:77:9512"
+            },
+            "VariableCollectionId:10697:1194/10697:7": {
+              "alias": "VariableID:77:9512"
+            }
+          },
+          "updatedHash": "7d36bbafe6a1211cc272442f87a5ac7ff45387a98afb5e29fc1f92d6fae5bf97",
+          "syncedHash": "7d36bbafe6a1211cc272442f87a5ac7ff45387a98afb5e29fc1f92d6fae5bf97",
+          "managed": false
+        }
+      }
+    },
+    "LetterSpacing": {
+      "$type": "number",
+      "$value": "{LetterSpacing.0}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "JP": "{LetterSpacing.0}",
+          "EN": "{LetterSpacing.0}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:77:10729",
+          "collectionId": "VariableCollectionId:10697:1194",
+          "modeValues": {
+            "VariableCollectionId:10697:1194/10697:6": {
+              "alias": "VariableID:72:8603"
+            },
+            "VariableCollectionId:10697:1194/10697:7": {
+              "alias": "VariableID:72:8603"
+            }
+          },
+          "updatedHash": "177aa94130490379e3b62230f0146d0f9cfb78103cd9b59928869bc7d0e3ea70",
+          "syncedHash": "177aa94130490379e3b62230f0146d0f9cfb78103cd9b59928869bc7d0e3ea70",
+          "managed": false
+        }
+      }
+    }
+  },
+  "Display": {
+    "DisplayLarge": {
+      "FontSize": {
+        "$type": "number",
+        "$value": "{FontSize.6xl}",
+        "$description": "",
+        "$extensions": {
+          "mode": {
+            "JP": "{FontSize.6xl}",
+            "EN": "{FontSize.6xl}"
+          },
+          "figmaSync": {
+            "variableId": "VariableID:72:9891",
+            "collectionId": "VariableCollectionId:10697:1194",
+            "modeValues": {
+              "VariableCollectionId:10697:1194/10697:6": {
+                "alias": "VariableID:72:8598"
+              },
+              "VariableCollectionId:10697:1194/10697:7": {
+                "alias": "VariableID:72:8598"
+              }
+            },
+            "updatedHash": "4d43ae47b25868d17b94595f41cb2b8f731f593d12c4de58099ea38ffc7c798c",
+            "syncedHash": "4d43ae47b25868d17b94595f41cb2b8f731f593d12c4de58099ea38ffc7c798c",
+            "managed": false
+          }
+        }
+      }
+    },
+    "DisplayMedium": {
+      "FontSize": {
+        "$type": "number",
+        "$value": "{FontSize.5xl}",
+        "$description": "",
+        "$extensions": {
+          "mode": {
+            "JP": "{FontSize.5xl}",
+            "EN": "{FontSize.5xl}"
+          },
+          "figmaSync": {
+            "variableId": "VariableID:156:9222",
+            "collectionId": "VariableCollectionId:10697:1194",
+            "modeValues": {
+              "VariableCollectionId:10697:1194/10697:6": {
+                "alias": "VariableID:149:8219"
+              },
+              "VariableCollectionId:10697:1194/10697:7": {
+                "alias": "VariableID:149:8219"
+              }
+            },
+            "updatedHash": "5a3bdfcc5dc11bfd0e11d4991559e1397ecf619821981f8c16f2937e2cec4d64",
+            "syncedHash": "5a3bdfcc5dc11bfd0e11d4991559e1397ecf619821981f8c16f2937e2cec4d64",
+            "managed": false
+          }
+        }
+      }
+    },
+    "DisplaySmall": {
+      "FontSize": {
+        "$type": "number",
+        "$value": "{FontSize.4xl}",
+        "$description": "",
+        "$extensions": {
+          "mode": {
+            "JP": "{FontSize.4xl}",
+            "EN": "{FontSize.4xl}"
+          },
+          "figmaSync": {
+            "variableId": "VariableID:151:8171",
+            "collectionId": "VariableCollectionId:10697:1194",
+            "modeValues": {
+              "VariableCollectionId:10697:1194/10697:6": {
+                "alias": "VariableID:72:8605"
+              },
+              "VariableCollectionId:10697:1194/10697:7": {
+                "alias": "VariableID:72:8605"
+              }
+            },
+            "updatedHash": "d5562fc06a477a977f7681659a0bd439b0a3b3c3f9005f5dd03933ab77e101b5",
+            "syncedHash": "d5562fc06a477a977f7681659a0bd439b0a3b3c3f9005f5dd03933ab77e101b5",
+            "managed": false
+          }
+        }
+      }
+    },
+    "FontFamily": {
+      "$type": "string",
+      "$value": "{FontFamily.JP}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "JP": "{FontFamily.JP}",
+          "EN": "{FontFamily.EN}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:151:8170",
+          "collectionId": "VariableCollectionId:10697:1194",
+          "modeValues": {
+            "VariableCollectionId:10697:1194/10697:6": {
+              "alias": "VariableID:72:9825"
+            },
+            "VariableCollectionId:10697:1194/10697:7": {
+              "alias": "VariableID:72:9824"
+            }
+          },
+          "updatedHash": "466907e8e3c1846a5cb0317722a6a69064794620d2b2f30761e978e8068188a7",
+          "syncedHash": "466907e8e3c1846a5cb0317722a6a69064794620d2b2f30761e978e8068188a7",
+          "managed": false
+        }
+      }
+    },
+    "FontWeight": {
+      "$type": "string",
+      "$value": "{FontWeight.Regular}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "JP": "{FontWeight.Regular}",
+          "EN": "{FontWeight.Regular}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:151:8172",
+          "collectionId": "VariableCollectionId:10697:1194",
+          "modeValues": {
+            "VariableCollectionId:10697:1194/10697:6": {
+              "alias": "VariableID:77:9512"
+            },
+            "VariableCollectionId:10697:1194/10697:7": {
+              "alias": "VariableID:77:9512"
+            }
+          },
+          "updatedHash": "8ae985de6956ac52ae3c9772fac64b5f15feebb6b93d8730bf55c5860c8a7b11",
+          "syncedHash": "8ae985de6956ac52ae3c9772fac64b5f15feebb6b93d8730bf55c5860c8a7b11",
+          "managed": false
+        }
+      }
+    },
+    "LetterSpacing": {
+      "$type": "number",
+      "$value": "{LetterSpacing.0}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "JP": "{LetterSpacing.0}",
+          "EN": "{LetterSpacing.0}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:151:8174",
+          "collectionId": "VariableCollectionId:10697:1194",
+          "modeValues": {
+            "VariableCollectionId:10697:1194/10697:6": {
+              "alias": "VariableID:72:8603"
+            },
+            "VariableCollectionId:10697:1194/10697:7": {
+              "alias": "VariableID:72:8603"
+            }
+          },
+          "updatedHash": "49da25ba1323776e2fd623d85fd487df24b4a13ac2f63f53e6d3ee4b0f19a30e",
+          "syncedHash": "49da25ba1323776e2fd623d85fd487df24b4a13ac2f63f53e6d3ee4b0f19a30e",
+          "managed": false
+        }
+      }
+    }
+  },
+  "Headline": {
+    "FontFamily": {
+      "$type": "string",
+      "$value": "{FontFamily.JP}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "JP": "{FontFamily.JP}",
+          "EN": "{FontFamily.EN}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:185:8321",
+          "collectionId": "VariableCollectionId:10697:1194",
+          "modeValues": {
+            "VariableCollectionId:10697:1194/10697:6": {
+              "alias": "VariableID:72:9825"
+            },
+            "VariableCollectionId:10697:1194/10697:7": {
+              "alias": "VariableID:72:9824"
+            }
+          },
+          "updatedHash": "5e38c6fe36f57302177dd39146787b6a4a4866e4ebed326f84bcc20002ddf9e9",
+          "syncedHash": "5e38c6fe36f57302177dd39146787b6a4a4866e4ebed326f84bcc20002ddf9e9",
+          "managed": false
+        }
+      }
+    },
+    "FontWeight": {
+      "$type": "string",
+      "$value": "{FontWeight.Regular}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "JP": "{FontWeight.Regular}",
+          "EN": "{FontWeight.Regular}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:185:8323",
+          "collectionId": "VariableCollectionId:10697:1194",
+          "modeValues": {
+            "VariableCollectionId:10697:1194/10697:6": {
+              "alias": "VariableID:77:9512"
+            },
+            "VariableCollectionId:10697:1194/10697:7": {
+              "alias": "VariableID:77:9512"
+            }
+          },
+          "updatedHash": "8eb1fcebbcb6c2c6bd6cd21fb22329df8091aa9f32d998239660db61ccc05631",
+          "syncedHash": "8eb1fcebbcb6c2c6bd6cd21fb22329df8091aa9f32d998239660db61ccc05631",
+          "managed": false
+        }
+      }
+    },
+    "HeadlineLarge": {
+      "FontSize": {
+        "$type": "number",
+        "$value": "{FontSize.3xl}",
+        "$description": "",
+        "$extensions": {
+          "mode": {
+            "JP": "{FontSize.3xl}",
+            "EN": "{FontSize.3xl}"
+          },
+          "figmaSync": {
+            "variableId": "VariableID:77:10538",
+            "collectionId": "VariableCollectionId:10697:1194",
+            "modeValues": {
+              "VariableCollectionId:10697:1194/10697:6": {
+                "alias": "VariableID:149:8215"
+              },
+              "VariableCollectionId:10697:1194/10697:7": {
+                "alias": "VariableID:149:8215"
+              }
+            },
+            "updatedHash": "467d6a59fe81831ce4b00bf7d909499065a691937776f9083e93e169cf801a39",
+            "syncedHash": "467d6a59fe81831ce4b00bf7d909499065a691937776f9083e93e169cf801a39",
+            "managed": false
+          }
+        }
+      }
+    },
+    "HeadlineMedium": {
+      "FontSize": {
+        "$type": "number",
+        "$value": "{FontSize.2xl}",
+        "$description": "",
+        "$extensions": {
+          "mode": {
+            "JP": "{FontSize.2xl}",
+            "EN": "{FontSize.2xl}"
+          },
+          "figmaSync": {
+            "variableId": "VariableID:185:8317",
+            "collectionId": "VariableCollectionId:10697:1194",
+            "modeValues": {
+              "VariableCollectionId:10697:1194/10697:6": {
+                "alias": "VariableID:72:8616"
+              },
+              "VariableCollectionId:10697:1194/10697:7": {
+                "alias": "VariableID:72:8616"
+              }
+            },
+            "updatedHash": "5cd36606bc4a70670e5990e562e06be3fad23e5884cad9d58a64b07653da7947",
+            "syncedHash": "5cd36606bc4a70670e5990e562e06be3fad23e5884cad9d58a64b07653da7947",
+            "managed": false
+          }
+        }
+      }
+    },
+    "HeadlineSmall": {
+      "FontSize": {
+        "$type": "number",
+        "$value": "{FontSize.xl}",
+        "$description": "",
+        "$extensions": {
+          "mode": {
+            "JP": "{FontSize.xl}",
+            "EN": "{FontSize.xl}"
+          },
+          "figmaSync": {
+            "variableId": "VariableID:185:8322",
+            "collectionId": "VariableCollectionId:10697:1194",
+            "modeValues": {
+              "VariableCollectionId:10697:1194/10697:6": {
+                "alias": "VariableID:149:8211"
+              },
+              "VariableCollectionId:10697:1194/10697:7": {
+                "alias": "VariableID:149:8211"
+              }
+            },
+            "updatedHash": "c04fc95fef4e6ec628d7d66d9d2963600f0827d4f0198e52386ab9c069d85b3c",
+            "syncedHash": "c04fc95fef4e6ec628d7d66d9d2963600f0827d4f0198e52386ab9c069d85b3c",
+            "managed": false
+          }
+        }
+      }
+    },
+    "LetterSpacing": {
+      "$type": "number",
+      "$value": "{LetterSpacing.0}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "JP": "{LetterSpacing.0}",
+          "EN": "{LetterSpacing.0}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:185:8325",
+          "collectionId": "VariableCollectionId:10697:1194",
+          "modeValues": {
+            "VariableCollectionId:10697:1194/10697:6": {
+              "alias": "VariableID:72:8603"
+            },
+            "VariableCollectionId:10697:1194/10697:7": {
+              "alias": "VariableID:72:8603"
+            }
+          },
+          "updatedHash": "8178437f3133a193a418c40b6c495bba0cc13a46d39a6bc996b879c2a4db7de8",
+          "syncedHash": "8178437f3133a193a418c40b6c495bba0cc13a46d39a6bc996b879c2a4db7de8",
+          "managed": false
+        }
+      }
+    }
+  },
+  "Label": {
+    "font-family": {
+      "$type": "string",
+      "$value": "{FontFamily.JP}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "JP": "{FontFamily.JP}",
+          "EN": "{FontFamily.EN}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:77:10740",
+          "collectionId": "VariableCollectionId:10697:1194",
+          "modeValues": {
+            "VariableCollectionId:10697:1194/10697:6": {
+              "alias": "VariableID:72:9825"
+            },
+            "VariableCollectionId:10697:1194/10697:7": {
+              "alias": "VariableID:72:9824"
+            }
+          },
+          "updatedHash": "fce24dcccaa827bdb7f46941f7b89e0a4c1818d23018add9d9ef9d22a284a801",
+          "syncedHash": "fce24dcccaa827bdb7f46941f7b89e0a4c1818d23018add9d9ef9d22a284a801",
+          "managed": false
+        }
+      }
+    },
+    "FontWeight": {
+      "$type": "string",
+      "$value": "{FontWeight.Regular}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "JP": "{FontWeight.Regular}",
+          "EN": "{FontWeight.Regular}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:77:10742",
+          "collectionId": "VariableCollectionId:10697:1194",
+          "modeValues": {
+            "VariableCollectionId:10697:1194/10697:6": {
+              "alias": "VariableID:77:9512"
+            },
+            "VariableCollectionId:10697:1194/10697:7": {
+              "alias": "VariableID:77:9512"
+            }
+          },
+          "updatedHash": "464353ee24b25ffe17d029d4232372fdd8239872ba5fd08d8556cbba26f68844",
+          "syncedHash": "464353ee24b25ffe17d029d4232372fdd8239872ba5fd08d8556cbba26f68844",
+          "managed": false
+        }
+      }
+    },
+    "LabelLarge": {
+      "FontSize": {
+        "$type": "number",
+        "$value": "{FontSize.sm}",
+        "$description": "",
+        "$extensions": {
+          "mode": {
+            "JP": "{FontSize.sm}",
+            "EN": "{FontSize.sm}"
+          },
+          "figmaSync": {
+            "variableId": "VariableID:77:10731",
+            "collectionId": "VariableCollectionId:10697:1194",
+            "modeValues": {
+              "VariableCollectionId:10697:1194/10697:6": {
+                "alias": "VariableID:72:8621"
+              },
+              "VariableCollectionId:10697:1194/10697:7": {
+                "alias": "VariableID:72:8621"
+              }
+            },
+            "updatedHash": "c5e117f97e55ace69858e86216831949ff0844e52e5dd2a469227aef3e1242ea",
+            "syncedHash": "c5e117f97e55ace69858e86216831949ff0844e52e5dd2a469227aef3e1242ea",
+            "managed": false
+          }
+        }
+      }
+    },
+    "LabelMedium": {
+      "FontSize": {
+        "$type": "number",
+        "$value": "{FontSize.xs}",
+        "$description": "",
+        "$extensions": {
+          "mode": {
+            "JP": "{FontSize.xs}",
+            "EN": "{FontSize.xs}"
+          },
+          "figmaSync": {
+            "variableId": "VariableID:77:10736",
+            "collectionId": "VariableCollectionId:10697:1194",
+            "modeValues": {
+              "VariableCollectionId:10697:1194/10697:6": {
+                "alias": "VariableID:149:8147"
+              },
+              "VariableCollectionId:10697:1194/10697:7": {
+                "alias": "VariableID:149:8147"
+              }
+            },
+            "updatedHash": "ad769b5dff4df8aafccfa36011a7687c499ee7029995045e434058c403a84b4b",
+            "syncedHash": "ad769b5dff4df8aafccfa36011a7687c499ee7029995045e434058c403a84b4b",
+            "managed": false
+          }
+        }
+      }
+    },
+    "LabelSmall": {
+      "FontSize": {
+        "$type": "number",
+        "$value": "{FontSize.xs}",
+        "$description": "",
+        "$extensions": {
+          "mode": {
+            "JP": "{FontSize.xs}",
+            "EN": "{FontSize.xs}"
+          },
+          "figmaSync": {
+            "variableId": "VariableID:77:10741",
+            "collectionId": "VariableCollectionId:10697:1194",
+            "modeValues": {
+              "VariableCollectionId:10697:1194/10697:6": {
+                "alias": "VariableID:149:8147"
+              },
+              "VariableCollectionId:10697:1194/10697:7": {
+                "alias": "VariableID:149:8147"
+              }
+            },
+            "updatedHash": "27f40bf5e3acbe251ebea15d8187fb71625516e4ee890158f3deff1801160f47",
+            "syncedHash": "27f40bf5e3acbe251ebea15d8187fb71625516e4ee890158f3deff1801160f47",
+            "managed": false
+          }
+        }
+      }
+    },
+    "LetterSpacing": {
+      "$type": "number",
+      "$value": "{LetterSpacing.0}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "JP": "{LetterSpacing.0}",
+          "EN": "{LetterSpacing.0}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:77:10744",
+          "collectionId": "VariableCollectionId:10697:1194",
+          "modeValues": {
+            "VariableCollectionId:10697:1194/10697:6": {
+              "alias": "VariableID:72:8603"
+            },
+            "VariableCollectionId:10697:1194/10697:7": {
+              "alias": "VariableID:72:8603"
+            }
+          },
+          "updatedHash": "74890c3d01f88e1f30b3fee075f1a11f7b5d15fc3a62eee9f4a2e9dceb244f95",
+          "syncedHash": "74890c3d01f88e1f30b3fee075f1a11f7b5d15fc3a62eee9f4a2e9dceb244f95",
+          "managed": false
+        }
+      }
+    }
+  },
+  "Title": {
+    "FontFamily": {
+      "$type": "string",
+      "$value": "{FontFamily.JP}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "JP": "{FontFamily.JP}",
+          "EN": "{FontFamily.EN}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:77:10552",
+          "collectionId": "VariableCollectionId:10697:1194",
+          "modeValues": {
+            "VariableCollectionId:10697:1194/10697:6": {
+              "alias": "VariableID:72:9825"
+            },
+            "VariableCollectionId:10697:1194/10697:7": {
+              "alias": "VariableID:72:9824"
+            }
+          },
+          "updatedHash": "2a94e8ac8c2d66ade999325f778eaecdb7d2e96d10cdd065f3686acb690ddcf6",
+          "syncedHash": "2a94e8ac8c2d66ade999325f778eaecdb7d2e96d10cdd065f3686acb690ddcf6",
+          "managed": false
+        }
+      }
+    },
+    "FontWeight": {
+      "$type": "string",
+      "$value": "{FontWeight.Regular}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "JP": "{FontWeight.Regular}",
+          "EN": "{FontWeight.Regular}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:77:10554",
+          "collectionId": "VariableCollectionId:10697:1194",
+          "modeValues": {
+            "VariableCollectionId:10697:1194/10697:6": {
+              "alias": "VariableID:77:9512"
+            },
+            "VariableCollectionId:10697:1194/10697:7": {
+              "alias": "VariableID:77:9512"
+            }
+          },
+          "updatedHash": "20e0e74c55cabdf78e56cb55d6c0f95d46a038dabfac4836986508d5b8ce10cf",
+          "syncedHash": "20e0e74c55cabdf78e56cb55d6c0f95d46a038dabfac4836986508d5b8ce10cf",
+          "managed": false
+        }
+      }
+    },
+    "LetterSpacing": {
+      "$type": "number",
+      "$value": "{LetterSpacing.0}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "JP": "{LetterSpacing.0}",
+          "EN": "{LetterSpacing.0}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:77:10556",
+          "collectionId": "VariableCollectionId:10697:1194",
+          "modeValues": {
+            "VariableCollectionId:10697:1194/10697:6": {
+              "alias": "VariableID:72:8603"
+            },
+            "VariableCollectionId:10697:1194/10697:7": {
+              "alias": "VariableID:72:8603"
+            }
+          },
+          "updatedHash": "0ad7cabce9e7c93fbc057682fe8c7e91c91c8b2e50fd9c6c0dbff8d503103dab",
+          "syncedHash": "0ad7cabce9e7c93fbc057682fe8c7e91c91c8b2e50fd9c6c0dbff8d503103dab",
+          "managed": false
+        }
+      }
+    },
+    "TitleLarge": {
+      "FontSize": {
+        "$type": "number",
+        "$value": "{FontSize.lg}",
+        "$description": "",
+        "$extensions": {
+          "mode": {
+            "JP": "{FontSize.lg}",
+            "EN": "{FontSize.lg}"
+          },
+          "figmaSync": {
+            "variableId": "VariableID:77:10548",
+            "collectionId": "VariableCollectionId:10697:1194",
+            "modeValues": {
+              "VariableCollectionId:10697:1194/10697:6": {
+                "alias": "VariableID:72:8600"
+              },
+              "VariableCollectionId:10697:1194/10697:7": {
+                "alias": "VariableID:72:8600"
+              }
+            },
+            "updatedHash": "d87cb7f62a1585f751dc3ab0a274fa3cbd260dbf1b67a079c8164b2c9229ba01",
+            "syncedHash": "d87cb7f62a1585f751dc3ab0a274fa3cbd260dbf1b67a079c8164b2c9229ba01",
+            "managed": false
+          }
+        }
+      }
+    },
+    "TitleMedium": {
+      "FontSize": {
+        "$type": "number",
+        "$value": "{FontSize.md}",
+        "$description": "",
+        "$extensions": {
+          "mode": {
+            "JP": "{FontSize.md}",
+            "EN": "{FontSize.md}"
+          },
+          "figmaSync": {
+            "variableId": "VariableID:149:8451",
+            "collectionId": "VariableCollectionId:10697:1194",
+            "modeValues": {
+              "VariableCollectionId:10697:1194/10697:6": {
+                "alias": "VariableID:72:8604"
+              },
+              "VariableCollectionId:10697:1194/10697:7": {
+                "alias": "VariableID:72:8604"
+              }
+            },
+            "updatedHash": "4fa235558955c6ac556ceaae667b4a4228a251e54d96f7210ef8b220d41bae33",
+            "syncedHash": "4fa235558955c6ac556ceaae667b4a4228a251e54d96f7210ef8b220d41bae33",
+            "managed": false
+          }
+        }
+      }
+    },
+    "TitleSmall": {
+      "FontSize": {
+        "$type": "number",
+        "$value": "{FontSize.sm}",
+        "$description": "",
+        "$extensions": {
+          "mode": {
+            "JP": "{FontSize.sm}",
+            "EN": "{FontSize.sm}"
+          },
+          "figmaSync": {
+            "variableId": "VariableID:77:10553",
+            "collectionId": "VariableCollectionId:10697:1194",
+            "modeValues": {
+              "VariableCollectionId:10697:1194/10697:6": {
+                "alias": "VariableID:72:8621"
+              },
+              "VariableCollectionId:10697:1194/10697:7": {
+                "alias": "VariableID:72:8621"
+              }
+            },
+            "updatedHash": "438be32db232434fd1002df9d110423a133e297be367980fa4d3fbcd9cd8de5f",
+            "syncedHash": "438be32db232434fd1002df9d110423a133e297be367980fa4d3fbcd9cd8de5f",
+            "managed": false
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Orca Figma コンポーネント監査"
+  short_description: "Figma全variantを設計書・実装と照合し差分を完全監査"
+  default_prompt: "$orca-audit-figma-component を使い、Figma Component の全variantをOrcaの設計書・実装と照合して差分を完全監査してください。"

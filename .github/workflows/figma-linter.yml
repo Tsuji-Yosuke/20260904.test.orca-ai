@@ -1,0 +1,80 @@
+name: Figma Linter
+
+# Common UI Kit (Figma) を REST API で定期 lint し、前回レポートとの差分を Slack へ通知する。
+# 検知ルールは packages/figma-linter-core (プラグインと同一の SSoT)。
+# - 定期実行: 毎週火曜 JST 10:00 (cron は UTC)
+# - 手動実行: workflow_dispatch (レビュー前のオンデマンド確認用)
+# 違反があってもジョブは成功扱い (通知が signal)。ジョブ自体の失敗は別メッセージで Slack へ流す。
+on:
+  schedule:
+    - cron: "0 1 * * 2"
+  workflow_dispatch: {}
+
+concurrency:
+  group: figma-linter
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      # FIGMA_TOKEN: PAT または Plan Access Token (Secrets)。差し替えは Secrets 更新のみ。
+      # FIGMA_TOKEN_EXPIRES: トークン失効日 (Actions Variables, YYYY-MM-DD)。失効前警告に使う。
+      # SLACK_WEBHOOK_URL: 未設定の間は Step Summary のみ (Webhook 承認待ちでも運用可能)。
+      - name: Run Figma lint
+        run: pnpm --filter @orca/figma-linter-ci lint:figma
+        env:
+          FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          FIGMA_TOKEN_EXPIRES: ${{ vars.FIGMA_TOKEN_EXPIRES }}
+
+      # 次回実行の差分基準として reports/common-ui-kit.json を main へ直接 commit する。
+      # lint ステップが失敗 (Slack 通知失敗を含む) したときはここがスキップされ、次回実行が
+      # 同じ差分を再通知する (通知ロストの自己回復)。main が保護で bot push を弾く構成に
+      # 変わった場合は、レポート専用ブランチへの保存に切り替える (figma-linter-ci/README.md 参照)。
+      - name: Commit lint report
+        run: |
+          if [ -z "$(git status --porcelain -- packages/figma-linter-ci/reports)" ]; then
+            echo "レポートに変更なし (violation の増減なし)"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add packages/figma-linter-ci/reports
+          git commit -m "chore(figma-linter): lint レポートを更新する [skip ci]"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+      # 実行自体の失敗 (トークン失効・API エラー等) は違反通知と区別して知らせる。
+      # 黙って止まると次のデザイン変更まで誰も気づけないため。
+      - name: Notify failure to Slack
+        if: failure()
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if [ -z "$SLACK_WEBHOOK_URL" ]; then
+            echo "SLACK_WEBHOOK_URL 未設定のため失敗通知をスキップ"
+            exit 0
+          fi
+          curl -sf -X POST -H 'Content-Type: application/json' \
+            --data "{\"text\":\"⚠ Figma Linter の実行に失敗しました (lint 違反ではなくジョブの失敗です)。トークン失効・API エラー・Slack 通知失敗の可能性があります: ${RUN_URL}\"}" \
+            "$SLACK_WEBHOOK_URL"

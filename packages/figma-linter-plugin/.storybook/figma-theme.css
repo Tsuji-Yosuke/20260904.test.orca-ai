@@ -1,0 +1,45 @@
+/*
+ * Figma editor theme variables for Storybook.
+ *
+ * The plugin UI styles read --figma-color-* (see src/ui/styles.css), which Figma
+ * injects at runtime via `themeColors: true`. Outside Figma those variables are
+ * absent (styles.css falls back to a light palette). Here we provide explicit light
+ * and dark palettes, keyed on the data-figma-theme attribute that the theme toolbar
+ * (@storybook/addon-themes) toggles on the root element — so both themes can be
+ * previewed just like switching Figma between light and dark mode.
+ */
+
+:root[data-figma-theme='light'] {
+  color-scheme: light;
+  --figma-color-bg: #ffffff;
+  --figma-color-bg-secondary: #f5f5f5;
+  --figma-color-bg-hover: #ebebeb;
+  --figma-color-text: #1e1e1e;
+  --figma-color-text-secondary: #666666;
+  --figma-color-border: #e6e6e6;
+  --figma-color-bg-brand: #0d99ff;
+  --figma-color-text-onbrand: #ffffff;
+  --figma-color-bg-danger: #f24822;
+  --figma-color-text-danger: #d8290c;
+  --figma-color-text-success: #14ae5c;
+}
+
+:root[data-figma-theme='dark'] {
+  color-scheme: dark;
+  --figma-color-bg: #2c2c2c;
+  --figma-color-bg-secondary: #383838;
+  --figma-color-bg-hover: #444444;
+  --figma-color-text: #ffffff;
+  --figma-color-text-secondary: #b3b3b3;
+  --figma-color-border: #444444;
+  --figma-color-bg-brand: #0d99ff;
+  --figma-color-text-onbrand: #ffffff;
+  --figma-color-bg-danger: #f4524e;
+  --figma-color-text-danger: #ff8a73;
+  --figma-color-text-success: #36d399;
+}
+
+/* Let the surrounding canvas pick up the active theme background too. */
+:root[data-figma-theme] {
+  background: var(--figma-color-bg);
+}

@@ -1,0 +1,124 @@
+name: UI Generation Benchmark Human Review
+
+# 生成workflowとは分離した明示的なworkflow_dispatchだけを、
+# 人間の判定を記録する正本経路とする。
+on:
+  workflow_dispatch:
+    inputs:
+      generation_run_id:
+        description: "生成workflowのGitHub Actions run ID"
+        required: true
+        type: string
+      artifact_name:
+        description: "確認したui-generation-* artifact名"
+        required: true
+        type: string
+      decision:
+        description: "人間レビューの判定"
+        required: true
+        default: rejected
+        type: choice
+        options:
+          - rejected
+          - approved
+
+permissions:
+  actions: read
+  contents: read
+  id-token: write
+
+concurrency:
+  group: ui-generation-review-${{ inputs.generation_run_id }}-${{ inputs.artifact_name }}
+  cancel-in-progress: false
+
+jobs:
+  record-human-review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      UI_BENCHMARK_WORKER_URL: ${{ vars.UI_BENCHMARK_WORKER_URL }}
+      GENERATION_RUN_ID: ${{ inputs.generation_run_id }}
+      ARTIFACT_NAME: ${{ inputs.artifact_name }}
+      REVIEW_DECISION: ${{ inputs.decision }}
+      GENERATION_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ inputs.generation_run_id }}
+      REVIEW_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+    steps:
+      - name: Validate review configuration
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -n "$UI_BENCHMARK_WORKER_URL"
+          [[ "$GENERATION_RUN_ID" =~ ^[1-9][0-9]*$ ]]
+          [[ "$ARTIFACT_NAME" =~ ^ui-generation-[a-z0-9-]+$ ]]
+          [[ "$REVIEW_DECISION" =~ ^(approved|rejected)$ ]]
+
+      - name: Checkout the workflow-attested review tooling
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+        with:
+          ref: ${{ github.workflow_sha }}
+          persist-credentials: false
+
+      - name: Setup Node.js
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 24
+
+      - name: Download the reviewed artifact
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with:
+          name: ${{ inputs.artifact_name }}
+          path: .benchmark-output
+          github-token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          run-id: ${{ inputs.generation_run_id }}
+
+      - name: Validate reviewed publication
+        id: publication
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        shell: bash
+        run: node apps/ui-benchmark-sandbox/scripts/validate-reviewed-artifact.mjs
+
+      - name: Record explicit human decision
+        env:
+          REVIEW_JOB_ID: ${{ steps.publication.outputs.job_id }}
+          REVIEW_MANIFEST_SHA256: ${{ steps.publication.outputs.manifest_sha256 }}
+          REVIEW_EVIDENCE_SHA256: ${{ steps.publication.outputs.evidence_sha256 }}
+          REVIEW_SCORE_SHA256: ${{ steps.publication.outputs.score_sha256 }}
+          REVIEW_GENERATION_RUN_ID: ${{ steps.publication.outputs.generation_run_id }}
+          REVIEW_GENERATION_RUN_ATTEMPT: ${{ steps.publication.outputs.generation_run_attempt }}
+        run: >-
+          node apps/ui-benchmark-sandbox/scripts/record-remote-review.mjs
+          "$UI_BENCHMARK_WORKER_URL"
+          "$REVIEW_JOB_ID"
+          "$REVIEW_MANIFEST_SHA256"
+          "$REVIEW_EVIDENCE_SHA256"
+          "$REVIEW_SCORE_SHA256"
+          "$REVIEW_GENERATION_RUN_ID"
+          "$REVIEW_GENERATION_RUN_ATTEMPT"
+          "$REVIEW_DECISION"
+          "$REVIEW_RUN_URL"
+
+      - name: Publish review summary
+        run: >-
+          node apps/ui-benchmark-sandbox/scripts/notify-weekly-result.mjs
+          summary
+          "$REVIEW_DECISION"
+          .benchmark-output/operation.json
+          "$GENERATION_RUN_URL"
+          "$REVIEW_RUN_URL"
+
+      - name: Notify review decision in Slack
+        continue-on-error: true
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: >-
+          node apps/ui-benchmark-sandbox/scripts/notify-weekly-result.mjs
+          slack
+          "$REVIEW_DECISION"
+          .benchmark-output/operation.json
+          "$GENERATION_RUN_URL"
+          "$REVIEW_RUN_URL"
+
+      - name: Confirm terminal operation boundary
+        run: echo "人間レビューを記録しました。自動merge・自動deployは行いません。"

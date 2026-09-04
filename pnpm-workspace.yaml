@@ -1,0 +1,11 @@
+packages:
+  - "packages/*"
+  - "apps/*"
+
+# Storybook 8 / 10 と Vite 5 / 8 を各 workspace の依存宣言どおりに解決する。
+# hidden hoist すると複数 major のうち一方がプレビュー builder から見えてしまう。
+hoistPattern:
+  - "*"
+  - "!storybook"
+  - "!@storybook/*"
+  - "!vite"

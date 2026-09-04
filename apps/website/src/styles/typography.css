@@ -1,0 +1,73 @@
+@import "@fontsource/ibm-plex-mono/400.css";
+@import "@fontsource/noto-sans-jp/400.css";
+@import "@fontsource/noto-sans-jp/500.css";
+@import "@fontsource/noto-sans-jp/600.css";
+@import "@fontsource/noto-sans-jp/700.css";
+@import "@fontsource/outfit/400.css";
+@import "@fontsource/outfit/500.css";
+@import "@fontsource/outfit/600.css";
+@import "@fontsource/outfit/700.css";
+@import "@fontsource/roboto/latin-400.css";
+@import "@fontsource/roboto/latin-700.css";
+
+:root {
+  --website-font-family-base: "Outfit", "Noto Sans JP", sans-serif;
+  --website-font-family-code: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+
+  --website-font-weight-regular: 400;
+  --website-font-weight-medium: 500;
+  --website-font-weight-semibold: 600;
+  --website-font-weight-bold: 700;
+
+  --website-font-size-4xl: 43px;
+  --website-font-size-3xl: 32px;
+  --website-font-size-2xl: 26px;
+  --website-font-size-xl: 21px;
+  --website-font-size-lg: 18px;
+  --website-font-size-base: 16px;
+  --website-font-size-md: 14px;
+  --website-font-size-sm: 13px;
+  --website-font-size-xs: 12px;
+  --website-font-size-2xs: 11px;
+
+  --website-line-height-solid: 1;
+  --website-line-height-body: 1.8;
+  --website-line-height-copy: 1.6;
+  --website-line-height-tight: 1.3;
+  --website-letter-spacing-body: 0.25px;
+  --website-letter-spacing-compact: -0.2px;
+  --website-letter-spacing-number: 1px;
+  --website-letter-spacing-eyebrow: 2px;
+  --website-font-feature-settings-base: "palt" 1;
+}
+
+@theme inline {
+  --font-website-base: var(--website-font-family-base);
+  --font-website-code: var(--website-font-family-code);
+
+  --font-weight-website-regular: var(--website-font-weight-regular);
+  --font-weight-website-medium: var(--website-font-weight-medium);
+  --font-weight-website-semibold: var(--website-font-weight-semibold);
+  --font-weight-website-bold: var(--website-font-weight-bold);
+
+  --text-website-4xl: var(--website-font-size-4xl);
+  --text-website-3xl: var(--website-font-size-3xl);
+  --text-website-2xl: var(--website-font-size-2xl);
+  --text-website-xl: var(--website-font-size-xl);
+  --text-website-lg: var(--website-font-size-lg);
+  --text-website-base: var(--website-font-size-base);
+  --text-website-md: var(--website-font-size-md);
+  --text-website-sm: var(--website-font-size-sm);
+  --text-website-xs: var(--website-font-size-xs);
+  --text-website-2xs: var(--website-font-size-2xs);
+
+  --leading-website-solid: var(--website-line-height-solid);
+  --leading-website-body: var(--website-line-height-body);
+  --leading-website-copy: var(--website-line-height-copy);
+  --leading-website-tight: var(--website-line-height-tight);
+
+  --tracking-website-body: var(--website-letter-spacing-body);
+  --tracking-website-compact: var(--website-letter-spacing-compact);
+  --tracking-website-number: var(--website-letter-spacing-number);
+  --tracking-website-eyebrow: var(--website-letter-spacing-eyebrow);
+}

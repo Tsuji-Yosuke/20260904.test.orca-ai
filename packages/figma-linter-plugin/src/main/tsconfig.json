@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "lib": ["ES2020"],
+    "jsx": "preserve",
+    "types": ["@figma/plugin-typings"]
+  },
+  "include": ["./", "../shared"],
+  "//": "テスト (*.test.ts) は vitest が実行・検証する。figma サンドボックス用のこの設定は node 型を持たないため (持たせると code.ts が node API を誤って参照できてしまう)、テストは型チェック対象から除外する。",
+  "exclude": ["**/*.test.ts"]
+}

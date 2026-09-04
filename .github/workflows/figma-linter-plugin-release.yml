@@ -1,0 +1,137 @@
+name: Figma Linter Plugin Build & Release
+
+# Figma Linter Plugin に影響する main の更新だけをビルドし、配布用 zip と更新チェック用 JSON を公開する。
+on:
+  push:
+    branches: [main]
+    paths:
+      - "packages/figma-linter-plugin/**"
+      # 検知ロジックの共有コア。ここが変わるとプラグインの成果物も変わる。
+      - "packages/figma-linter-core/**"
+      - "package.json"
+      - "pnpm-lock.yaml"
+      - "pnpm-workspace.yaml"
+      - ".github/workflows/figma-linter-plugin-release.yml"
+  workflow_dispatch: {}
+
+concurrency:
+  group: figma-linter-plugin-release-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+env:
+  # 旧 figma-variables-plugin リポジトリの最終リリースは build 32。
+  # 新 Workflow の run_number に足し、更新判定用 buildNumber を単調増加させる。
+  MIGRATED_BUILD_OFFSET: 32
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Type check
+        run: pnpm --filter @orca/figma-linter-plugin typecheck
+
+      - name: Test
+        run: pnpm --filter @orca/figma-linter-plugin test
+
+      # dist に焼き込む値、version.json、Release のタグとファイル名をここで一度だけ解決する。
+      - name: Resolve release metadata
+        id: meta
+        working-directory: packages/figma-linter-plugin
+        run: |
+          VERSION=$(node -p "require('./package.json').version")
+          BUILD_NUMBER=$((GITHUB_RUN_NUMBER + MIGRATED_BUILD_OFFSET))
+          TAG="figma-linter-plugin-v${VERSION}-build.${BUILD_NUMBER}"
+          ZIP="figma-linter-plugin-v${VERSION}-build.${BUILD_NUMBER}.zip"
+          {
+            echo "version=$VERSION"
+            echo "build_number=$BUILD_NUMBER"
+            echo "tag=$TAG"
+            echo "zip=$ZIP"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Build
+        run: pnpm --filter @orca/figma-linter-plugin build
+        env:
+          BUILD_NUMBER: ${{ steps.meta.outputs.build_number }}
+          BUILD_SHA: ${{ github.sha }}
+          BUILD_VERSION: ${{ steps.meta.outputs.version }}
+
+      # 展開後の manifest.json が同階層の dist/code.js・dist/ui.html を参照する構造にする。
+      - name: Package plugin
+        working-directory: packages/figma-linter-plugin
+        run: |
+          zip -r "${{ steps.meta.outputs.zip }}" manifest.json dist/code.js dist/ui.html
+          unzip -l "${{ steps.meta.outputs.zip }}"
+
+      - name: Generate version.json
+        working-directory: packages/figma-linter-plugin
+        run: |
+          mkdir -p worker/public
+          node -e '
+            const fs = require("fs");
+            const pkg = require("./package.json");
+            const policy = require("./release.config.json");
+            const data = {
+              buildNumber: Number(process.env.BUILD_NUMBER),
+              version: pkg.version,
+              minBuildNumber: Number(policy.minBuildNumber ?? 0),
+              downloadUrl: `https://github.com/${process.env.GITHUB_REPOSITORY}/releases/tag/${process.env.RELEASE_TAG}`,
+              sha: process.env.BUILD_SHA,
+              publishedAt: new Date().toISOString(),
+            };
+            fs.writeFileSync("worker/public/version.json", JSON.stringify(data, null, 2));
+            console.log(data);
+          '
+        env:
+          BUILD_NUMBER: ${{ steps.meta.outputs.build_number }}
+          BUILD_SHA: ${{ github.sha }}
+          RELEASE_TAG: ${{ steps.meta.outputs.tag }}
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.meta.outputs.tag }}
+          name: "Figma Linter Plugin v${{ steps.meta.outputs.version }} (build #${{ steps.meta.outputs.build_number }})"
+          body: |
+            `main` (${{ github.sha }}) の `@orca/figma-linter-plugin` 自動ビルドです。
+
+            **同梱物**
+            - `manifest.json`
+            - `dist/code.js`
+            - `dist/ui.html`
+
+            zip を展開し、Figma の Plugins → Development → "Import plugin from manifest…" から `manifest.json` を選択してください。
+          files: packages/figma-linter-plugin/${{ steps.meta.outputs.zip }}
+          make_latest: "true"
+          prerelease: false
+          fail_on_unmatched_files: true
+
+      # API token が未設定の間は、Release を成功させたまま Worker の更新だけをスキップする。
+      - name: Deploy version endpoint
+        if: ${{ env.CLOUDFLARE_API_TOKEN != '' }}
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ env.CLOUDFLARE_API_TOKEN }}
+          workingDirectory: packages/figma-linter-plugin/worker
+          wranglerVersion: "4.103.0"
+          command: deploy

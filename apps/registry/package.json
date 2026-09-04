@@ -1,0 +1,21 @@
+{
+  "name": "@orca/registry",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsx scripts/build-registry.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "registry:check": "tsx scripts/build-registry.ts && git -C ../.. diff --exit-code registry.json apps/registry/public"
+  },
+  "devDependencies": {
+    "@orca/component-meta": "workspace:*",
+    "@types/node": "^24.0.0",
+    "shadcn": "^4.13.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.9.3",
+    "vitest": "^2.1.8"
+  }
+}

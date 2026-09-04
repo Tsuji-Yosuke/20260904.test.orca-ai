@@ -1,0 +1,796 @@
+{
+  "$extensions": {
+    "figmaSync": {
+      "collectionId": "VariableCollectionId:10697:671",
+      "name": "Expressive",
+      "defaultModeId": "VariableCollectionId:10697:671/10697:0",
+      "modes": [
+        {
+          "modeId": "VariableCollectionId:10697:671/10697:0",
+          "name": "Default"
+        }
+      ],
+      "updatedHash": "614a7e9287175d6d9eba4142fd6ca1d547a131b2a8e400e353300f995dbe90ef",
+      "syncedHash": "614a7e9287175d6d9eba4142fd6ca1d547a131b2a8e400e353300f995dbe90ef",
+      "managed": true
+    }
+  },
+  "Sizing": {
+    "Component": {
+      "Full": {
+        "sm": {
+          "$type": "number",
+          "$value": "{Sizing.5xl}",
+          "$description": "主要インタラクション要素(Button/Input/Select)の高さ sm。reference.spacing を直接参照(size.base 非経由・デザイナー直接指定)。",
+          "$extensions": {
+            "figmaSync": {
+              "variableId": "VariableID:10618:9671",
+              "collectionId": "VariableCollectionId:10697:671",
+              "modeValues": {
+                "VariableCollectionId:10697:671/10697:0": {
+                  "alias": "VariableID:10658:930"
+                }
+              },
+              "updatedHash": "88b363845ff03ca535fd38ada5850cb060b05837c34e9184f98365e0435acde0",
+              "syncedHash": "88b363845ff03ca535fd38ada5850cb060b05837c34e9184f98365e0435acde0",
+              "managed": false
+            }
+          }
+        },
+        "md": {
+          "$type": "number",
+          "$value": "{Sizing.6xl}",
+          "$description": "主要インタラクション要素(Button/Input/Select)の高さ md。reference.spacing を直接参照(size.base 非経由・デザイナー直接指定)。",
+          "$extensions": {
+            "figmaSync": {
+              "variableId": "VariableID:10618:9672",
+              "collectionId": "VariableCollectionId:10697:671",
+              "modeValues": {
+                "VariableCollectionId:10697:671/10697:0": {
+                  "alias": "VariableID:10618:9613"
+                }
+              },
+              "updatedHash": "9d5751b708b8c405885ff082caf04c03ac0b7e4c7c81bd49f639857f6d626133",
+              "syncedHash": "9d5751b708b8c405885ff082caf04c03ac0b7e4c7c81bd49f639857f6d626133",
+              "managed": false
+            }
+          }
+        },
+        "lg": {
+          "$type": "number",
+          "$value": "{Sizing.7xl}",
+          "$description": "主要インタラクション要素(Button/Input/Select)の高さ lg。reference.spacing を直接参照(size.base 非経由・デザイナー直接指定)。",
+          "$extensions": {
+            "figmaSync": {
+              "variableId": "VariableID:10618:9673",
+              "collectionId": "VariableCollectionId:10697:671",
+              "modeValues": {
+                "VariableCollectionId:10697:671/10697:0": {
+                  "alias": "VariableID:10618:9614"
+                }
+              },
+              "updatedHash": "56fea77b2dc252aba88bc2a1e3637273042d9d03c151d62a7ceb05476fddae27",
+              "syncedHash": "56fea77b2dc252aba88bc2a1e3637273042d9d03c151d62a7ceb05476fddae27",
+              "managed": false
+            }
+          }
+        }
+      },
+      "Half": {
+        "sm": {
+          "$type": "number",
+          "$value": "{Sizing.xl}",
+          "$description": "補助要素(Badge/Checkbox/Tag)の高さ sm。reference.spacing を直接参照。",
+          "$extensions": {
+            "figmaSync": {
+              "variableId": "VariableID:10618:9674",
+              "collectionId": "VariableCollectionId:10697:671",
+              "modeValues": {
+                "VariableCollectionId:10697:671/10697:0": {
+                  "alias": "VariableID:10658:928"
+                }
+              },
+              "updatedHash": "7c9a583f4ee57f667e8a6e5d5f8bc1c6dc5a67068c268490a840293af45097a7",
+              "syncedHash": "7c9a583f4ee57f667e8a6e5d5f8bc1c6dc5a67068c268490a840293af45097a7",
+              "managed": false
+            }
+          }
+        },
+        "md": {
+          "$type": "number",
+          "$value": "{Sizing.2xl}",
+          "$description": "補助要素(Badge/Checkbox/Tag)の高さ md。reference.spacing を直接参照。",
+          "$extensions": {
+            "figmaSync": {
+              "variableId": "VariableID:10618:9675",
+              "collectionId": "VariableCollectionId:10697:671",
+              "modeValues": {
+                "VariableCollectionId:10697:671/10697:0": {
+                  "alias": "VariableID:10618:9611"
+                }
+              },
+              "updatedHash": "9a285f3ea5d483f87af9c91d5799d7726a8d728c370cf4fea01472b35ce3a469",
+              "syncedHash": "9a285f3ea5d483f87af9c91d5799d7726a8d728c370cf4fea01472b35ce3a469",
+              "managed": false
+            }
+          }
+        },
+        "lg": {
+          "$type": "number",
+          "$value": "{Sizing.3xl}",
+          "$description": "補助要素(Badge/Checkbox/Tag)の高さ lg。reference.spacing を直接参照。",
+          "$extensions": {
+            "figmaSync": {
+              "variableId": "VariableID:10618:9676",
+              "collectionId": "VariableCollectionId:10697:671",
+              "modeValues": {
+                "VariableCollectionId:10697:671/10697:0": {
+                  "alias": "VariableID:10658:929"
+                }
+              },
+              "updatedHash": "b967918cfaa03273d0e82915f100df6508fd749b82ab21c191aa639ca354d5cc",
+              "syncedHash": "b967918cfaa03273d0e82915f100df6508fd749b82ab21c191aa639ca354d5cc",
+              "managed": false
+            }
+          }
+        }
+      }
+    },
+    "Radius": {
+      "none": {
+        "$type": "number",
+        "$value": "{Sizing.none}",
+        "$description": "角丸なし（0px）。明示的に角丸を外す用途。",
+        "$extensions": {
+          "figmaSync": {
+            "variableId": "VariableID:10618:9655",
+            "collectionId": "VariableCollectionId:10697:671",
+            "modeValues": {
+              "VariableCollectionId:10697:671/10697:0": {
+                "alias": "VariableID:10658:926"
+              }
+            },
+            "updatedHash": "2d6fa73808ec682cdbd55748cd9ca55346b420cda7f4a2197dd2ba15fe26cfd4",
+            "syncedHash": "2d6fa73808ec682cdbd55748cd9ca55346b420cda7f4a2197dd2ba15fe26cfd4",
+            "managed": false
+          }
+        }
+      },
+      "xs": {
+        "$type": "number",
+        "$value": "{Sizing.2xs}",
+        "$description": "角丸 sm（Editorial(柔らかめ)）。reference.spacing を参照し、mode差をこの層で吸収。",
+        "$extensions": {
+          "figmaSync": {
+            "variableId": "VariableID:10618:9656",
+            "collectionId": "VariableCollectionId:10697:671",
+            "modeValues": {
+              "VariableCollectionId:10697:671/10697:0": {
+                "alias": "VariableID:10618:9606"
+              }
+            },
+            "updatedHash": "d8f51a4b6082411da454c7b8bac80967417527bc14e6dbab5c7931608876ad6f",
+            "syncedHash": "d8f51a4b6082411da454c7b8bac80967417527bc14e6dbab5c7931608876ad6f",
+            "managed": false
+          }
+        }
+      },
+      "sm": {
+        "$type": "number",
+        "$value": "{Sizing.xs}",
+        "$description": "角丸 sm（Editorial(柔らかめ)）。reference.spacing を参照し、mode差をこの層で吸収。",
+        "$extensions": {
+          "figmaSync": {
+            "variableId": "VariableID:10618:9657",
+            "collectionId": "VariableCollectionId:10697:671",
+            "modeValues": {
+              "VariableCollectionId:10697:671/10697:0": {
+                "alias": "VariableID:10618:9607"
+              }
+            },
+            "updatedHash": "a488ccf8efec2b36ff2e996d145ed050507a03dac4bdddabc4d2b6b628f88928",
+            "syncedHash": "a488ccf8efec2b36ff2e996d145ed050507a03dac4bdddabc4d2b6b628f88928",
+            "managed": false
+          }
+        }
+      },
+      "md": {
+        "$type": "number",
+        "$value": "{Sizing.sm}",
+        "$description": "角丸 sm（Editorial(柔らかめ)）。reference.spacing を参照し、mode差をこの層で吸収。",
+        "$extensions": {
+          "figmaSync": {
+            "variableId": "VariableID:10618:9658",
+            "collectionId": "VariableCollectionId:10697:671",
+            "modeValues": {
+              "VariableCollectionId:10697:671/10697:0": {
+                "alias": "VariableID:10618:9608"
+              }
+            },
+            "updatedHash": "a01d97dc849b22bc5c82bbf0cef8bbeb009442a4080de33bd97f18c5c92e938a",
+            "syncedHash": "a01d97dc849b22bc5c82bbf0cef8bbeb009442a4080de33bd97f18c5c92e938a",
+            "managed": false
+          }
+        }
+      },
+      "lg": {
+        "$type": "number",
+        "$value": "{Sizing.md}",
+        "$description": "角丸なし（0px）。明示的に角丸を外す用途。",
+        "$extensions": {
+          "figmaSync": {
+            "variableId": "VariableID:11263:42",
+            "collectionId": "VariableCollectionId:10697:671",
+            "modeValues": {
+              "VariableCollectionId:10697:671/10697:0": {
+                "alias": "VariableID:10618:9609"
+              }
+            },
+            "updatedHash": "6a6b0fcb94935b0a9bf86c7a7c16944f7333c7f2e541757070e318c4edfa6826",
+            "syncedHash": "6a6b0fcb94935b0a9bf86c7a7c16944f7333c7f2e541757070e318c4edfa6826",
+            "managed": false
+          }
+        }
+      },
+      "xl": {
+        "$type": "number",
+        "$value": "{Sizing.lg}",
+        "$description": "角丸なし（0px）。明示的に角丸を外す用途。",
+        "$extensions": {
+          "figmaSync": {
+            "variableId": "VariableID:11234:1416",
+            "collectionId": "VariableCollectionId:10697:671",
+            "modeValues": {
+              "VariableCollectionId:10697:671/10697:0": {
+                "alias": "VariableID:10618:9610"
+              }
+            },
+            "updatedHash": "6af300edde962108387ccd9e1e5a9b5c73ef7c337956d38784545ea8027ecff6",
+            "syncedHash": "6af300edde962108387ccd9e1e5a9b5c73ef7c337956d38784545ea8027ecff6",
+            "managed": false
+          }
+        }
+      },
+      "2xl": {
+        "$type": "number",
+        "$value": "{Sizing.2xl}",
+        "$description": "角丸 md（Editorial(柔らかめ)）。reference.spacing を参照し、mode差をこの層で吸収。",
+        "$extensions": {
+          "figmaSync": {
+            "variableId": "VariableID:10618:9659",
+            "collectionId": "VariableCollectionId:10697:671",
+            "modeValues": {
+              "VariableCollectionId:10697:671/10697:0": {
+                "alias": "VariableID:10618:9611"
+              }
+            },
+            "updatedHash": "11119d95417e383d160c9f5b35ae4a4ebf31a2d22a4cede8dbeedf6fb4caf265",
+            "syncedHash": "11119d95417e383d160c9f5b35ae4a4ebf31a2d22a4cede8dbeedf6fb4caf265",
+            "managed": false
+          }
+        }
+      },
+      "3xl": {
+        "$type": "number",
+        "$value": "{Sizing.4xl}",
+        "$description": "角丸 lg（Editorial(柔らかめ)）。reference.spacing を参照し、mode差をこの層で吸収。",
+        "$extensions": {
+          "figmaSync": {
+            "variableId": "VariableID:10618:9660",
+            "collectionId": "VariableCollectionId:10697:671",
+            "modeValues": {
+              "VariableCollectionId:10697:671/10697:0": {
+                "alias": "VariableID:10618:9612"
+              }
+            },
+            "updatedHash": "d6b8033e58c911f1e68b204a7b5330b0980620b7c7ccfd7e96a3655241107def",
+            "syncedHash": "d6b8033e58c911f1e68b204a7b5330b0980620b7c7ccfd7e96a3655241107def",
+            "managed": false
+          }
+        }
+      },
+      "full": {
+        "$type": "number",
+        "$value": "{Sizing.full}",
+        "$description": "完全な円形／ピル形状（Avatar, Badge, Switch など）。生値。",
+        "$extensions": {
+          "figmaSync": {
+            "variableId": "VariableID:10618:9663",
+            "collectionId": "VariableCollectionId:10697:671",
+            "modeValues": {
+              "VariableCollectionId:10697:671/10697:0": {
+                "alias": "VariableID:10618:9617"
+              }
+            },
+            "updatedHash": "1d06f98561e9ce1a7f921f9726add13a6845b05790e16a46228658091256c78a",
+            "syncedHash": "1d06f98561e9ce1a7f921f9726add13a6845b05790e16a46228658091256c78a",
+            "managed": false
+          }
+        }
+      }
+    },
+    "Border": {
+      "none": {
+        "$type": "number",
+        "$value": "{Sizing.none}",
+        "$description": "線なし（0px）。mode非依存の生値。",
+        "$extensions": {
+          "figmaSync": {
+            "variableId": "VariableID:10618:9664",
+            "collectionId": "VariableCollectionId:10697:671",
+            "modeValues": {
+              "VariableCollectionId:10697:671/10697:0": {
+                "alias": "VariableID:10658:926"
+              }
+            },
+            "updatedHash": "c65c10c95a48fd9d713dcb454f87b0e03b814f57d66f2bd90f834d55b4777bf0",
+            "syncedHash": "c65c10c95a48fd9d713dcb454f87b0e03b814f57d66f2bd90f834d55b4777bf0",
+            "managed": false
+          }
+        }
+      },
+      "sm": {
+        "$type": "number",
+        "$value": "{Sizing.3xs}",
+        "$description": "標準の境界線（1px）。Input, Card, Divider など。mode非依存の生値。",
+        "$extensions": {
+          "figmaSync": {
+            "variableId": "VariableID:10618:9665",
+            "collectionId": "VariableCollectionId:10697:671",
+            "modeValues": {
+              "VariableCollectionId:10697:671/10697:0": {
+                "alias": "VariableID:10658:927"
+              }
+            },
+            "updatedHash": "9f14e2693c65e7bd437091384e1d8b427d96f47b4a36c17e3664cd7180eca50f",
+            "syncedHash": "9f14e2693c65e7bd437091384e1d8b427d96f47b4a36c17e3664cd7180eca50f",
+            "managed": false
+          }
+        }
+      },
+      "md": {
+        "$type": "number",
+        "$value": "{Sizing.2xs}",
+        "$description": "強調の境界線（2px）。focus ring, selected 状態など。mode非依存の生値。",
+        "$extensions": {
+          "figmaSync": {
+            "variableId": "VariableID:10618:9666",
+            "collectionId": "VariableCollectionId:10697:671",
+            "modeValues": {
+              "VariableCollectionId:10697:671/10697:0": {
+                "alias": "VariableID:10618:9606"
+              }
+            },
+            "updatedHash": "1b0e7999ecf407a36f64149f106b2194b56ae6565f019d6101f71a66c2115628",
+            "syncedHash": "1b0e7999ecf407a36f64149f106b2194b56ae6565f019d6101f71a66c2115628",
+            "managed": false
+          }
+        }
+      },
+      "lg": {
+        "$type": "number",
+        "$value": "{Sizing.xs}",
+        "$description": "強調の境界線（2px）。focus ring, selected 状態など。mode非依存の生値。",
+        "$extensions": {
+          "figmaSync": {
+            "variableId": "VariableID:10618:9667",
+            "collectionId": "VariableCollectionId:10697:671",
+            "modeValues": {
+              "VariableCollectionId:10697:671/10697:0": {
+                "alias": "VariableID:10618:9607"
+              }
+            },
+            "updatedHash": "36564d285194084911edb06f9f2df8a4fc6f7a17fd8dc1dd73d09d49773f9ee1",
+            "syncedHash": "36564d285194084911edb06f9f2df8a4fc6f7a17fd8dc1dd73d09d49773f9ee1",
+            "managed": false
+          }
+        }
+      }
+    },
+    "Icon": {
+      "sm": {
+        "$type": "number",
+        "$value": "{Sizing.lg}",
+        "$description": "アイコンサイズ sm。reference.spacing を参照（mode間で同値・グリフは密度非依存）。",
+        "$extensions": {
+          "figmaSync": {
+            "variableId": "VariableID:10618:9668",
+            "collectionId": "VariableCollectionId:10697:671",
+            "modeValues": {
+              "VariableCollectionId:10697:671/10697:0": {
+                "alias": "VariableID:10618:9610"
+              }
+            },
+            "updatedHash": "b1f2039deba05a7566e279480e92fa613aecb6655f8da06ee45b4d1ec9a622b4",
+            "syncedHash": "b1f2039deba05a7566e279480e92fa613aecb6655f8da06ee45b4d1ec9a622b4",
+            "managed": false
+          }
+        }
+      },
+      "md": {
+        "$type": "number",
+        "$value": "{Sizing.xl}",
+        "$description": "アイコンサイズ md。reference.spacing を参照（mode間で同値・グリフは密度非依存）。",
+        "$extensions": {
+          "figmaSync": {
+            "variableId": "VariableID:10618:9669",
+            "collectionId": "VariableCollectionId:10697:671",
+            "modeValues": {
+              "VariableCollectionId:10697:671/10697:0": {
+                "alias": "VariableID:10658:928"
+              }
+            },
+            "updatedHash": "c432755810dde3169100c6c2954a9224af29fe08c52098aa48ef3c57a8be8347",
+            "syncedHash": "c432755810dde3169100c6c2954a9224af29fe08c52098aa48ef3c57a8be8347",
+            "managed": false
+          }
+        }
+      },
+      "lg": {
+        "$type": "number",
+        "$value": "{Sizing.2xl}",
+        "$description": "アイコンサイズ lg。reference.spacing を参照（mode間で同値・グリフは密度非依存）。",
+        "$extensions": {
+          "figmaSync": {
+            "variableId": "VariableID:10618:9670",
+            "collectionId": "VariableCollectionId:10697:671",
+            "modeValues": {
+              "VariableCollectionId:10697:671/10697:0": {
+                "alias": "VariableID:10618:9611"
+              }
+            },
+            "updatedHash": "8de5d450f9733a1067d7327cb1ee5146be10f0b858ee9fe6f8eb8036e2de201a",
+            "syncedHash": "8de5d450f9733a1067d7327cb1ee5146be10f0b858ee9fe6f8eb8036e2de201a",
+            "managed": false
+          }
+        }
+      }
+    }
+  },
+  "Spacing": {
+    "Padding": {
+      "none": {
+        "$type": "number",
+        "$value": "{Sizing.none}",
+        "$description": "余白なし（0px）。",
+        "$extensions": {
+          "figmaSync": {
+            "variableId": "VariableID:10618:9677",
+            "collectionId": "VariableCollectionId:10697:671",
+            "modeValues": {
+              "VariableCollectionId:10697:671/10697:0": {
+                "alias": "VariableID:10658:926"
+              }
+            },
+            "updatedHash": "f67b4da51f6257b55fcfc6dc4fc8318739ef9a382d657912f7b0c3d9d523b581",
+            "syncedHash": "f67b4da51f6257b55fcfc6dc4fc8318739ef9a382d657912f7b0c3d9d523b581",
+            "managed": false
+          }
+        }
+      },
+      "3xs": {
+        "$type": "number",
+        "$value": "{Sizing.2xs}",
+        "$description": "コンテナ内部の余白 2xs（最小端）。size.base 参照・mode間で参照先統一。",
+        "$extensions": {
+          "figmaSync": {
+            "variableId": "VariableID:10618:9678",
+            "collectionId": "VariableCollectionId:10697:671",
+            "modeValues": {
+              "VariableCollectionId:10697:671/10697:0": {
+                "alias": "VariableID:10618:9606"
+              }
+            },
+            "updatedHash": "ed50a3c7e052d8c6bf6ea44be0271375057af8a5fb8614fe500a5eec60e6d5fd",
+            "syncedHash": "ed50a3c7e052d8c6bf6ea44be0271375057af8a5fb8614fe500a5eec60e6d5fd",
+            "managed": false
+          }
+        }
+      },
+      "2xs": {
+        "$type": "number",
+        "$value": "{Sizing.xs}",
+        "$description": "コンテナ内部の余白 xs。size.base 参照・mode間で参照先統一。",
+        "$extensions": {
+          "figmaSync": {
+            "variableId": "VariableID:10618:9679",
+            "collectionId": "VariableCollectionId:10697:671",
+            "modeValues": {
+              "VariableCollectionId:10697:671/10697:0": {
+                "alias": "VariableID:10618:9607"
+              }
+            },
+            "updatedHash": "030dc61cea7f07e76c9e01bddc9d7efffb7c56c8699ae87e332565d86ab8db84",
+            "syncedHash": "030dc61cea7f07e76c9e01bddc9d7efffb7c56c8699ae87e332565d86ab8db84",
+            "managed": false
+          }
+        }
+      },
+      "xs": {
+        "$type": "number",
+        "$value": "{Sizing.sm}",
+        "$description": "コンテナ内部の余白 xs。size.base 参照・mode間で参照先統一。",
+        "$extensions": {
+          "figmaSync": {
+            "variableId": "VariableID:11234:2928",
+            "collectionId": "VariableCollectionId:10697:671",
+            "modeValues": {
+              "VariableCollectionId:10697:671/10697:0": {
+                "alias": "VariableID:10618:9608"
+              }
+            },
+            "updatedHash": "fb478fde0832684650f118e0a431909706a70cb71e7d1125da5262a91f68f7aa",
+            "syncedHash": "fb478fde0832684650f118e0a431909706a70cb71e7d1125da5262a91f68f7aa",
+            "managed": false
+          }
+        }
+      },
+      "sm": {
+        "$type": "number",
+        "$value": "{Sizing.md}",
+        "$description": "コンテナ内部の余白 sm。size.base 参照・mode間で参照先統一。",
+        "$extensions": {
+          "figmaSync": {
+            "variableId": "VariableID:10618:9680",
+            "collectionId": "VariableCollectionId:10697:671",
+            "modeValues": {
+              "VariableCollectionId:10697:671/10697:0": {
+                "alias": "VariableID:10618:9609"
+              }
+            },
+            "updatedHash": "e8375179c802044d20a273d7e58d9a1ee58eac43277646b094d88e39b71cd373",
+            "syncedHash": "e8375179c802044d20a273d7e58d9a1ee58eac43277646b094d88e39b71cd373",
+            "managed": false
+          }
+        }
+      },
+      "md": {
+        "$type": "number",
+        "$value": "{Sizing.lg}",
+        "$description": "コンテナ内部の余白 md（標準）。size.base 参照・mode間で参照先統一。",
+        "$extensions": {
+          "figmaSync": {
+            "variableId": "VariableID:10618:9681",
+            "collectionId": "VariableCollectionId:10697:671",
+            "modeValues": {
+              "VariableCollectionId:10697:671/10697:0": {
+                "alias": "VariableID:10618:9610"
+              }
+            },
+            "updatedHash": "fafcace89fe2e08014ded84cb3284b9c7172d5fe6373daa9f41f8e8237594ebe",
+            "syncedHash": "fafcace89fe2e08014ded84cb3284b9c7172d5fe6373daa9f41f8e8237594ebe",
+            "managed": false
+          }
+        }
+      },
+      "lg": {
+        "$type": "number",
+        "$value": "{Sizing.2xl}",
+        "$description": "コンテナ内部の余白 lg。size.base 参照・mode間で参照先統一。",
+        "$extensions": {
+          "figmaSync": {
+            "variableId": "VariableID:10618:9682",
+            "collectionId": "VariableCollectionId:10697:671",
+            "modeValues": {
+              "VariableCollectionId:10697:671/10697:0": {
+                "alias": "VariableID:10618:9611"
+              }
+            },
+            "updatedHash": "f38fcfa726dab87af1a81de490c31054c2489f46e94782408f8dc5ff1200308d",
+            "syncedHash": "f38fcfa726dab87af1a81de490c31054c2489f46e94782408f8dc5ff1200308d",
+            "managed": false
+          }
+        }
+      },
+      "xl": {
+        "$type": "number",
+        "$value": "{Sizing.4xl}",
+        "$description": "コンテナ内部の余白 xl（最大端）。size.base 参照・mode間で参照先統一。",
+        "$extensions": {
+          "figmaSync": {
+            "variableId": "VariableID:10618:9683",
+            "collectionId": "VariableCollectionId:10697:671",
+            "modeValues": {
+              "VariableCollectionId:10697:671/10697:0": {
+                "alias": "VariableID:10618:9612"
+              }
+            },
+            "updatedHash": "a81e8a0bbb27edd40de0f6d07a863b1c0f6ae0ad9c1d5862fe4406a1d398a7fa",
+            "syncedHash": "a81e8a0bbb27edd40de0f6d07a863b1c0f6ae0ad9c1d5862fe4406a1d398a7fa",
+            "managed": false
+          }
+        }
+      },
+      "2xl": {
+        "$type": "number",
+        "$value": "{Sizing.5xl}",
+        "$description": "",
+        "$extensions": {
+          "figmaSync": {
+            "variableId": "VariableID:10666:4842",
+            "collectionId": "VariableCollectionId:10697:671",
+            "modeValues": {
+              "VariableCollectionId:10697:671/10697:0": {
+                "alias": "VariableID:10658:930"
+              }
+            },
+            "updatedHash": "49d28db9d33a0a19a824a938d4088dc99c166cb19a69147832e999a38ea272b8",
+            "syncedHash": "49d28db9d33a0a19a824a938d4088dc99c166cb19a69147832e999a38ea272b8",
+            "managed": false
+          }
+        }
+      },
+      "4xl": {
+        "$type": "number",
+        "$value": "{Sizing.8xl}",
+        "$description": "",
+        "$extensions": {
+          "figmaSync": {
+            "variableId": "VariableID:11234:2929",
+            "collectionId": "VariableCollectionId:10697:671",
+            "modeValues": {
+              "VariableCollectionId:10697:671/10697:0": {
+                "alias": "VariableID:10618:9615"
+              }
+            },
+            "updatedHash": "78c75a1f91493df37fde89766b7e73035f100cfa53290591886573819ef92955",
+            "syncedHash": "78c75a1f91493df37fde89766b7e73035f100cfa53290591886573819ef92955",
+            "managed": false
+          }
+        }
+      },
+      "3xl": {
+        "$type": "number",
+        "$value": "{Sizing.6xl}",
+        "$description": "",
+        "$extensions": {
+          "figmaSync": {
+            "variableId": "VariableID:12360:23507",
+            "collectionId": "VariableCollectionId:10697:671",
+            "modeValues": {
+              "VariableCollectionId:10697:671/10697:0": {
+                "alias": "VariableID:10618:9613"
+              }
+            },
+            "updatedHash": "179b85a51c4ced14f15b786a22cb1629fdc59919f563633a70e912d2ba135ecb",
+            "syncedHash": "179b85a51c4ced14f15b786a22cb1629fdc59919f563633a70e912d2ba135ecb",
+            "managed": false
+          }
+        }
+      }
+    },
+    "Margin": {
+      "none": {
+        "$type": "number",
+        "$value": "{Spacing.0}",
+        "$description": "間隔なし（0px）。gap を明示的に外す用途。",
+        "$extensions": {
+          "figmaSync": {
+            "variableId": "VariableID:10618:9684",
+            "collectionId": "VariableCollectionId:10697:671",
+            "modeValues": {
+              "VariableCollectionId:10697:671/10697:0": {
+                "alias": "VariableID:10618:9618"
+              }
+            },
+            "updatedHash": "eb48edcaabec15f3475e9cc8e46832044a11fcda8c74f164352f3b61faadbeef",
+            "syncedHash": "eb48edcaabec15f3475e9cc8e46832044a11fcda8c74f164352f3b61faadbeef",
+            "managed": false
+          }
+        }
+      },
+      "sm": {
+        "$type": "number",
+        "$value": "{Sizing.2xs}",
+        "$description": "要素間の間隔 sm。size.base を参照。sm<md<lg の単調スケール。",
+        "$extensions": {
+          "figmaSync": {
+            "variableId": "VariableID:10618:9685",
+            "collectionId": "VariableCollectionId:10697:671",
+            "modeValues": {
+              "VariableCollectionId:10697:671/10697:0": {
+                "alias": "VariableID:10618:9606"
+              }
+            },
+            "updatedHash": "a5afed6a202203cfc19c49617fc31686d710c3a1efbba654ab6474ccd6ee534e",
+            "syncedHash": "a5afed6a202203cfc19c49617fc31686d710c3a1efbba654ab6474ccd6ee534e",
+            "managed": false
+          }
+        }
+      },
+      "md": {
+        "$type": "number",
+        "$value": "{Sizing.xs}",
+        "$description": "要素間の間隔 md。size.base を参照。sm<md<lg の単調スケール。",
+        "$extensions": {
+          "figmaSync": {
+            "variableId": "VariableID:10618:9686",
+            "collectionId": "VariableCollectionId:10697:671",
+            "modeValues": {
+              "VariableCollectionId:10697:671/10697:0": {
+                "alias": "VariableID:10618:9607"
+              }
+            },
+            "updatedHash": "8d7b9b8778eb88a4e441eeee14f3c3fe8ae5636bf380d5a2f8b9efc18e12d0cb",
+            "syncedHash": "8d7b9b8778eb88a4e441eeee14f3c3fe8ae5636bf380d5a2f8b9efc18e12d0cb",
+            "managed": false
+          }
+        }
+      },
+      "lg": {
+        "$type": "number",
+        "$value": "{Sizing.sm}",
+        "$description": "要素間の間隔 lg。size.base を参照。sm<md<lg の単調スケール。",
+        "$extensions": {
+          "figmaSync": {
+            "variableId": "VariableID:10618:9687",
+            "collectionId": "VariableCollectionId:10697:671",
+            "modeValues": {
+              "VariableCollectionId:10697:671/10697:0": {
+                "alias": "VariableID:10618:9608"
+              }
+            },
+            "updatedHash": "9835efd3bb0893a1511b4f71fd0f6a835d9eaa8d9c18181cbc0a94c17daffff0",
+            "syncedHash": "9835efd3bb0893a1511b4f71fd0f6a835d9eaa8d9c18181cbc0a94c17daffff0",
+            "managed": false
+          }
+        }
+      },
+      "xl": {
+        "$type": "number",
+        "$value": "{Sizing.md}",
+        "$description": "",
+        "$extensions": {
+          "figmaSync": {
+            "variableId": "VariableID:10618:9688",
+            "collectionId": "VariableCollectionId:10697:671",
+            "modeValues": {
+              "VariableCollectionId:10697:671/10697:0": {
+                "alias": "VariableID:10618:9609"
+              }
+            },
+            "updatedHash": "11350eea46b8063a68db677287ed56a9047734ca9309c59e9c899899bae24500",
+            "syncedHash": "11350eea46b8063a68db677287ed56a9047734ca9309c59e9c899899bae24500",
+            "managed": false
+          }
+        }
+      },
+      "2xl": {
+        "$type": "number",
+        "$value": "{Sizing.lg}",
+        "$description": "",
+        "$extensions": {
+          "figmaSync": {
+            "variableId": "VariableID:12360:25210",
+            "collectionId": "VariableCollectionId:10697:671",
+            "modeValues": {
+              "VariableCollectionId:10697:671/10697:0": {
+                "alias": "VariableID:10618:9610"
+              }
+            },
+            "updatedHash": "d02f57982608ba375adf056f994b29880fe55489492869b249c9ace9a78ea71e",
+            "syncedHash": "d02f57982608ba375adf056f994b29880fe55489492869b249c9ace9a78ea71e",
+            "managed": false
+          }
+        }
+      }
+    }
+  },
+  "mode": {
+    "$type": "string",
+    "$value": "expressive",
+    "$description": "",
+    "$extensions": {
+      "figmaSync": {
+        "variableId": "VariableID:10618:9689",
+        "collectionId": "VariableCollectionId:10697:671",
+        "modeValues": {
+          "VariableCollectionId:10697:671/10697:0": "expressive"
+        },
+        "updatedHash": "b1689786be5b703f477f60d95bc80939d97ca2394b75e85cb4983cca3edaa09f",
+        "syncedHash": "b1689786be5b703f477f60d95bc80939d97ca2394b75e85cb4983cca3edaa09f",
+        "managed": false
+      }
+    }
+  }
+}

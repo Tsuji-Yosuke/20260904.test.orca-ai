@@ -1,0 +1,25 @@
+/* "tailwindcss" 本体の import は利用側（Storybook preview.css / 利用者の globals.css）が担う。
+   ここに含めると shadcn registry 経由の配布時に利用側と二重 import になるため書かない。 */
+@import "./typography-utilities.css";
+
+@theme {
+  @tz (tzMode: ".");
+  /* focus リングの spread は Figma の Focused Outline effect（Sizing/Border/md = 2px）に一致させる */
+  --shadow-focus-outline: 0 0 0 var(--border-width-md) var(--color-outline-focus);
+}
+
+/* state layer（黒 8%/16% の重畳）を各コンポーネントで共通利用するための custom utility。
+   variant（[&:hover:not([data-disabled])] 等）はコンポーネント側で付与する。 */
+@utility state-layer-8 {
+  background-image: linear-gradient(
+    var(--color-state-layers-dark-opacity-8),
+    var(--color-state-layers-dark-opacity-8)
+  );
+}
+
+@utility state-layer-16 {
+  background-image: linear-gradient(
+    var(--color-state-layers-dark-opacity-16),
+    var(--color-state-layers-dark-opacity-16)
+  );
+}

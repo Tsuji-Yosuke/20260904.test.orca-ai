@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.turbo/
+.tmp-tests/
+.tmp-tokens/
+*.log
+.DS_Store
+.env
+.env.local
+coverage/
+storybook-static/
+.artifacts/component-feedback/
+.wrangler/
+out/

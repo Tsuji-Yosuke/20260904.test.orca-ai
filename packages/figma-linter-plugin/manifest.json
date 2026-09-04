@@ -1,0 +1,13 @@
+{
+  "name": "Common UI Plugin",
+  "id": "COMMON_UI_PLUGIN",
+  "api": "1.0.0",
+  "editorType": ["figma"],
+  "main": "dist/code.js",
+  "ui": "dist/ui.html",
+  "documentAccess": "dynamic-page",
+  "enablePrivatePluginApi": true,
+  "networkAccess": {
+    "allowedDomains": ["https://orca-plugin-version.orca-ds.workers.dev"]
+  }
+}

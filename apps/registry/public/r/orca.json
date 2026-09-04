@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "orca",
+  "title": "Orca UI (all components)",
+  "description": "Orca の全コンポーネントとデザイントークンを一括インストールするメタアイテム。",
+  "registryDependencies": [
+    "@orca/avatar",
+    "@orca/button",
+    "@orca/card",
+    "@orca/checkbox",
+    "@orca/chip",
+    "@orca/dialog",
+    "@orca/dropdown",
+    "@orca/icon-button",
+    "@orca/pagination",
+    "@orca/search",
+    "@orca/select",
+    "@orca/sidebar",
+    "@orca/table",
+    "@orca/tabs"
+  ],
+  "files": [],
+  "type": "registry:item"
+}

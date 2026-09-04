@@ -1,0 +1,35 @@
+{
+  "name": "@orca/figma-linter-plugin",
+  "version": "0.1.1",
+  "private": true,
+  "type": "module",
+  "description": "Figma plugin for working with Figma Variables — TypeScript + React.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/build.mjs --watch",
+    "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p src/main/tsconfig.json",
+    "test": "vitest run",
+    "storybook": "storybook dev -p 6007 --no-open",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@orca/figma-linter-core": "workspace:*",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.127.0",
+    "@storybook/addon-a11y": "10.4.2",
+    "@storybook/addon-docs": "10.4.2",
+    "@storybook/addon-themes": "10.4.2",
+    "@storybook/react-vite": "10.4.2",
+    "@types/react": "^19.2.15",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.0",
+    "esbuild": "^0.28.0",
+    "storybook": "10.4.2",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.0",
+    "vitest": "^3.2.6"
+  }
+}

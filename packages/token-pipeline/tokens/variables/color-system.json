@@ -1,0 +1,1280 @@
+{
+  "$extensions": {
+    "figmaSync": {
+      "collectionId": "VariableCollectionId:89:10026",
+      "name": "Color System",
+      "defaultModeId": "89:1",
+      "modes": [
+        {
+          "modeId": "89:1",
+          "name": "Light"
+        },
+        {
+          "modeId": "12061:0",
+          "name": "Dark"
+        }
+      ],
+      "updatedHash": "8ed7bdb9669804f69f765b85987437d41e69141b8dfbf5a0590646a4f838820c",
+      "syncedHash": "8ed7bdb9669804f69f765b85987437d41e69141b8dfbf5a0590646a4f838820c",
+      "managed": true
+    }
+  },
+  "Brand": {
+    "Primary": {
+      "$type": "color",
+      "$value": "{Brand.Black}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Brand.Black}",
+          "Dark": "{Brand.Black}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:157:9698",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:18:28"
+            },
+            "12061:0": {
+              "alias": "VariableID:18:28"
+            }
+          },
+          "updatedHash": "f6cf246d8c82574abacdc2341cb8f4a3be69efcbfcd97dfcc98967322022964e",
+          "syncedHash": "f6cf246d8c82574abacdc2341cb8f4a3be69efcbfcd97dfcc98967322022964e",
+          "managed": true
+        }
+      }
+    },
+    "OnPrimary": {
+      "$type": "color",
+      "$value": "{Brand.White}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Brand.White}",
+          "Dark": "{Brand.White}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:157:9705",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:18:29"
+            },
+            "12061:0": {
+              "alias": "VariableID:18:29"
+            }
+          },
+          "updatedHash": "9f4bff7829189e0b7b2de5b2a8d21a6e180db749de0df4f54005fe08cbc83c40",
+          "syncedHash": "9f4bff7829189e0b7b2de5b2a8d21a6e180db749de0df4f54005fe08cbc83c40",
+          "managed": true
+        }
+      }
+    },
+    "PrimaryContainer": {
+      "$type": "color",
+      "$value": "{Gray.200}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Gray.200}",
+          "Dark": "{Gray.200}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:157:9709",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:28:10056"
+            },
+            "12061:0": {
+              "alias": "VariableID:28:10056"
+            }
+          },
+          "updatedHash": "9b21484dbb606cfce16b45988e28abe2361959b7d4546cb949dea772842d6be0",
+          "syncedHash": "9b21484dbb606cfce16b45988e28abe2361959b7d4546cb949dea772842d6be0",
+          "managed": true
+        }
+      }
+    },
+    "OnPrimaryContainer": {
+      "$type": "color",
+      "$value": "{Gray.900}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Gray.900}",
+          "Dark": "{Gray.900}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:157:9713",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:28:10063"
+            },
+            "12061:0": {
+              "alias": "VariableID:28:10063"
+            }
+          },
+          "updatedHash": "ee7cefda130b616e893acfe1749efc959afd5057c66687eb4ec0880fa76281d8",
+          "syncedHash": "ee7cefda130b616e893acfe1749efc959afd5057c66687eb4ec0880fa76281d8",
+          "managed": true
+        }
+      }
+    },
+    "Secondary": {
+      "$type": "color",
+      "$value": "{Brand.White}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Brand.White}",
+          "Dark": "{Brand.White}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:157:9714",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:18:29"
+            },
+            "12061:0": {
+              "alias": "VariableID:18:29"
+            }
+          },
+          "updatedHash": "3a4cc70269d37dae6cd4ccfc28fc8795ba9db2581838b4d9bd62a726440f6596",
+          "syncedHash": "3a4cc70269d37dae6cd4ccfc28fc8795ba9db2581838b4d9bd62a726440f6596",
+          "managed": true
+        }
+      }
+    },
+    "OnSecondary": {
+      "$type": "color",
+      "$value": "{Brand.Black}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Brand.Black}",
+          "Dark": "{Brand.Black}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:157:9715",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:18:28"
+            },
+            "12061:0": {
+              "alias": "VariableID:18:28"
+            }
+          },
+          "updatedHash": "cbb06d0fa78b606c15804692a357ea883ea4011856d21737e7d9e8bbe700b9a2",
+          "syncedHash": "cbb06d0fa78b606c15804692a357ea883ea4011856d21737e7d9e8bbe700b9a2",
+          "managed": true
+        }
+      }
+    },
+    "SecondaryContainer": {
+      "$type": "color",
+      "$value": "{Gray.100}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Gray.100}",
+          "Dark": "{Gray.100}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:157:9716",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:28:10055"
+            },
+            "12061:0": {
+              "alias": "VariableID:28:10055"
+            }
+          },
+          "updatedHash": "a09a4a4c358be1d1f99fbca50b0c28e086777d7002c9719e46e7aacce465dbc2",
+          "syncedHash": "a09a4a4c358be1d1f99fbca50b0c28e086777d7002c9719e46e7aacce465dbc2",
+          "managed": true
+        }
+      }
+    },
+    "OnSecondaryContainer": {
+      "$type": "color",
+      "$value": "{Gray.800}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Gray.800}",
+          "Dark": "{Gray.800}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:157:9717",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:28:10062"
+            },
+            "12061:0": {
+              "alias": "VariableID:28:10062"
+            }
+          },
+          "updatedHash": "4745351a1d81d7a2301d49b6e821f0971dea423b9d01d5477170a79c1da1775d",
+          "syncedHash": "4745351a1d81d7a2301d49b6e821f0971dea423b9d01d5477170a79c1da1775d",
+          "managed": true
+        }
+      }
+    },
+    "Tertiary": {
+      "$type": "color",
+      "$value": "{Cyan.700}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Cyan.700}",
+          "Dark": "{Brand.Toyota Red}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:157:9718",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:141:9842"
+            },
+            "12061:0": {
+              "alias": "VariableID:18:30"
+            }
+          },
+          "updatedHash": "dbac11204860411d1729ecda13b28543cb6330f66c0cddddf076ba418feda57d",
+          "syncedHash": "dbac11204860411d1729ecda13b28543cb6330f66c0cddddf076ba418feda57d",
+          "managed": true
+        }
+      }
+    },
+    "OnTertiary": {
+      "$type": "color",
+      "$value": "{Brand.White}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Brand.White}",
+          "Dark": "{Brand.White}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:157:9719",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:18:29"
+            },
+            "12061:0": {
+              "alias": "VariableID:18:29"
+            }
+          },
+          "updatedHash": "e085b62c44a332f7995fdae281855b04236a47ac4efd0ad8c415272834da30b9",
+          "syncedHash": "e085b62c44a332f7995fdae281855b04236a47ac4efd0ad8c415272834da30b9",
+          "managed": true
+        }
+      }
+    },
+    "TertiaryContainer": {
+      "$type": "color",
+      "$value": "{Cyan.100}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Cyan.100}",
+          "Dark": "{Red.100}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:157:9720",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:140:9655"
+            },
+            "12061:0": {
+              "alias": "VariableID:28:10700"
+            }
+          },
+          "updatedHash": "0e2bdcf1ed12af8b9a0824fa90d96f45a5d975d1dc3c90f2670bba72bd836127",
+          "syncedHash": "0e2bdcf1ed12af8b9a0824fa90d96f45a5d975d1dc3c90f2670bba72bd836127",
+          "managed": true
+        }
+      }
+    },
+    "OnTertiaryContainer": {
+      "$type": "color",
+      "$value": "{Cyan.900}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Cyan.900}",
+          "Dark": "{Red.700}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:157:9721",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:141:9840"
+            },
+            "12061:0": {
+              "alias": "VariableID:28:10706"
+            }
+          },
+          "updatedHash": "8313f2b2037bef2743bc970563dd34816bbaed53f0469fbd30299551451eaf06",
+          "syncedHash": "8313f2b2037bef2743bc970563dd34816bbaed53f0469fbd30299551451eaf06",
+          "managed": true
+        }
+      }
+    }
+  },
+  "UI": {
+    "Error": {
+      "$type": "color",
+      "$value": "{Red.600}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Red.600}",
+          "Dark": "{Red.600}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:157:9722",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:28:10705"
+            },
+            "12061:0": {
+              "alias": "VariableID:28:10705"
+            }
+          },
+          "updatedHash": "8fab571bc36003f27b6e4711448e784664fc784104c181821ad98aa337f549f6",
+          "syncedHash": "8fab571bc36003f27b6e4711448e784664fc784104c181821ad98aa337f549f6",
+          "managed": true
+        }
+      }
+    },
+    "OnError": {
+      "$type": "color",
+      "$value": "{Brand.White}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Brand.White}",
+          "Dark": "{Brand.White}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:157:9723",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:18:29"
+            },
+            "12061:0": {
+              "alias": "VariableID:18:29"
+            }
+          },
+          "updatedHash": "9daa4744317f5c9393d214c3d15743487576e4dc04e8079fab7cd870ee80fb66",
+          "syncedHash": "9daa4744317f5c9393d214c3d15743487576e4dc04e8079fab7cd870ee80fb66",
+          "managed": true
+        }
+      }
+    },
+    "ErrorContainer": {
+      "$type": "color",
+      "$value": "{Red.200}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Red.200}",
+          "Dark": "{Red.200}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:157:9724",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:28:10701"
+            },
+            "12061:0": {
+              "alias": "VariableID:28:10701"
+            }
+          },
+          "updatedHash": "a3ad88a7bb132f2f45c92b1b83b329ca786ed71afccd3b4889ab1d5423b75095",
+          "syncedHash": "a3ad88a7bb132f2f45c92b1b83b329ca786ed71afccd3b4889ab1d5423b75095",
+          "managed": true
+        }
+      }
+    },
+    "OnErrorContainer": {
+      "$type": "color",
+      "$value": "{Red.600}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Red.600}",
+          "Dark": "{Red.600}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:157:9725",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:28:10705"
+            },
+            "12061:0": {
+              "alias": "VariableID:28:10705"
+            }
+          },
+          "updatedHash": "93245e37d9f32ba53ba75212fdf0133771ff3a6364f1b52f619bc21a851b6eaa",
+          "syncedHash": "93245e37d9f32ba53ba75212fdf0133771ff3a6364f1b52f619bc21a851b6eaa",
+          "managed": true
+        }
+      }
+    },
+    "Surface": {
+      "$type": "color",
+      "$value": "{Brand.White}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Brand.White}",
+          "Dark": "{Brand.White}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:157:9726",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:18:29"
+            },
+            "12061:0": {
+              "alias": "VariableID:18:29"
+            }
+          },
+          "updatedHash": "3f35faeddee0bada08e8cc4b9f49ca42b6efd5ebadbb1175cf01270fd43a49df",
+          "syncedHash": "3f35faeddee0bada08e8cc4b9f49ca42b6efd5ebadbb1175cf01270fd43a49df",
+          "managed": true
+        }
+      }
+    },
+    "SurfaceDim": {
+      "$type": "color",
+      "$value": "{Gray.200}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Gray.200}",
+          "Dark": "{Gray.200}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:157:9727",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:28:10056"
+            },
+            "12061:0": {
+              "alias": "VariableID:28:10056"
+            }
+          },
+          "updatedHash": "77a3de7189111ef43e5714e68c45e4f19cd6c3557a5589e5ca1f48df61a21f1f",
+          "syncedHash": "77a3de7189111ef43e5714e68c45e4f19cd6c3557a5589e5ca1f48df61a21f1f",
+          "managed": true
+        }
+      }
+    },
+    "SurfaceBright": {
+      "$type": "color",
+      "$value": "{Brand.White}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Brand.White}",
+          "Dark": "{Brand.White}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:157:9728",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:18:29"
+            },
+            "12061:0": {
+              "alias": "VariableID:18:29"
+            }
+          },
+          "updatedHash": "8d6fb632d863d7204fd8b1dc2db6b963934d0e7174166e503c814f87bd325d9d",
+          "syncedHash": "8d6fb632d863d7204fd8b1dc2db6b963934d0e7174166e503c814f87bd325d9d",
+          "managed": true
+        }
+      }
+    },
+    "OnSurfaceDim": {
+      "$type": "color",
+      "$value": "{Gray.1000}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Gray.1000}",
+          "Dark": "{Gray.1000}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:157:9748",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:28:10064"
+            },
+            "12061:0": {
+              "alias": "VariableID:28:10064"
+            }
+          },
+          "updatedHash": "4404fa367a2d317300625734eb156d7d7ca3e006f36867aea0c1739108c501b2",
+          "syncedHash": "4404fa367a2d317300625734eb156d7d7ca3e006f36867aea0c1739108c501b2",
+          "managed": true
+        }
+      }
+    },
+    "OnSurface": {
+      "$type": "color",
+      "$value": "{Gray.800}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Gray.800}",
+          "Dark": "{Gray.800}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:157:9752",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:28:10062"
+            },
+            "12061:0": {
+              "alias": "VariableID:28:10062"
+            }
+          },
+          "updatedHash": "da2b9980b115b7459482c19d4d1cb26d38d43e0ddfce6035f62e623df7033cc9",
+          "syncedHash": "da2b9980b115b7459482c19d4d1cb26d38d43e0ddfce6035f62e623df7033cc9",
+          "managed": true
+        }
+      }
+    },
+    "OnSurfaceBright": {
+      "$type": "color",
+      "$value": "{Gray.400}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Gray.400}",
+          "Dark": "{Gray.400}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:538:4690",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:28:10058"
+            },
+            "12061:0": {
+              "alias": "VariableID:28:10058"
+            }
+          },
+          "updatedHash": "7806102579de18d966aef83e51b8b1605025fa6c185b20481deb325650c9c97f",
+          "syncedHash": "7806102579de18d966aef83e51b8b1605025fa6c185b20481deb325650c9c97f",
+          "managed": true
+        }
+      }
+    },
+    "OutlineBright": {
+      "$type": "color",
+      "$value": "{Gray.200}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Gray.200}",
+          "Dark": "{Gray.200}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:157:9758",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:28:10056"
+            },
+            "12061:0": {
+              "alias": "VariableID:28:10056"
+            }
+          },
+          "updatedHash": "51c590d11f4faca751d9e94a6c09091e9f4b8476ffad4e353872dda1c03e3016",
+          "syncedHash": "51c590d11f4faca751d9e94a6c09091e9f4b8476ffad4e353872dda1c03e3016",
+          "managed": true
+        }
+      }
+    },
+    "Outline": {
+      "$type": "color",
+      "$value": "{Gray.400}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Gray.400}",
+          "Dark": "{Gray.400}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:157:9759",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:28:10058"
+            },
+            "12061:0": {
+              "alias": "VariableID:28:10058"
+            }
+          },
+          "updatedHash": "62d7d2a3dc02aeafaba0c16b1860df9d093738f3640873ae08d706edbd309ad2",
+          "syncedHash": "62d7d2a3dc02aeafaba0c16b1860df9d093738f3640873ae08d706edbd309ad2",
+          "managed": true
+        }
+      }
+    },
+    "OutlineDim": {
+      "$type": "color",
+      "$value": "{Gray.600}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Gray.600}",
+          "Dark": "{Gray.600}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:538:4498",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:28:10060"
+            },
+            "12061:0": {
+              "alias": "VariableID:28:10060"
+            }
+          },
+          "updatedHash": "04bac3b669aa912067e5ac3f6296a4812ac807f8ef376ac8724f228965513ced",
+          "syncedHash": "04bac3b669aa912067e5ac3f6296a4812ac807f8ef376ac8724f228965513ced",
+          "managed": true
+        }
+      }
+    },
+    "OutlineFocus": {
+      "$type": "color",
+      "$value": "{Brand.Toyota Red}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Brand.Toyota Red}",
+          "Dark": "{Brand.Toyota Red}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:714:3263",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:18:30"
+            },
+            "12061:0": {
+              "alias": "VariableID:18:30"
+            }
+          },
+          "updatedHash": "3103d8cd51962bf889edbe9bbfcee1b4637f10a4fe02c512af4277adb1219f35",
+          "syncedHash": "3103d8cd51962bf889edbe9bbfcee1b4637f10a4fe02c512af4277adb1219f35",
+          "managed": true
+        }
+      }
+    },
+    "InverseSurface": {
+      "$type": "color",
+      "$value": "{Gray.800}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Gray.800}",
+          "Dark": "{Gray.800}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:157:9767",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:28:10062"
+            },
+            "12061:0": {
+              "alias": "VariableID:28:10062"
+            }
+          },
+          "updatedHash": "aacfecc74296b37d94691afd9596dc1646c0f0a38d077db0586ff6fd94433cbc",
+          "syncedHash": "aacfecc74296b37d94691afd9596dc1646c0f0a38d077db0586ff6fd94433cbc",
+          "managed": true
+        }
+      }
+    },
+    "InversePrimary": {
+      "$type": "color",
+      "$value": "{Red.200}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Red.200}",
+          "Dark": "{Red.200}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:157:9768",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:28:10701"
+            },
+            "12061:0": {
+              "alias": "VariableID:28:10701"
+            }
+          },
+          "updatedHash": "7d77daa06b94239bb318e3e3639412dbacea076f5fc29429a0ea15463098cbcc",
+          "syncedHash": "7d77daa06b94239bb318e3e3639412dbacea076f5fc29429a0ea15463098cbcc",
+          "managed": true
+        }
+      }
+    },
+    "InverseOnSurface": {
+      "$type": "color",
+      "$value": "{Gray.100}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Gray.100}",
+          "Dark": "{Gray.100}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:157:9769",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:28:10055"
+            },
+            "12061:0": {
+              "alias": "VariableID:28:10055"
+            }
+          },
+          "updatedHash": "c188725986f609dc4c1b1b1c706ebf380a3bef2fc6b97b098062cba5182721df",
+          "syncedHash": "c188725986f609dc4c1b1b1c706ebf380a3bef2fc6b97b098062cba5182721df",
+          "managed": true
+        }
+      }
+    },
+    "Overlay": {
+      "$type": "color",
+      "$value": "#1f1f1f66",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "#1f1f1f66",
+          "Dark": "#1f1f1f66"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:157:9770",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "hex": "#1f1f1f66"
+            },
+            "12061:0": {
+              "hex": "#1f1f1f66"
+            }
+          },
+          "updatedHash": "088c349b30bcfc34d6e6ecdff56bff4043c740311aafd023e4459f69ea85ead5",
+          "syncedHash": "088c349b30bcfc34d6e6ecdff56bff4043c740311aafd023e4459f69ea85ead5",
+          "managed": true
+        }
+      }
+    },
+    "Shadow": {
+      "$type": "color",
+      "$value": "#1f1f1f33",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "#1f1f1f33",
+          "Dark": "#1f1f1f33"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:157:9771",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "hex": "#1f1f1f33"
+            },
+            "12061:0": {
+              "hex": "#1f1f1f33"
+            }
+          },
+          "updatedHash": "251e324e1bd2082dab281b2fc8541e83a4c24ba2b79bfcc308a6d90426151b2b",
+          "syncedHash": "251e324e1bd2082dab281b2fc8541e83a4c24ba2b79bfcc308a6d90426151b2b",
+          "managed": true
+        }
+      }
+    },
+    "Disabled": {
+      "$type": "color",
+      "$value": "{Gray.200}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Gray.200}",
+          "Dark": "{Gray.200}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:383:22761",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:28:10056"
+            },
+            "12061:0": {
+              "alias": "VariableID:28:10056"
+            }
+          },
+          "updatedHash": "872682431db896773d80b58fc107f408264919760a2e0e12d1d8f26f42a8cbe3",
+          "syncedHash": "872682431db896773d80b58fc107f408264919760a2e0e12d1d8f26f42a8cbe3",
+          "managed": true
+        }
+      }
+    },
+    "OnDisabled": {
+      "$type": "color",
+      "$value": "{Gray.300}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Gray.300}",
+          "Dark": "{Gray.300}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:383:22762",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:28:10057"
+            },
+            "12061:0": {
+              "alias": "VariableID:28:10057"
+            }
+          },
+          "updatedHash": "7f75cb9fc138adf92ee082a6f3e630e513bf47d9ffab4c763b2f5c0c868618f4",
+          "syncedHash": "7f75cb9fc138adf92ee082a6f3e630e513bf47d9ffab4c763b2f5c0c868618f4",
+          "managed": true
+        }
+      }
+    },
+    "DisabledContainer": {
+      "$type": "color",
+      "$value": "{Gray.400}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Gray.400}",
+          "Dark": "{Gray.400}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:383:22763",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:28:10058"
+            },
+            "12061:0": {
+              "alias": "VariableID:28:10058"
+            }
+          },
+          "updatedHash": "3c606ce988b819705f473db37b7db1708a9052ef363cbe97bf197260e85b9a54",
+          "syncedHash": "3c606ce988b819705f473db37b7db1708a9052ef363cbe97bf197260e85b9a54",
+          "managed": true
+        }
+      }
+    },
+    "OnDisabledContainer": {
+      "$type": "color",
+      "$value": "{Gray.600}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Gray.600}",
+          "Dark": "{Gray.600}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:383:22764",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:28:10060"
+            },
+            "12061:0": {
+              "alias": "VariableID:28:10060"
+            }
+          },
+          "updatedHash": "d577bf9b1f49aed7ab272f388e9d5d6fe9b18a687667efd66462dbbd1914586b",
+          "syncedHash": "d577bf9b1f49aed7ab272f388e9d5d6fe9b18a687667efd66462dbbd1914586b",
+          "managed": true
+        }
+      }
+    },
+    "SurfaceContainerDim": {
+      "$type": "color",
+      "$value": "{Gray.300}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Gray.300}",
+          "Dark": "{Gray.300}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:730:11201",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:28:10057"
+            },
+            "12061:0": {
+              "alias": "VariableID:28:10057"
+            }
+          },
+          "updatedHash": "aa88eb6e51f213e88af9d3e00320f2029841a9753424eb15ebdad1cd18fc9038",
+          "syncedHash": "aa88eb6e51f213e88af9d3e00320f2029841a9753424eb15ebdad1cd18fc9038",
+          "managed": true
+        }
+      }
+    },
+    "SurfaceContainer": {
+      "$type": "color",
+      "$value": "{Gray.100}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Gray.100}",
+          "Dark": "{Gray.100}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:730:11202",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:28:10055"
+            },
+            "12061:0": {
+              "alias": "VariableID:28:10055"
+            }
+          },
+          "updatedHash": "2845700cbd7091c81000acf40e81b21886f1be80e3775fc968f1032756eaee0d",
+          "syncedHash": "2845700cbd7091c81000acf40e81b21886f1be80e3775fc968f1032756eaee0d",
+          "managed": true
+        }
+      }
+    },
+    "SurfaceContainerBright": {
+      "$type": "color",
+      "$value": "{Brand.White}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Brand.White}",
+          "Dark": "{Brand.White}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:730:11203",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:18:29"
+            },
+            "12061:0": {
+              "alias": "VariableID:18:29"
+            }
+          },
+          "updatedHash": "05bd49ddf2b21ae411c975e1c5c322063a8c92cbcdf720f0605662603babaee7",
+          "syncedHash": "05bd49ddf2b21ae411c975e1c5c322063a8c92cbcdf720f0605662603babaee7",
+          "managed": true
+        }
+      }
+    },
+    "Placeholder": {
+      "$type": "color",
+      "$value": "{Brand.White}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Brand.White}",
+          "Dark": "{Brand.White}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:842:19824",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:18:29"
+            },
+            "12061:0": {
+              "alias": "VariableID:18:29"
+            }
+          },
+          "updatedHash": "9636100cefedfd063e826a8e7b360fe0c25e8f281b02abcdf9a5784466938f4c",
+          "syncedHash": "9636100cefedfd063e826a8e7b360fe0c25e8f281b02abcdf9a5784466938f4c",
+          "managed": true
+        }
+      }
+    },
+    "OnPlaceholder": {
+      "$type": "color",
+      "$value": "{Gray.400}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Gray.400}",
+          "Dark": "{Gray.400}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:842:19825",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:28:10058"
+            },
+            "12061:0": {
+              "alias": "VariableID:28:10058"
+            }
+          },
+          "updatedHash": "f5ff8879fd88905853d03cb14815fcc26f3e70fb8eef4ba973373ef3c0db7645",
+          "syncedHash": "f5ff8879fd88905853d03cb14815fcc26f3e70fb8eef4ba973373ef3c0db7645",
+          "managed": true
+        }
+      }
+    },
+    "PlaceholderContainer": {
+      "$type": "color",
+      "$value": "{Gray.100}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Gray.100}",
+          "Dark": "{Gray.100}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:842:19826",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:28:10055"
+            },
+            "12061:0": {
+              "alias": "VariableID:28:10055"
+            }
+          },
+          "updatedHash": "fc56612192ade97dd3ab7384bc475a842b4f1fc381cbe491ebfc29e7cadda95d",
+          "syncedHash": "fc56612192ade97dd3ab7384bc475a842b4f1fc381cbe491ebfc29e7cadda95d",
+          "managed": true
+        }
+      }
+    },
+    "OnPlaceholderContainer": {
+      "$type": "color",
+      "$value": "{Gray.500}",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Light": "{Gray.500}",
+          "Dark": "{Gray.500}"
+        },
+        "figmaSync": {
+          "variableId": "VariableID:842:19827",
+          "collectionId": "VariableCollectionId:89:10026",
+          "modeValues": {
+            "89:1": {
+              "alias": "VariableID:28:10059"
+            },
+            "12061:0": {
+              "alias": "VariableID:28:10059"
+            }
+          },
+          "updatedHash": "5d9f6b8a5034884b90ff8d6043b21e317a4a15a11768b7fafc25a152dd4c618f",
+          "syncedHash": "5d9f6b8a5034884b90ff8d6043b21e317a4a15a11768b7fafc25a152dd4c618f",
+          "managed": true
+        }
+      }
+    }
+  },
+  "StateLayers": {
+    "LightOpacity": {
+      "8": {
+        "$type": "color",
+        "$value": "#ffffff14",
+        "$description": "",
+        "$extensions": {
+          "mode": {
+            "Light": "#ffffff14",
+            "Dark": "#ffffff14"
+          },
+          "figmaSync": {
+            "variableId": "VariableID:180:1443",
+            "collectionId": "VariableCollectionId:89:10026",
+            "modeValues": {
+              "89:1": {
+                "hex": "#ffffff14"
+              },
+              "12061:0": {
+                "hex": "#ffffff14"
+              }
+            },
+            "updatedHash": "569cd2f7e7094b1ef3af1f891024f7c37d054ff73a232343b36203c67ee79c90",
+            "syncedHash": "569cd2f7e7094b1ef3af1f891024f7c37d054ff73a232343b36203c67ee79c90",
+            "managed": true
+          }
+        }
+      },
+      "16": {
+        "$type": "color",
+        "$value": "#ffffff29",
+        "$description": "",
+        "$extensions": {
+          "mode": {
+            "Light": "#ffffff29",
+            "Dark": "#ffffff29"
+          },
+          "figmaSync": {
+            "variableId": "VariableID:182:1419",
+            "collectionId": "VariableCollectionId:89:10026",
+            "modeValues": {
+              "89:1": {
+                "hex": "#ffffff29"
+              },
+              "12061:0": {
+                "hex": "#ffffff29"
+              }
+            },
+            "updatedHash": "383f02a02695f6c577f951f37787c2b4810fd3a3fb7afcd72a482be4630ca6e7",
+            "syncedHash": "383f02a02695f6c577f951f37787c2b4810fd3a3fb7afcd72a482be4630ca6e7",
+            "managed": true
+          }
+        }
+      },
+      "24": {
+        "$type": "color",
+        "$value": "#ffffff3d",
+        "$description": "",
+        "$extensions": {
+          "mode": {
+            "Light": "#ffffff3d",
+            "Dark": "#ffffff3d"
+          },
+          "figmaSync": {
+            "variableId": "VariableID:182:1423",
+            "collectionId": "VariableCollectionId:89:10026",
+            "modeValues": {
+              "89:1": {
+                "hex": "#ffffff3d"
+              },
+              "12061:0": {
+                "hex": "#ffffff3d"
+              }
+            },
+            "updatedHash": "4a0b23bbd986ccc5959cd005079571c5b74cb936ea8781b38e7b28985ea21e82",
+            "syncedHash": "4a0b23bbd986ccc5959cd005079571c5b74cb936ea8781b38e7b28985ea21e82",
+            "managed": true
+          }
+        }
+      }
+    },
+    "DarkOpacity": {
+      "8": {
+        "$type": "color",
+        "$value": "#00000014",
+        "$description": "",
+        "$extensions": {
+          "mode": {
+            "Light": "#00000014",
+            "Dark": "#00000014"
+          },
+          "figmaSync": {
+            "variableId": "VariableID:180:1444",
+            "collectionId": "VariableCollectionId:89:10026",
+            "modeValues": {
+              "89:1": {
+                "hex": "#00000014"
+              },
+              "12061:0": {
+                "hex": "#00000014"
+              }
+            },
+            "updatedHash": "d91f10ed95d4708aea27d78e709b5273ec994a1b8c01e1de188458fb11b20bed",
+            "syncedHash": "d91f10ed95d4708aea27d78e709b5273ec994a1b8c01e1de188458fb11b20bed",
+            "managed": true
+          }
+        }
+      },
+      "16": {
+        "$type": "color",
+        "$value": "#00000029",
+        "$description": "",
+        "$extensions": {
+          "mode": {
+            "Light": "#00000029",
+            "Dark": "#00000029"
+          },
+          "figmaSync": {
+            "variableId": "VariableID:182:1427",
+            "collectionId": "VariableCollectionId:89:10026",
+            "modeValues": {
+              "89:1": {
+                "hex": "#00000029"
+              },
+              "12061:0": {
+                "hex": "#00000029"
+              }
+            },
+            "updatedHash": "62a4c548ac5b53f8b3371936673004faf5ce57fe31567ffcb97676bf38c3484c",
+            "syncedHash": "62a4c548ac5b53f8b3371936673004faf5ce57fe31567ffcb97676bf38c3484c",
+            "managed": true
+          }
+        }
+      },
+      "24": {
+        "$type": "color",
+        "$value": "#0000003d",
+        "$description": "",
+        "$extensions": {
+          "mode": {
+            "Light": "#0000003d",
+            "Dark": "#0000003d"
+          },
+          "figmaSync": {
+            "variableId": "VariableID:182:1431",
+            "collectionId": "VariableCollectionId:89:10026",
+            "modeValues": {
+              "89:1": {
+                "hex": "#0000003d"
+              },
+              "12061:0": {
+                "hex": "#0000003d"
+              }
+            },
+            "updatedHash": "ef4df51baa4645f55a6c27cced24bc3abd63fd9235938d1bafdc6f876293909f",
+            "syncedHash": "ef4df51baa4645f55a6c27cced24bc3abd63fd9235938d1bafdc6f876293909f",
+            "managed": true
+          }
+        }
+      }
+    }
+  }
+}

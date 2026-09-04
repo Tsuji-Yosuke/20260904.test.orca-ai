@@ -1,0 +1,923 @@
+{
+  "$extensions": {
+    "figmaSync": {
+      "collectionId": "VariableCollectionId:10618:9605",
+      "name": "Dimension Reference",
+      "defaultModeId": "10618:0",
+      "modes": [
+        {
+          "modeId": "10618:0",
+          "name": "Mode"
+        }
+      ],
+      "updatedHash": "44bab5581f4d2edb1709884e0d88c41a4a79f77696a07fa39cdd9dd02a56794b",
+      "syncedHash": "44bab5581f4d2edb1709884e0d88c41a4a79f77696a07fa39cdd9dd02a56794b",
+      "managed": false
+    }
+  },
+  "Sizing": {
+    "2xs": {
+      "$type": "number",
+      "$value": 2,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9606",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 2
+          },
+          "updatedHash": "75a4e84fc8a7c485e54e4450735c5f3b7760e8ef525441180e2c22ba398e1968",
+          "syncedHash": "75a4e84fc8a7c485e54e4450735c5f3b7760e8ef525441180e2c22ba398e1968",
+          "managed": false
+        }
+      }
+    },
+    "xs": {
+      "$type": "number",
+      "$value": 4,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9607",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 4
+          },
+          "updatedHash": "ba3db4780a272994d349d28f5f9b415d985e687d0375c04e0983b03efd69f518",
+          "syncedHash": "ba3db4780a272994d349d28f5f9b415d985e687d0375c04e0983b03efd69f518",
+          "managed": false
+        }
+      }
+    },
+    "sm": {
+      "$type": "number",
+      "$value": 8,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9608",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 8
+          },
+          "updatedHash": "ab4b28046811873ca4650aa056b9b0cd4b06b67db040cf86a999cb35d8f8bf22",
+          "syncedHash": "ab4b28046811873ca4650aa056b9b0cd4b06b67db040cf86a999cb35d8f8bf22",
+          "managed": false
+        }
+      }
+    },
+    "md": {
+      "$type": "number",
+      "$value": 12,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9609",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 12
+          },
+          "updatedHash": "83991a161ec1bd54fbfdaa125cdfbebddb177eac51476f9bb81491505ae9bd2a",
+          "syncedHash": "83991a161ec1bd54fbfdaa125cdfbebddb177eac51476f9bb81491505ae9bd2a",
+          "managed": false
+        }
+      }
+    },
+    "lg": {
+      "$type": "number",
+      "$value": 16,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9610",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 16
+          },
+          "updatedHash": "fadecb39236fd22e98034b9ffe25d1edbd26e276517cc06032575488223218c6",
+          "syncedHash": "fadecb39236fd22e98034b9ffe25d1edbd26e276517cc06032575488223218c6",
+          "managed": false
+        }
+      }
+    },
+    "2xl": {
+      "$type": "number",
+      "$value": 24,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9611",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 24
+          },
+          "updatedHash": "86387f6a9a5680ee4ab392e128e5b4396f177a1e46ca6f97b920561bf73d72fa",
+          "syncedHash": "86387f6a9a5680ee4ab392e128e5b4396f177a1e46ca6f97b920561bf73d72fa",
+          "managed": false
+        }
+      }
+    },
+    "4xl": {
+      "$type": "number",
+      "$value": 32,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9612",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 32
+          },
+          "updatedHash": "9d0df35ae39a21b0031212505f4020135b44584cfab48dd2175bf2db1c778c39",
+          "syncedHash": "9d0df35ae39a21b0031212505f4020135b44584cfab48dd2175bf2db1c778c39",
+          "managed": false
+        }
+      }
+    },
+    "6xl": {
+      "$type": "number",
+      "$value": 48,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9613",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 48
+          },
+          "updatedHash": "781ef279be5ca47839f5bf643e334641143fc3693a8083e83c1a2a575b15001b",
+          "syncedHash": "781ef279be5ca47839f5bf643e334641143fc3693a8083e83c1a2a575b15001b",
+          "managed": false
+        }
+      }
+    },
+    "7xl": {
+      "$type": "number",
+      "$value": 56,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9614",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 56
+          },
+          "updatedHash": "8d5220592f303a4f02de97b9b7ac911d240468fec2446b4d7a4fb64531db352f",
+          "syncedHash": "8d5220592f303a4f02de97b9b7ac911d240468fec2446b4d7a4fb64531db352f",
+          "managed": false
+        }
+      }
+    },
+    "8xl": {
+      "$type": "number",
+      "$value": 64,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9615",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 64
+          },
+          "updatedHash": "d0ddb44b97cbc575dd7175785aac1f8f5c424018d0cc45056d9e06ed370fcfd1",
+          "syncedHash": "d0ddb44b97cbc575dd7175785aac1f8f5c424018d0cc45056d9e06ed370fcfd1",
+          "managed": false
+        }
+      }
+    },
+    "9xl": {
+      "$type": "number",
+      "$value": 128,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9616",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 128
+          },
+          "updatedHash": "d31cf947a99e3562952e134bc43659316d30cd438c8448f3cb2db7803431a8bc",
+          "syncedHash": "d31cf947a99e3562952e134bc43659316d30cd438c8448f3cb2db7803431a8bc",
+          "managed": false
+        }
+      }
+    },
+    "full": {
+      "$type": "number",
+      "$value": 99999,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9617",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 99999
+          },
+          "updatedHash": "6dcddb1839b0d30ab8b01327c00874b75d778f28875fa8537e546985b86b9f69",
+          "syncedHash": "6dcddb1839b0d30ab8b01327c00874b75d778f28875fa8537e546985b86b9f69",
+          "managed": false
+        }
+      }
+    },
+    "none": {
+      "$type": "number",
+      "$value": 0,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10658:926",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 0
+          },
+          "updatedHash": "a9547a0dfd7b044b7b6b5fcb9d3144a7e4a8f91e60817d75049fda57b7103ed7",
+          "syncedHash": "a9547a0dfd7b044b7b6b5fcb9d3144a7e4a8f91e60817d75049fda57b7103ed7",
+          "managed": false
+        }
+      }
+    },
+    "3xs": {
+      "$type": "number",
+      "$value": 1,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10658:927",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 1
+          },
+          "updatedHash": "27c4ced9a94067090abeba097bedc8080dcd8b5773925454d7a6071fb06a44d4",
+          "syncedHash": "27c4ced9a94067090abeba097bedc8080dcd8b5773925454d7a6071fb06a44d4",
+          "managed": false
+        }
+      }
+    },
+    "xl": {
+      "$type": "number",
+      "$value": 20,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10658:928",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 20
+          },
+          "updatedHash": "566b88218d4bc5975e4d16baf56839c18f99374c22ecfb74e7f190d146243317",
+          "syncedHash": "566b88218d4bc5975e4d16baf56839c18f99374c22ecfb74e7f190d146243317",
+          "managed": false
+        }
+      }
+    },
+    "3xl": {
+      "$type": "number",
+      "$value": 28,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10658:929",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 28
+          },
+          "updatedHash": "c2c52135ed45364662c38a7c7723685f0bcec594edcc6632eab6c543ee761329",
+          "syncedHash": "c2c52135ed45364662c38a7c7723685f0bcec594edcc6632eab6c543ee761329",
+          "managed": false
+        }
+      }
+    },
+    "5xl": {
+      "$type": "number",
+      "$value": 40,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10658:930",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 40
+          },
+          "updatedHash": "993188ff24641c04c187e448dd8c9a6d8dc098221f023f864803a9d7091f80f1",
+          "syncedHash": "993188ff24641c04c187e448dd8c9a6d8dc098221f023f864803a9d7091f80f1",
+          "managed": false
+        }
+      }
+    }
+  },
+  "Spacing": {
+    "0": {
+      "$type": "number",
+      "$value": 0,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9618",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 0
+          },
+          "updatedHash": "604a14b188e0d3eac3c167896d1c4e8344d6b20c68d18f12a5d790a54cb7976b",
+          "syncedHash": "604a14b188e0d3eac3c167896d1c4e8344d6b20c68d18f12a5d790a54cb7976b",
+          "managed": false
+        }
+      }
+    },
+    "1": {
+      "$type": "number",
+      "$value": 4,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9619",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 4
+          },
+          "updatedHash": "f58b91401729a016019fb7682dee734c1db0d9be099883d06c124baba2193a8e",
+          "syncedHash": "f58b91401729a016019fb7682dee734c1db0d9be099883d06c124baba2193a8e",
+          "managed": false
+        }
+      }
+    },
+    "2": {
+      "$type": "number",
+      "$value": 8,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9620",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 8
+          },
+          "updatedHash": "dd3e16b392a0ccae5484ffb3276a8217fce7ea311acf3c611d4eaf8a40de89a3",
+          "syncedHash": "dd3e16b392a0ccae5484ffb3276a8217fce7ea311acf3c611d4eaf8a40de89a3",
+          "managed": false
+        }
+      }
+    },
+    "3": {
+      "$type": "number",
+      "$value": 12,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9621",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 12
+          },
+          "updatedHash": "12bd8d577d35a1549e53858e34b350dd8a685dd8790cdfeba223727febc6b06b",
+          "syncedHash": "12bd8d577d35a1549e53858e34b350dd8a685dd8790cdfeba223727febc6b06b",
+          "managed": false
+        }
+      }
+    },
+    "4": {
+      "$type": "number",
+      "$value": 16,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9622",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 16
+          },
+          "updatedHash": "6fb36e7b75f48330c2590fcefe6ebac8c5a5397738e741d3a6c82aef76b0c7cd",
+          "syncedHash": "6fb36e7b75f48330c2590fcefe6ebac8c5a5397738e741d3a6c82aef76b0c7cd",
+          "managed": false
+        }
+      }
+    },
+    "5": {
+      "$type": "number",
+      "$value": 20,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9623",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 20
+          },
+          "updatedHash": "d406761ec125dcc1e58319fee0d0f4cbd91114d77a538e7347c1fa034ca8d0d4",
+          "syncedHash": "d406761ec125dcc1e58319fee0d0f4cbd91114d77a538e7347c1fa034ca8d0d4",
+          "managed": false
+        }
+      }
+    },
+    "6": {
+      "$type": "number",
+      "$value": 24,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9624",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 24
+          },
+          "updatedHash": "e680bbabea65a97a356e22c99d59a5005c5dfad66fe87d38848738b9a67ef16f",
+          "syncedHash": "e680bbabea65a97a356e22c99d59a5005c5dfad66fe87d38848738b9a67ef16f",
+          "managed": false
+        }
+      }
+    },
+    "7": {
+      "$type": "number",
+      "$value": 28,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9625",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 28
+          },
+          "updatedHash": "6dee0088f985bf3d13c498a1b5a2775ad40e946372baef5dc52383e52ef7dd99",
+          "syncedHash": "6dee0088f985bf3d13c498a1b5a2775ad40e946372baef5dc52383e52ef7dd99",
+          "managed": false
+        }
+      }
+    },
+    "8": {
+      "$type": "number",
+      "$value": 32,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9626",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 32
+          },
+          "updatedHash": "72f5afe4043ef4424dec5ced4129e7df0cb6b55be2e9b61465cef1ffe363fde6",
+          "syncedHash": "72f5afe4043ef4424dec5ced4129e7df0cb6b55be2e9b61465cef1ffe363fde6",
+          "managed": false
+        }
+      }
+    },
+    "9": {
+      "$type": "number",
+      "$value": 36,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9627",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 36
+          },
+          "updatedHash": "94731efe88473feaa032f6ed1582547fce26bc8b3b84a02b50ce212749aa5399",
+          "syncedHash": "94731efe88473feaa032f6ed1582547fce26bc8b3b84a02b50ce212749aa5399",
+          "managed": false
+        }
+      }
+    },
+    "10": {
+      "$type": "number",
+      "$value": 40,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9628",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 40
+          },
+          "updatedHash": "3c03e06590318aeb572a428bc13316fab968df36e225ea01213cb8c259841aed",
+          "syncedHash": "3c03e06590318aeb572a428bc13316fab968df36e225ea01213cb8c259841aed",
+          "managed": false
+        }
+      }
+    },
+    "11": {
+      "$type": "number",
+      "$value": 44,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9629",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 44
+          },
+          "updatedHash": "607258e73fde3a22984dff044a67242d483c4936e0500f230e87f9cba22c8c92",
+          "syncedHash": "607258e73fde3a22984dff044a67242d483c4936e0500f230e87f9cba22c8c92",
+          "managed": false
+        }
+      }
+    },
+    "12": {
+      "$type": "number",
+      "$value": 48,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9630",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 48
+          },
+          "updatedHash": "f53e9d110352412114220dab8063dc6ba37341e0716fa34fb21dbe047a11b5a3",
+          "syncedHash": "f53e9d110352412114220dab8063dc6ba37341e0716fa34fb21dbe047a11b5a3",
+          "managed": false
+        }
+      }
+    },
+    "14": {
+      "$type": "number",
+      "$value": 56,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9631",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 56
+          },
+          "updatedHash": "5f229c1e2099da6a215ea851c0bd8d07cf00513db224adcf5c927d60f498e258",
+          "syncedHash": "5f229c1e2099da6a215ea851c0bd8d07cf00513db224adcf5c927d60f498e258",
+          "managed": false
+        }
+      }
+    },
+    "16": {
+      "$type": "number",
+      "$value": 64,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9632",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 64
+          },
+          "updatedHash": "c7a02dc9f6969b6dd643df27df18af4f7c0f078684e551f4ddcefa8192d28b38",
+          "syncedHash": "c7a02dc9f6969b6dd643df27df18af4f7c0f078684e551f4ddcefa8192d28b38",
+          "managed": false
+        }
+      }
+    },
+    "18": {
+      "$type": "number",
+      "$value": 72,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9633",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 72
+          },
+          "updatedHash": "4f4b96fdad91d914e3b7225b17e79519933d32d5e7f1ff25d7635fc2cbedc4eb",
+          "syncedHash": "4f4b96fdad91d914e3b7225b17e79519933d32d5e7f1ff25d7635fc2cbedc4eb",
+          "managed": false
+        }
+      }
+    },
+    "20": {
+      "$type": "number",
+      "$value": 80,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9634",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 80
+          },
+          "updatedHash": "f526189dacf07ea9e32b84d145d9eb9730a048de99fcdc40758c10822a99a12d",
+          "syncedHash": "f526189dacf07ea9e32b84d145d9eb9730a048de99fcdc40758c10822a99a12d",
+          "managed": false
+        }
+      }
+    },
+    "24": {
+      "$type": "number",
+      "$value": 96,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9635",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 96
+          },
+          "updatedHash": "ff330f59a93ea49a53378e59e8c2a03b46a1f3581fa56f0f6de14c88af2f3808",
+          "syncedHash": "ff330f59a93ea49a53378e59e8c2a03b46a1f3581fa56f0f6de14c88af2f3808",
+          "managed": false
+        }
+      }
+    },
+    "28": {
+      "$type": "number",
+      "$value": 112,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9636",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 112
+          },
+          "updatedHash": "c5d0f9a57aa7bf13f9e6b6f6a2c4a41ee6251492cf793af460e33831c1374e68",
+          "syncedHash": "c5d0f9a57aa7bf13f9e6b6f6a2c4a41ee6251492cf793af460e33831c1374e68",
+          "managed": false
+        }
+      }
+    },
+    "32": {
+      "$type": "number",
+      "$value": 128,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9637",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 128
+          },
+          "updatedHash": "a19101dbddbfaea6c4fea9bf9150c4856cc1cd996609927beaf38106dd8b0949",
+          "syncedHash": "a19101dbddbfaea6c4fea9bf9150c4856cc1cd996609927beaf38106dd8b0949",
+          "managed": false
+        }
+      }
+    },
+    "36": {
+      "$type": "number",
+      "$value": 144,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9638",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 144
+          },
+          "updatedHash": "5947331fe9fa42e822becafac40960715cff287516f6fc4ab12cf577a68f7b19",
+          "syncedHash": "5947331fe9fa42e822becafac40960715cff287516f6fc4ab12cf577a68f7b19",
+          "managed": false
+        }
+      }
+    },
+    "40": {
+      "$type": "number",
+      "$value": 160,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9639",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 160
+          },
+          "updatedHash": "38c86508e90acbd4a5a2b5f85f51f438423f9b757bde0cb4f27356056146b436",
+          "syncedHash": "38c86508e90acbd4a5a2b5f85f51f438423f9b757bde0cb4f27356056146b436",
+          "managed": false
+        }
+      }
+    },
+    "44": {
+      "$type": "number",
+      "$value": 176,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9640",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 176
+          },
+          "updatedHash": "e0c5de0aceb439099b77fc679a737ebe44d9e1b8d8d838b42c93ab304eb9e4e6",
+          "syncedHash": "e0c5de0aceb439099b77fc679a737ebe44d9e1b8d8d838b42c93ab304eb9e4e6",
+          "managed": false
+        }
+      }
+    },
+    "48": {
+      "$type": "number",
+      "$value": 192,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9641",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 192
+          },
+          "updatedHash": "fc8ce7266322d4657a0d8e46139ab54193f7647ae2a93d6c764c2a706e12e4be",
+          "syncedHash": "fc8ce7266322d4657a0d8e46139ab54193f7647ae2a93d6c764c2a706e12e4be",
+          "managed": false
+        }
+      }
+    },
+    "52": {
+      "$type": "number",
+      "$value": 208,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9642",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 208
+          },
+          "updatedHash": "90998fc9e35990f6b369dadc1f2cb3afe8fc611264aa5c4a76bd7185dddbff6b",
+          "syncedHash": "90998fc9e35990f6b369dadc1f2cb3afe8fc611264aa5c4a76bd7185dddbff6b",
+          "managed": false
+        }
+      }
+    },
+    "56": {
+      "$type": "number",
+      "$value": 224,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9643",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 224
+          },
+          "updatedHash": "e53fb393232d3fd16b700ca3cc55b7b02c6169c9f4c66de065f0f70519eadaf9",
+          "syncedHash": "e53fb393232d3fd16b700ca3cc55b7b02c6169c9f4c66de065f0f70519eadaf9",
+          "managed": false
+        }
+      }
+    },
+    "60": {
+      "$type": "number",
+      "$value": 240,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9644",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 240
+          },
+          "updatedHash": "3a3a7e0994bb715319c0e762ea1916dc5215bc4329f56c0214b7c350f446f1d4",
+          "syncedHash": "3a3a7e0994bb715319c0e762ea1916dc5215bc4329f56c0214b7c350f446f1d4",
+          "managed": false
+        }
+      }
+    },
+    "64": {
+      "$type": "number",
+      "$value": 256,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9645",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 256
+          },
+          "updatedHash": "5756a6132e728bc6b8eb3042e717bf1504fac656951fef371199612270dc78b4",
+          "syncedHash": "5756a6132e728bc6b8eb3042e717bf1504fac656951fef371199612270dc78b4",
+          "managed": false
+        }
+      }
+    },
+    "72": {
+      "$type": "number",
+      "$value": 288,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9646",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 288
+          },
+          "updatedHash": "fa93734be703bc27b8bc67517a1accbcc8eed5e6b62a9c691c718bf3e8f47015",
+          "syncedHash": "fa93734be703bc27b8bc67517a1accbcc8eed5e6b62a9c691c718bf3e8f47015",
+          "managed": false
+        }
+      }
+    },
+    "80": {
+      "$type": "number",
+      "$value": 320,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9647",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 320
+          },
+          "updatedHash": "d1e39fabd2a60604888c0f0d209d597262e79e3f9b8e46d26a7da6f4deca1b3f",
+          "syncedHash": "d1e39fabd2a60604888c0f0d209d597262e79e3f9b8e46d26a7da6f4deca1b3f",
+          "managed": false
+        }
+      }
+    },
+    "96": {
+      "$type": "number",
+      "$value": 384,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9648",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 384
+          },
+          "updatedHash": "ff30d5fdbe746196fee35b11a198cc2600bf7a932ca70e645a661f250e15d3fd",
+          "syncedHash": "ff30d5fdbe746196fee35b11a198cc2600bf7a932ca70e645a661f250e15d3fd",
+          "managed": false
+        }
+      }
+    },
+    "0_25": {
+      "$type": "number",
+      "$value": 1,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9649",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 1
+          },
+          "updatedHash": "bb58b520ccb7a7312a54b059a6f8a14c728ea31b5aa3957bf8c6601316e58940",
+          "syncedHash": "bb58b520ccb7a7312a54b059a6f8a14c728ea31b5aa3957bf8c6601316e58940",
+          "managed": false
+        }
+      }
+    },
+    "0_5": {
+      "$type": "number",
+      "$value": 2,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9650",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 2
+          },
+          "updatedHash": "e2f8ef413de799bb67b7707ffb4e4cda5c327622906559bdd09f3e7e26ff31bd",
+          "syncedHash": "e2f8ef413de799bb67b7707ffb4e4cda5c327622906559bdd09f3e7e26ff31bd",
+          "managed": false
+        }
+      }
+    },
+    "1_5": {
+      "$type": "number",
+      "$value": 6,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9651",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 6
+          },
+          "updatedHash": "94de60041da623fd2124c14d45baa4e7bf5769feafb190b308612bdf1018202f",
+          "syncedHash": "94de60041da623fd2124c14d45baa4e7bf5769feafb190b308612bdf1018202f",
+          "managed": false
+        }
+      }
+    },
+    "2_5": {
+      "$type": "number",
+      "$value": 10,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9652",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 10
+          },
+          "updatedHash": "d424d49293da9c45e193c034076aa20adcfa1fcbb7a72fcd4683cd4dd4e13b1c",
+          "syncedHash": "d424d49293da9c45e193c034076aa20adcfa1fcbb7a72fcd4683cd4dd4e13b1c",
+          "managed": false
+        }
+      }
+    },
+    "3_5": {
+      "$type": "number",
+      "$value": 14,
+      "$description": "",
+      "$extensions": {
+        "figmaSync": {
+          "variableId": "VariableID:10618:9653",
+          "collectionId": "VariableCollectionId:10618:9605",
+          "modeValues": {
+            "10618:0": 14
+          },
+          "updatedHash": "07ff1f8dd827e061c88747d6dd0146357cc4faa57d80ad755469cd1053e26f07",
+          "syncedHash": "07ff1f8dd827e061c88747d6dd0146357cc4faa57d80ad755469cd1053e26f07",
+          "managed": false
+        }
+      }
+    }
+  }
+}

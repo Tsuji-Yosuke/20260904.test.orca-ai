@@ -1,0 +1,10 @@
+node_modules/
+dist/
+storybook-static/
+*.log
+.DS_Store
+# wrangler のローカルキャッシュ / tmp (worker/.wrangler など)。コミットしない。
+.wrangler/
+# CI が main ビルドごとに生成する更新チェック用 JSON (Worker が配信)。成果物なのでコミットしない。
+# (_headers は静的な CORS 設定なので git 管理する → version.json だけ無視する。)
+worker/public/version.json

@@ -1,0 +1,22 @@
+{
+  "name": "@orca/figma-linter-ci",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Common UI Kit を Figma REST API で読み取り、@orca/figma-linter-core の検知ルールで定期 lint する CI ランナー。",
+  "scripts": {
+    "lint:figma": "tsx src/cli.ts",
+    "spike": "tsx src/spike.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@orca/figma-linter-core": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.6"
+  }
+}

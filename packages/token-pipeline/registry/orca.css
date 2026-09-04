@@ -1,0 +1,15 @@
+/*
+ * Orca design tokens — shadcn registry 配布用アグリゲーター。
+ * 利用者のプロジェクトでは styles/orca/ に以下 4 ファイルが並んで配置され、
+ * 利用者は globals.css（`@import "tailwindcss";` の後）にこのファイルだけを import する。
+ *
+ * next/font などで自前のフォント読み込みをする場合、@fontsource の 4 行は削除してよい
+ * （トークンは "Noto Sans JP" / "Roboto" というファミリー名だけを参照する）。
+ */
+@import "@fontsource/noto-sans-jp/400.css";
+@import "@fontsource/noto-sans-jp/700.css";
+@import "@fontsource/roboto/latin-400.css";
+@import "@fontsource/roboto/latin-700.css";
+
+@import "./tailwind-tokens.css";
+@import "./tokens.css";

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "button",
+  "title": "Button",
+  "description": "primary / secondary / ghost と 3 サイズ、前後アイコンを備えたボタン。",
+  "dependencies": [
+    "clsx@^2.1.1"
+  ],
+  "registryDependencies": [
+    "@orca/focus-ring",
+    "@orca/tokens"
+  ],
+  "files": [
+    {
+      "path": "packages/react/src/ui/button.tsx",
+      "content": "\"use client\";\n\nimport { forwardRef, type ButtonHTMLAttributes, type ReactNode } from \"react\";\nimport clsx from \"clsx\";\nimport { FOCUS_VISIBLE_RING } from \"@/registry/orca/lib/focus-ring\";\n\nexport type ButtonVariant = \"primary\" | \"secondary\" | \"ghost\";\nexport type ButtonSize = \"sm\" | \"md\" | \"lg\";\n\nexport interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {\n  variant?: ButtonVariant;\n  size?: ButtonSize;\n  leadingIcon?: ReactNode;\n  trailingIcon?: ReactNode;\n}\n\nconst BASE_CLASS = [\n  \"inline-flex items-center justify-center rounded-sm border-sm\",\n  \"whitespace-nowrap leading-none select-none\",\n  \"transition-[background-color,background-image,color,border-color,box-shadow] duration-150 ease-in-out\",\n  FOCUS_VISIBLE_RING,\n  \"disabled:cursor-not-allowed disabled:[background-image:none]\",\n].join(\" \");\n\nconst VARIANT_CLASS: Record<ButtonVariant, string> = {\n  primary: [\n    \"border-transparent bg-primary text-on-primary\",\n    \"hover:state-layer-8\",\n    \"active:state-layer-16\",\n    \"disabled:border-transparent disabled:bg-disabled disabled:text-on-disabled\",\n  ].join(\" \"),\n  secondary: [\n    \"border-outline bg-transparent text-on-surface-dim\",\n    \"hover:state-layer-8\",\n    \"active:state-layer-16\",\n    \"disabled:border-disabled disabled:bg-transparent disabled:text-on-disabled\",\n  ].join(\" \"),\n  ghost: [\n    \"border-transparent bg-transparent text-primary\",\n    \"hover:state-layer-8\",\n    \"active:state-layer-16\",\n    \"disabled:border-transparent disabled:bg-transparent disabled:text-on-disabled\",\n  ].join(\" \"),\n};\n\nconst SIZE_CLASS: Record<ButtonSize, { container: string; label: string; icon: string }> = {\n  sm: {\n    container: \"min-h-component-full-sm gap-margin-md px-padding-md py-padding-xs\",\n    label: \"typography-tight-body-small\",\n    icon: \"size-icon-sm\",\n  },\n  md: {\n    container: \"min-h-component-full-md gap-margin-md px-padding-lg py-padding-xs\",\n    label: \"typography-tight-body-medium-bold\",\n    icon: \"size-icon-md\",\n  },\n  lg: {\n    container: \"min-h-component-full-lg gap-margin-lg px-padding-3xl py-padding-md\",\n    label: \"typography-tight-body-large-bold\",\n    icon: \"size-icon-lg\",\n  },\n};\n\nconst ICON_CLASS = \"shrink-0 inline-flex items-center justify-center\";\n\nexport const Button = forwardRef<HTMLButtonElement, ButtonProps>(function Button(\n  {\n    variant = \"primary\",\n    size = \"md\",\n    leadingIcon,\n    trailingIcon,\n    disabled,\n    type = \"button\",\n    className,\n    children,\n    ...rest\n  },\n  ref,\n) {\n  const sizes = SIZE_CLASS[size];\n  return (\n    <button\n      {...rest}\n      ref={ref}\n      type={type}\n      disabled={disabled}\n      data-variant={variant}\n      data-size={size}\n      className={clsx(BASE_CLASS, VARIANT_CLASS[variant], sizes.container, className)}\n    >\n      {leadingIcon && (\n        <span className={clsx(ICON_CLASS, sizes.icon)} aria-hidden=\"true\">\n          {leadingIcon}\n        </span>\n      )}\n      <span className={sizes.label}>{children}</span>\n      {trailingIcon && (\n        <span className={clsx(ICON_CLASS, sizes.icon)} aria-hidden=\"true\">\n          {trailingIcon}\n        </span>\n      )}\n    </button>\n  );\n});\n\nButton.displayName = \"Button\";\n",
+      "type": "registry:ui"
+    }
+  ],
+  "type": "registry:ui"
+}

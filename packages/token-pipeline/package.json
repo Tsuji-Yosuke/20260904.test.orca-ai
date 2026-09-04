@@ -1,0 +1,22 @@
+{
+  "name": "@orca/token-pipeline",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./generated/tokens.css": "./generated/tokens.css",
+    "./generated/tailwind-tokens.css": "./generated/tailwind-tokens.css",
+    "./generated/typography-utilities.css": "./generated/typography-utilities.css",
+    "./registry/orca.css": "./registry/orca.css"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "tokens": "npx tz build && node scripts/postprocess-tailwind-tokens.mjs && node scripts/generate-typography-utilities.mjs",
+    "tokens:check": "npx tz build && node scripts/postprocess-tailwind-tokens.mjs && node scripts/generate-typography-utilities.mjs && git diff --exit-code generated/"
+  },
+  "devDependencies": {
+    "@terrazzo/cli": "^2.2.0",
+    "@terrazzo/plugin-css": "^2.2.0",
+    "@terrazzo/plugin-tailwind": "^2.2.0"
+  }
+}

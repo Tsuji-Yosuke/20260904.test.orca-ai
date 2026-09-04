@@ -1,0 +1,20 @@
+# 更新チェック用の Cloudflare Worker。worker/public/version.json (CI が main ビルドごとに生成) を
+# 静的アセットとして配信する。CORS / Cache-Control は worker/public/_headers で付与する
+# (Figma の UI は origin=null の iframe なので CORS が無いと fetch 結果を読めない)。
+#
+# 以前は Worker スクリプト + run_worker_first で CORS を足していたが、wrangler-action が使う
+# wrangler のバージョンでは run_worker_first が効かず asset 直配信に戻って CORS が外れたため、
+# バージョン依存しない _headers 方式 (assets-only) に変更した。
+#
+# 公開 URL: https://orca-plugin-version.orca-ds.workers.dev/version.json
+# この URL は src/ui/lib/updateCheck.ts の VERSION_JSON_URL と manifest.json の
+# networkAccess.allowedDomains に反映済み (変更時は 2 箇所を揃える)。
+name = "orca-plugin-version"
+compatibility_date = "2024-09-25"
+# orca-ds アカウント。account_id は秘密情報ではないので明示し、複数アカウント環境でも
+# ローカル / CI どちらも非対話でデプロイ先を確定できるようにする。
+account_id = "d7b02218d8946516c99d0facca6fdcf1"
+
+# worker/public/ を静的アセットとして配信 (assets-only Worker。スクリプトは持たない)。
+[assets]
+directory = "./public"
